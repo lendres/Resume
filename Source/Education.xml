@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<education>
+	<degree level="Ph.D.">
+		<date month="December" monthnumber="12" year="2007"/>
+		<institution id="ucsd"/>
+		<major>Structural Engineering</major>
+	</degree>
+	<degree level="M.S.">
+		<date month="December" monthnumber="12" year="2004"/>
+		<institution id="ucsd"/>
+		<major>Structural Engineering</major>
+	</degree>
+	<degree level="B.S.">
+		<date month="May" monthnumber="5" year="1999"/>
+		<institution id="ltu"/>
+		<major>Civil Engineering</major>
+	</degree>
+</education>

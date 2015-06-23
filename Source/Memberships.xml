@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<memberships>
+	<membership>
+        <institution id="spe"/>
+        <date month="January" monthnumber="1" year="2008"/>
+		<notes>PetroWiki moderator for \emph{Dynamics and Vibrations}.</notes>
+    </membership>
+    
+    <!--<membership>
+        <institution id="chiepsilon"/>
+        <date month="December" monthnumber="12" year="1997"/>
+        <notes>Lawrence Tech chapter president from September 1998 to April 1999</notes>
+    </membership>
+    
+    <membership>
+        <institution id="taubetapi"/>
+        <date month="March" monthnumber="3" year="1998"/>
+        <notes/>
+    </membership>
+    
+    <membership>
+        <institution id="lambdaiotatau"/>
+        <date month="March" monthnumber="3" year="1998"/>
+        <notes/>
+    </membership>-->
+
+</memberships>

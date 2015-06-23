@@ -1,0 +1,6 @@
+To do:
+
+1) Change the element "company" in "Experience.xml" to "instituion."
+
+2) Change the "apply-templates" function to select the elements below the root document level in the include xml files
+instead of the root document and remove the "xml-foreach" from "xsl:template."

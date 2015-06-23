@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<bibliography xmlns:xi="http://www.w3.org/2001/XInclude">
+	
+	<xi:include href="journals.xml"/>
+	
+	<inproceedings id="ref:endres2003a">
+		<title>Refinement of Finite Element Approximations on Tetrahedral Meshes Using Charms</title>
+		<authors>
+			<name>
+				<first>L.</first>
+				<last>Endres</last>
+			</name>
+			<name>
+				<first>P.</first>
+				<last>Krysl</last>
+			</name>
+		</authors>
+		<booktitle>Seventh U.S. National Congress on Computational Mechanics</booktitle>
+		<date year="2003" month="July"/>
+		<address type="publisher">
+			<city>Albuquerque</city>
+			<state>NM</state>
+			<country>USA</country>
+		</address>
+	</inproceedings>
+
+	<article id="ref:endres2004a">
+		<title>Octasection-based refinement of finite element approximations on tetrahedral meshes that guarantees shape quality</title>
+		<authors>
+			<name>
+				<first>L.</first>
+				<last>Endres</last>
+			</name>
+			<name>
+				<first>P.</first>
+				<last>Krysl</last>
+			</name>
+		</authors>
+		<journal id="IJNME"/>
+		<volume>59</volume>
+		<number>1</number>
+		<pages from="69" to="82"/>
+		<date year="2004"/>
+	</article>
+
+	<article id="ref:endres2007a">
+		<title>Second-Order Explicit Integrator Via Composition for Coupled Rotating Rigid Bodies Applied to Roller Cone Drill Bits</title>
+		<authors>
+			<name>
+				<first>L.</first>
+				<last>Endres</last>
+			</name>
+			<name>
+				<first>P.</first>
+				<last>Krysl</last>
+			</name>
+		</authors>
+		<journal id="CNME"/>
+		<volume>24</volume>
+		<number>12</number>
+		<pages from="1923" to="1940"/>
+		<date year="2007" month="December"/>
+		<issn>1069-8299</issn>
+	</article>
+
+	<article id="ref:krysl2005a">
+		<title>Explicit Newmark/Verlet Algorithm for Time Integration of the Rotational Dynamics of Rigid Bodies</title>
+		<authors>
+			<name>
+				<first>P.</first>
+				<last>Krysl</last>
+			</name>
+			<name>
+				<first>L.</first>
+				<last>Endres</last>
+			</name>
+		</authors>
+		<journal id="IJNME"/>
+		<date year="2005"/>
+		<publisher id=""/>
+		<edition></edition>
+		<volume>62</volume>
+		<number>15</number>
+		<pages from="2154" to="2177"/>
+	</article>
+
+	<phdthesis id="ref:endres2007b">
+		<title>Computation Modeling of Drill Bits: A New Method for Reproducing Bottom Hole Geometry and a Second-Order Explicit Integrator via Composition for Coupled Rotating Rigid Bodies</title>
+		<authors>
+			<name>
+				<first>Lanson</first>
+				<middle>Adam</middle>
+				<last>Endres</last>
+			</name>
+		</authors>
+		<school id="ucsd"/>
+		<date year="2007" month="December"/>
+		<pages from="" to=""/>
+	</phdthesis>
+
+	<inproceedings id="ref:endres2014a">
+		<title>Modeling and Optimizing PDC, Roller-Cone and Hybrid Bits, a Novel Software Approach</title>
+		<authors>
+			<name>
+				<first>Lance</first>
+				<last>Endres</last>
+			</name>
+			<name>
+				<first>Andrey</first>
+				<last>Pavlenko</last>
+			</name>
+			<name>
+				<first>Elena</first>
+				<last>Ivanova</last>
+			</name>
+			<name>
+				<first>David</first>
+				<last>Stockey</last>
+			</name>
+			<name>
+				<first>Egor</first>
+				<last>Vtorushin</last>
+			</name>
+			<name>
+				<first>Gregory</first>
+				<last>Ricks</last>
+			</name>
+			<name>
+				<first>Mark</first>
+				<last>Blackman</last>
+			</name>
+			<name>
+				<first>Jayesh</first>
+				<last>Jain</last>
+			</name>
+		</authors>
+		<booktitle>World Petroleum Congress</booktitle>
+		<date year="2014" month=""/>
+		<address type="publisher">
+			<city>Moscow</city>
+			<country>RU</country>
+		</address>
+	</inproceedings>
+
+	<inproceedings id="ref:schwefe2014a">
+		<title>Development and Testing of Stick/Slip-Resistant PDC Bits</title>
+		<authors>
+			<name>
+				<first>T.</first>
+				<last>Schwefe</last>
+			</name>
+			<name>
+				<first>L.</first>
+				<last>Ledgerwood</last>
+			</name>
+			<name>
+				<first>J.</first>
+				<last>Jain</last>
+			</name>
+			<name>
+				<first>D.</first>
+				<last>Fuselier</last>
+			</name>
+			<name>
+				<first>L.</first>
+				<last>Endres</last>
+			</name>
+			<name>
+				<first>H.</first>
+				<last>Oueslati</last>
+			</name>
+		</authors>
+		<booktitle>SPE Drilling Conference and Exhibition</booktitle>
+		<date year="2014" month=""/>
+		<address type="publisher">
+			<city>Fort Worth</city>
+			<state>TX</state>
+			<country>USA</country>
+		</address>
+	</inproceedings>
+
+	<onlinearticle id="ref:endres2015a">
+		<title>Signal Segmentation Algorithm of Radhakrishnan, et al. Ported to C and C#</title>
+		<authors>
+			<name>
+				<first>L.</first>
+				<last>Endres</last>
+			</name>
+		</authors>
+		<website>Code Project</website>
+		<date year="2015" month="June"/>
+		<url>http://www.codeproject.com/Articles/999650/Signal-Segmentation-Algorithm-of-Radhakrishnan-et</url>
+	</onlinearticle>
+	
+	<!--
+	<article id="">
+        <title></title>
+        <authors>
+            <name>
+                <first></first>
+                <last></last>
+            </name>
+            <name>
+                <first></first>
+                <last></last>
+            </name>
+        </authors>
+		<journal id=""/>
+        <booktitle></booktitle>
+        <date year="" month=""/>
+        <publisher id=""/>
+        <edition></edition>
+        <volume></volume>
+        <number></number>
+		<pages from="" to=""/>
+        <isbn></isbn>
+        <pages></pages>
+	</article>
+
+@phdthesis{ref:endres2007b,
+    author        = {Lanson Adam Endres},
+    title         = {Computation Modeling of Drill Bits: A New Method for Reproducing Bottom Hole Geometry and a Second-Order Explicit Integrator via Composition for Coupled Rotating Rigid Bodies},
+    school        = {University of California, San Diego},
+    year          = {2007},
+    address       = {La Jolla, CA},
+    month         = {December}
+}
+
+@ARTICLE{,
+  AUTHOR =       {},
+  TITLE =        {},
+  JOURNAL =      {},
+  YEAR =         {},
+  volume =       {},
+  number =       {},
+  pages =        {},
+  month =        {},
+  note =         {,
+  abstract =     {},
+  keywords =     {},
+  source =       {},
+}
+
+@BOOK{,
+  AUTHOR =       {},
+  editor =       {},
+  TITLE =        {},
+  PUBLISHER =    {},
+  YEAR =         {},
+  volume =       {},
+  number =       {},
+  series =       {},
+  address =      {},
+  edition =      {},
+  month =        {},
+  note =         {},
+  abstract =     {},
+  isbn =         {},
+  price =        {},
+  keywords =     {},
+  source =       {},
+}
+
+@INPROCEEDINGS{,
+  AUTHOR =       {},
+  TITLE =        {},
+  BOOKTITLE =    {},
+  YEAR =         {},
+  editor =       {},
+  volume =       {},
+  number =       {},
+  series =       {},
+  pages =        {},
+  address =      {},
+  month =        {},
+  organization = {},
+  publisher =    {},
+  note =         {},
+  abstract =     {},
+  keywords =     {},
+}
+
+@PHDTHESIS{,
+  AUTHOR =       {},
+  TITLE =        {},
+  SCHOOL =       {},
+  YEAR =         {},
+  type =         {},
+  address =      {},
+  month =        {},
+  note =         {},
+  abstract =     {},
+  keywords =     {},
+  source =       {},
+}
+
+-->
+
+</bibliography>

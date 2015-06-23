@@ -1,0 +1,136 @@
+body
+{
+	background-color: navy;
+	border-top-style: none;
+	border-top-width: 0pt;
+	padding: 0pt;
+	top: 0pt;
+	margin-top: 0pt;
+	padding-top: 0pt;
+}
+
+.content
+{
+	width: 550pt;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	background: white;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	padding-top: 6pt;
+	padding-bottom: 10pt;
+	border-style: solid;
+	border-top-width: 10pt;
+	border-bottom-width: 0pt;
+	border-color: Navy;
+}
+
+h1.name
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18pt;
+	margin: 0pt;
+	padding: 0pt;
+}
+
+hr.divider
+{
+	margin: 0pt;
+	padding: 0pt;
+	height: 2pt;
+	color: Black;
+	background-color: Black;
+}
+
+h2.catagory
+{
+	font-family: Arial;
+	font-size: 14pt;
+	font-weight: bold;
+	font-variant: small-caps;
+	padding-bottom: 0pt;
+	margin-bottom: 4pt;
+}
+
+div.job, div.degree
+{
+	margin: 0pt;
+	padding: 0pt;
+	padding-bottom: 12pt;
+}
+
+h3
+{
+	font-family: Times New Roman;
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0pt;
+	padding: 0pt;
+}
+
+.company-name, .company-group, .degree-date, .degree-institution
+{
+	margin: 0pt;
+	padding: 0pt;
+	border-bottom-style: none;
+}
+
+.publication
+{
+	margin-left: 20pt;
+	text-indent: -20pt;
+}
+
+.company-name
+{
+	font-weight: bold;
+}
+
+.book-title, .phd-title
+{
+	font-style: italic;
+}
+
+a
+{
+	color: rgb(0, 120, 0);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: rgb(0, 100, 0);
+}
+
+a:focus
+{
+	text-decoration: underline;
+}	
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+.refavailable
+{
+	text-align: center;
+}
+
+div.navigation
+{
+	text-align: center;
+}
+
+div.navigation a
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 16pt;
+	padding-right: 16pt;
+}

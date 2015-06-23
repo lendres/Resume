@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<journals>
+	<journal id="IJNME">
+		<name>International Journal of Numerical Methods in Engineering</name>
+		<abbname>Int J for Numer Meth in Eng</abbname>
+	</journal>
+
+	<journal id="CNME">
+		<name>Communications in Numerical Methods in Engineering</name>
+		<abbname>Commun Numer Meth in Eng</abbname>
+	</journal>
+</journals>

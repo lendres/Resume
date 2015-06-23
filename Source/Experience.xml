@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<experience>
+	<job>
+		<title>Principal Engineer</title>
+		<company id="aps-houston"/>
+		<daterange>
+			<from>
+				<date month="January" monthnumber="1" year="2014"/>
+			</from>
+			<to>Current</to>
+		</daterange>
+		<description>
+			<p>Worked in the area of drilling dynamics and drilling optimization.</p>
+			<bulletedlist>
+				<item>
+					Developed data processing techniques and algorithms.  Implemented as a software package used to automate cleaning and processing of drilling data.
+				</item>
+				<item>
+					Worked on BHA analysis software to fix software issues and assess and repair sciencetific issues.
+				</item>
+				<!--<item>
+					Provided recommendations on developing a path to full drilling automation.  Contributions included assessing available resources, currently available technology, and technology that needed to be developed.
+				</item>-->
+				<item>
+					Developed an architecture for all of the drilling optimization and automation software.
+				</item>
+				<item>
+					Taught drilling dynamics and mechanics, object oriented design practices, and .Net Framework.
+				</item>
+			</bulletedlist>
+		</description>
+	</job>
+	
+	<job>
+        <title>Researcher in Drilling Mechanics and Dynamics</title>
+        <!-- <title>Ph.D. Candidate Intern</title> -->
+        <company id="hcc"/>
+        <!--<group>Drilling Mechanics Group</group>-->
+        <daterange>
+            <from>
+                <date month="January" monthnumber="1" year="2006"/>
+            </from>
+            <to>
+				<date month="November" monthnumber="11" year="2013"/>
+                <!-- <now/> -->
+            </to>
+        </daterange>
+        <description>
+			<p>
+				Conducted research in the areas of drilling mechanics and dynamics.  Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.
+			</p>
+			<bulletedlist>
+				<item>
+					Developed an advanced, proprietary computational dynamics application used to predict and analyze the dynamic behavior of drill bits, forces acting on cutters, cutting/bottom hole patterns, and AKO kinematics.  Was responsible for software design and architecture, algorithms, implementation and accuracy of physics, project schedule, deliverables, and budget.  Lead a team based in Russia to continue the development of the software.</item>
+				<item>Served as team member on project with objective to advance understanding of torsional and lateral drilling dynamics through a series of computer, laboratory, and full scale drill rig experiments.</item>
+				<item>Developed a laboratory analysis technique to improve understanding of lateral bit dynamics and more precisely define backward whirl.</item>
+				<item>Developed new techniques for designing drill bits to prevent lateral vibrations both in the new and worn states.</item>
+				<item>Designed and oversaw running of experiments in laboratory setting and on a full scale drill rig.</item>
+				<item>Analyzed and interpreted computer, laboratory, and drill rig data.</item>
+				<item>Developed software to post process a variety of disjointed laboratory and computer data types in a standardized, uniform way.</item>
+				<item>Trained new employees and directed the work of interns.</item>
+				<item>Served as a member of a cross-divisional numerical modeling and simulation committee.</item>
+			</bulletedlist>
+        </description>
+    </job>
+    <!--<job>
+        <title>Structural Engineer</title>
+        <company id="burkettwong"/>
+        <daterange>
+            <from>
+                <date month="August" monthnumber="8" year="2005"/>
+            </from>
+            <to>
+                <date month="January" monthnumber="1" year="2006"/>
+            </to>
+        </daterange>
+        --><!--<description>
+            <p>Performed load calculations, checked drawings.</p>
+        </description>--><!--
+    </job>-->
+    <job>
+        <title>Graduate Student Researcher</title>
+        <company id="ucsd"/>
+        <daterange>
+            <from>
+                <date month="September" monthnumber="9" year="2002"/>
+            </from>
+            <to>
+                <!--<date month="August" year="2005"/>-->
+				<date month="December" monthnumber="12" year="2005"/>
+            </to>
+        </daterange>
+        <description>
+            <p>Performed research in the area of computational mechanics and numerical integration.</p>
+        </description>
+    </job>
+    <job>
+        <title>Teaching Assistant</title>
+        <company id="ucsd"/>
+        <daterange>
+            <from>
+                <date month="September" monthnumber="9" year="2001"/>
+            </from>
+            <to>
+                <date month="June" monthnumber="6" year="2002"/>
+            </to>
+        </daterange>
+        <description>
+            <p>
+				Wrote exams, graded homework and exams, held office hours, and lectured classes when the professor
+				was unavailable.  Specifically requested by several students to be their T.A.\ because of 
+				performance as their T.A.\ in a prior class.
+			</p>
+        </description>
+    </job>
+    <job>
+        <title>C.A.D. Manager</title>
+        <company id="ses"/>
+        <daterange>
+            <from>
+                <date month="November" monthnumber="11" year="1998"/>
+            </from>
+            <to>
+                <date month="September" monthnumber="9" year="2000"/>
+            </to>
+        </daterange>
+        <description>
+            <p>
+				Created high quality, professional engineering drawings, conducted training, established 
+				and maintained C.A.D. standards, and wrote productivity software for AutoCAD.
+			</p>
+        </description>
+    </job>
+    <!--<job>
+        <title>C.A.D. Operator</title>
+        <company id="sed"/>
+        <daterange>
+            <from>
+                <date month="June" monthnumber="6" year="1996"/>
+            </from>
+            <to>
+                <date month="November" monthnumber="11" year="1998"/>
+            </to>
+        </daterange>
+        <description></description>
+    </job>-->
+</experience>

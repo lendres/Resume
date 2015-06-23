@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<skills>
+	<group heading="Engineering and Research">
+		<skill catagory="engineering" experiene="8">Design of Laboratory Experiments</skill>
+		<skill catagory="engineering" experiene="8">Stability Analysis</skill>
+		<skill catagory="engineering" experiene="8">Signal Processing</skill>
+		<skill catagory="engineering" experiene="8">Algorithm Design</skill>
+		<skill catagory="engineering" experiene="8">FEA</skill>
+		<skill catagory="engineering" experiene="8">Plasticity</skill>
+	</group>
+    <group heading="Programming">
+        <skill catagory="programming" experience="10">C</skill>
+        <skill catagory="programming" experience="10">C++</skill>
+        <skill catagory="programming" experience="10">C#</skill>
+        <skill catagory="programming" experience="10">.NET Framework</skill>
+        <skill catagory="programming" experience="10">Visual Basic</skill>
+        <skill catagory="programming" experience="10">Fortran</skill>
+        <skill catagory="programming" experience="10">AutoLISP</skill>
+        <skill catagory="programming" experience="8">threading (POSIX and .NET)</skill>
+        <skill catagory="programming" experience="10">XML</skill>
+        <skill catagory="programming" experience="8">XPath</skill>
+        <skill catagory="programming" experience="8">XSLT</skill>
+        <skill catagory="programming" experience="9">HTML</skill>
+        <skill catagory="programming" experience="9">XHTML</skill>
+        <skill catagory="programming" experience="9">CSS</skill>
+		<skill catagory="programming" experience="5">Windows Installer XML (WiX)</skill>
+		<skill catagory="programming" experience="2">UML</skill>
+        <skill catagory="programming" experience="4">XML Schema Definitions (XSD)</skill>
+        <skill catagory="programming" experience="2">PHP</skill>
+		<skill catagory="programming" experience="5">JavaScript</skill>
+		<skill catagory="programming" experience="5">code profiling</skill>
+		<skill catagory="programming" experience="5">software architecture</skill>
+    </group>
+
+    <!--<group heading="Microsoft software">
+        <skill catagory="software" experience="10">Visual Studio</skill>
+        <skill catagory="software" experience="10">Windows</skill>
+        <skill catagory="software" experience="10">Word</skill>
+        <skill catagory="software" experience="10">Excel</skill>
+        <skill catagory="software" experience="10">PowerPoint</skill>
+        <skill catagory="software" experience="5">Project</skill>
+        <skill catagory="software" experience="5">Access</skill>
+        <skill catagory="software" experience="10">Outlook</skill>
+    </group>-->
+
+    <group heading="Other software">
+        <skill catagory="software" experience="10">AutoCAD</skill>
+        <skill catagory="software" experience="10">Matlab</skill>
+        <skill catagory="software" experience="7">SAP 2000</skill>
+        <skill catagory="software" experience="7">RISA-3D</skill>
+        <skill catagory="software" experience="4">iSIGHT</skill>
+        <skill catagory="software" experience="10">LaTeX</skill>
+        <skill catagory="software" experience="10">NX</skill>
+        <!--<skill catagory="software" experience="10">Teamcenter</skill>-->
+    </group>
+
+    <!--<skill catagory="" experience=""></skill>-->
+
+    <!--<group heading="">
+        <skill catagory="computers" experience="">Computer trouble shooting and repair (hardware and software)</skill>
+    </group>-->
+</skills>
