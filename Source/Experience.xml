@@ -11,7 +11,7 @@
 			<to>Current</to>
 		</daterange>
 		<description>
-			<p>Worked in the area of drilling dynamics and drilling optimization.</p>
+			<p>Worked in the area of drilling dynamics, drilling optimization, and data processing and analysis.</p>
 			<bulletedlist>
 				<item>
 					Developed data processing techniques and algorithms.  Implemented as a software package used to automate cleaning and processing of drilling data.
@@ -19,9 +19,12 @@
 				<item>
 					Worked on BHA analysis software to fix software issues and assess and repair sciencetific issues.
 				</item>
-				<!--<item>
-					Provided recommendations on developing a path to full drilling automation.  Contributions included assessing available resources, currently available technology, and technology that needed to be developed.
-				</item>-->
+				<item>
+					Developed generalized plotting software designed to work with data from any downhole tool.  Software needed to be immune to changes in firmware, easily adapt to new tool output, and error handling for corrupted data.  Consistded of a data translation and validation library (custom written) combined with INT's WellLog plotting library.
+				</item>
+				<item>
+					Provided recommendations on developing a path to full drilling automation.  Contributions included assessing available resources, assessing currently available technology, and determining what technology needs to be developed.
+				</item>
 				<item>
 					Developed an architecture for all of the drilling optimization and automation software.
 				</item>

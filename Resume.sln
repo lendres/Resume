@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSLT Processor", "..\XSLT Processor\XST Transformer\XSLT Processor.csproj", "{E1943B42-14DE-4950-9AF1-E1DA596600E1}"
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSLT Processor", "..\XSLT-Processor\XSLT Processor\XSLT Processor.csproj", "{E1943B42-14DE-4950-9AF1-E1DA596600E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume", "Resume.csproj", "{D9E4A8F9-1637-474D-AE11-DA748CF4E44F}"
 EndProject

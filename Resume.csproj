@@ -34,7 +34,10 @@
     <Content Include="HTML\resume.css" />
     <Content Include="Source\Bibliography.xml" />
     <Content Include="Source\Certifications.xml" />
-    <Content Include="Source\common.xslt" />
+    <Content Include="Source\common.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Source\Experience with Language Info.xml" />
     <Content Include="Source\Education.xml" />
     <Content Include="Source\Experience.xml" />
     <Content Include="Source\html.xslt" />

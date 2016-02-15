@@ -38,4 +38,16 @@
 		<date year="2013" month="February" monthnumber="2"/>
 	</patent>
 
+	<patent id="ref:hohl2015a">
+		<title></title>
+		<inventors>
+			<name>
+				<first>Lance</first>
+				<middle>A.</middle>
+				<last>Endres</last>
+			</name>
+		</inventors>
+		<date year="2015" month="May" monthnumber="7"/>
+	</patent>
+
 </patents>

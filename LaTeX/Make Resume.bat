@@ -1,4 +1,4 @@
-title Make Dissertation
+title Make Resume
 
 rem close "Adobe Reader - [Endres Dissertation.pdf]"
 
