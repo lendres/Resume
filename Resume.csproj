@@ -37,23 +37,37 @@
     <Content Include="Source\common.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\Experience with Language Info.xml" />
+    <Content Include="Source\Experience with Language Info.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Source\Education.xml" />
-    <Content Include="Source\Experience.xml" />
-    <Content Include="Source\html.xslt" />
+    <Content Include="Source\Experience.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Source\html.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Source\Institutions.xml" />
     <Content Include="Source\Journals.xml" />
     <Content Include="Source\Keywords.xml" />
-    <Content Include="Source\latex.xslt" />
+    <Content Include="Source\latex.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Source\Memberships.xml" />
     <Content Include="Source\Notes.txt" />
     <Content Include="Source\Patents.xml" />
-    <Content Include="Source\Publications.xml" />
-    <Content Include="Source\Resume.xml" />
+    <Content Include="Source\Publications.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Source\Resume.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Source\Skills.xml" />
     <Content Include="Source\Summary.xml" />
     <Content Include="Source\text.xslt" />
-    <Content Include="Source\xsl-template-functions.xsl" />
+    <Content Include="Source\xsl-template-functions.xsl">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="Build">

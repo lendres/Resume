@@ -44,13 +44,13 @@ latex "Resume-XSLT.tex"
 
 
 REM LAUNCH PDF.
-set file="%CD%\Resume-XSLT.pdf"
+rem set file="%CD%\Resume-XSLT.pdf"
 
 rem "pagemode" has to be the first open action.
 rem pagemode=bookmarks
 
 rem start "" /max "C:\Program Files\Adobe\Reader 9.0\Reader\AcroRd32.exe" /A "pagemode=thumbs&page=20&zoom=80&scrollbar=1=OpenActions" %file%
-start Resume-XSLT.pdf
+rem start Resume-XSLT.pdf
 
 
 echo Do LaTeX...

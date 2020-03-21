@@ -11,8 +11,11 @@
 			<to>Current</to>
 		</daterange>
 		<description>
-			<p>Worked in the area of drilling dynamics, drilling optimization, and data processing and analysis.</p>
+			<p>Areas of worked included drilling dynamics, drilling optimization, and data processing and analysis.</p>
 			<bulletedlist>
+				<item>
+					Conducted an in-depth review of a proprietary drilling dynamics tool.  Review included available hardware sensors, calculations performed by the firmware, data file output, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented in a report which detailed the current status, where improvements could be made, and how to proceed with further testing and development of the device.
+				</item>
 				<item>
 					Developed data processing techniques and algorithms.  Implemented as a software package used to automate cleaning and processing of drilling data.
 				</item>
@@ -20,7 +23,7 @@
 					Worked on BHA analysis software to fix software issues and assess and repair sciencetific issues.
 				</item>
 				<item>
-					Developed generalized plotting software designed to work with data from any downhole tool.  Software needed to be immune to changes in firmware, easily adapt to new tool output, and error handling for corrupted data.  Consistded of a data translation and validation library (custom written) combined with INT's WellLog plotting library.
+					Developed generalized plotting software designed to work with data from any downhole tool.  Software needed to be immune to changes in firmware, easily adapt to new tool output, and have error handling for corrupted data.  Consisted of a data translation and validation library (custom written) combined with INT's WellLog plotting library.
 				</item>
 				<item>
 					Provided recommendations on developing a path to full drilling automation.  Contributions included assessing available resources, assessing currently available technology, and determining what technology needs to be developed.
@@ -78,10 +81,10 @@
                 <date month="January" monthnumber="1" year="2006"/>
             </to>
         </daterange>
-        --><!--<description>
+        <description>
             <p>Performed load calculations, checked drawings.</p>
-        </description>--><!--
-    </job>-->
+        </description>
+    </job>
     <job>
         <title>Graduate Student Researcher</title>
         <company id="ucsd"/>
@@ -90,7 +93,6 @@
                 <date month="September" monthnumber="9" year="2002"/>
             </from>
             <to>
-                <!--<date month="August" year="2005"/>-->
 				<date month="December" monthnumber="12" year="2005"/>
             </to>
         </daterange>
@@ -117,7 +119,7 @@
 			</p>
         </description>
     </job>
-    <job>
+	<job>
         <title>C.A.D. Manager</title>
         <company id="ses"/>
         <daterange>
@@ -135,7 +137,7 @@
 			</p>
         </description>
     </job>
-    <!--<job>
+    <job>
         <title>C.A.D. Operator</title>
         <company id="sed"/>
         <daterange>

@@ -4,45 +4,39 @@
 1
 1
 Resume-XSLT.tex
-15
+13
 6
-3
+2
 
 
 
 
 
 
-C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
-TeX:DTX
-5255099 1 -1 2159 -1 2149 0 0 952 565 0 152 782 -1 -1 0 0 95 -1 -1 95 1 0 2149 -1   0
-C:\Custom Program Files\LaTeX\bibtex\bib\le.bib
-BibTeX
-1049522 0 1019 18 1005 21 88 116 1014 680 1 330 253 -1 -1 0 0 60 0 0 60 1 0 21 1005   0
 Resume-XSLT.tex
 TeX
-135278587 0 -1 8047 -1 1183 32 32 1385 631 0 22 391 -1 -1 0 0 0 -1 -1 0 1 0 1183 -1   0
+135278587 0 16 1 15 23 32 32 1385 631 0 198 285 -1 -1 0 0 1 0 0 1 1 0 23 15   0
+C:\Custom Program Files\LaTeX\bibtex\bib\le.bib
+BibTeX
+1049523 0 1019 18 1005 2 88 116 1014 680 1 78 247 -1 -1 0 0 60 0 0 60 1 0 2 1005   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\resume.cls
 DATA
-273678514 0 158 26 130 14 22 29 857 646 1 210 621 94 272 1 0 1 124 124 1 1 0 14 130   0
+273678514 0 132 15 123 29 22 29 857 646 1 294 247 94 272 1 0 1 124 124 1 1 0 29 123   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
+TeX:DTX
+5255163 1 34 27 34 14 182 182 1608 558 0 126 646 -1 -1 0 0 96 0 0 96 1 0 14 34   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
 TeX:DTX
-5255099 1 -1 1063 -1 1076 66 87 1102 526 0 282 644 -1 -1 0 0 24 -1 -1 24 1 0 1076 -1   0
+5255099 1 28 2 28 15 66 87 1102 526 0 134 532 -1 -1 0 0 25 0 0 25 1 0 15 28   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
-5255099 0 -1 3899 -1 2918 66 87 992 651 0 102 115 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0
+5255099 0 168 19 119 9 66 87 992 651 0 86 114 -1 -1 0 0 99 0 0 99 1 0 9 119   0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat CloseDoc.edt
 ASCII:EDT
 269494138 7 35 1589 35 1 160 160 1513 759 1 80 805 -1 -1 0 0 21 0 0 21 1 0 1 35   0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat OpenDoc.edt
 ASCII:EDT
 269494138 7 80 1589 80 1 96 96 1449 695 1 80 828 -1 -1 0 0 21 0 0 21 1 0 1 80   0
-Resume.tex
-TeX
-286273467 0 -1 4315 -1 4894 154 203 1084 801 0 54 805 -1 -1 0 0 26 -1 -1 26 1 0 4894 -1   0
-\\detroit\FIRELITE (E)\Storage\Programming\XST Transformer\XST Transformer\Resume - XSLT.tex
-TeX
-269496251 0 -1 0 -1 0 132 174 1168 601 0 22 0 -1 -1 0 0 0 -1 -1 0 1 0 0 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lepageformat.sty
 TeX:DTX
 273690555 0 -1 0 -1 688 198 261 1102 810 0 254 272 -1 -1 0 0 93 -1 -1 93 1 0 688 -1   0

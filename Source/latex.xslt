@@ -79,24 +79,25 @@
 	\bibliographystylepatents{leplain}
 	\bibliographypatents{le}
 
-    \catagory{Other Skills}
-	<!--\begin{multicols}{3}-->
+    <!--\catagory{Other Skills}
     \begin{bulletedlist}
 		<xsl:apply-templates select="/resume/skills/group"/>
-	\end{bulletedlist}
-	<!--\end{multicols}-->
+	\end{bulletedlist}-->
+	<!--\begin{multicols}{3}
+		<xsl:apply-templates select="/resume/skills/group"/>
+	\end{multicols}-->
 
-		\catagory{Certi{f}ications}
-		<xsl:apply-templates select="/resume/certifications"/>
+	<!--\catagory{Certi{f}ications}
+	<xsl:apply-templates select="/resume/certifications"/>
 
-		\catagory{Af{f}iliations}
-		<xsl:apply-templates select="/resume/memberships/membership"/>
+	\catagory{Af{f}iliations}
+	<xsl:apply-templates select="/resume/memberships/membership"/>
 
-        <!--\vspace*{1pt}
-        \catagory{References}
-        \catentryshort{}{\normalfont Available upon request}-->
+    \vspace*{1pt}
+    \catagory{References}
+    \catentryshort{}{\normalfont Available upon request}-->
 
-        \end{document}
+    \end{document}
     </xsl:template>
 
 	<!--<xsl:template match="group">
