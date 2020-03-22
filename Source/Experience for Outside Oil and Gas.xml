@@ -11,27 +11,24 @@
 			<to>Current</to>
 		</daterange>
 		<description>
-			<p>Areas of worked included drilling dynamics, drilling optimization, and data analysis and processing.</p>
+			<p>Areas of worked included drilling dynamics, drilling optimization, and data analysis.</p>
 			<bulletedlist>
 				<item>
-					Conducted an in-depth review of a proprietary drilling dynamics tool.  Review included available hardware sensors, calculations performed by the firmware, data file output, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented in a report which detailed the current status, where improvements could be made, and how to proceed with further testing and development of the device.
+					Conducted an in-depth review of a proprietary drilling dynamics tool.  Review included available hardware sensors, calculations performed by the firmware, data file output, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented and recomendations made on how to proceed with further testing and development of the device.
+				</item>
+				<item>
+					Wrote FEA based software used to calculate deflections, stresses, and mode shapes of a drill string.
 				</item>
 				<item>
 					Developed data processing techniques and algorithms.  Implemented as a software package used to automate cleaning and processing of drilling data.
 				</item>
+				<item>
+					Developed generalized plotting software designed to work with data from any downhole tool.  Software is immune to changes in firmware, easily adaptable to new tools, and has error handling for corrupted data.
+				</item>
 				<!--<item>
-					Rewrote BHA analysis software to fix software issues and assess and repair sciencetific issues.
-				</item>-->
-				<item>
-					Rewrote drill string analysis software to fix software issues and assess and repair sciencetific issues.
-				</item>
-				<item>
-					Developed generalized plotting software designed to work with data from any downhole tool.  Software needed to be immune to changes in firmware, easily adapt to new tool output, and have error handling for corrupted data.  Consisted of a data translation and validation library (custom written) combined with INT's WellLog plotting library.
-				</item>
-				<item>
 					Provided recommendations on developing a path to full drilling automation.  Contributions included assessing available resources, assessing currently available technology, and determining what technology needs to be developed.
 				</item>
-				<!--<item>
+				<item>
 					Developed an architecture for all of the drilling optimization and automation software.
 				</item>
 				<item>
@@ -61,15 +58,17 @@
 			</p>
 			<bulletedlist>
 				<item>
-					Developed an advanced, proprietary computational dynamics application used to predict and analyze the dynamic behavior of drill bits, forces acting on cutters, cutting/bottom hole patterns, and AKO kinematics.  Was responsible for software design and architecture, algorithms, implementation and accuracy of physics, project schedule, deliverables, and budget.  Lead a team based in Russia to continue the development of the software.</item>
+					Developed an advanced, proprietary computational dynamics application used to predict and analyze the dynamic behavior of drill bits.  Was responsible for implementation and accuracy of physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
+				</item>
 				<item>Served as team member on project with objective to advance understanding of torsional and lateral drilling dynamics through a series of computer, laboratory, and full scale drill rig experiments.</item>
 				<item>Developed a laboratory analysis technique to improve understanding of lateral bit dynamics and more precisely define backward whirl.</item>
 				<item>Developed new techniques for designing drill bits to prevent lateral vibrations both in the new and worn states.</item>
 				<item>Designed and oversaw running of experiments in laboratory setting and on a full scale drill rig.</item>
 				<item>Analyzed and interpreted computer, laboratory, and drill rig data.</item>
 				<item>Developed software to post process a variety of disjointed laboratory and computer data types in a standardized, uniform way.</item>
-				<item>Trained new employees and directed the work of interns.</item>
-				<item>Served as a member of a cross-divisional numerical modeling and simulation committee.</item>
+				<item>Lead a software development team based in Russia.</item>
+				<!--<item>Trained new employees and directed the work of interns.</item>
+				<item>Served as a member of a cross-divisional numerical modeling and simulation committee.</item>-->
 			</bulletedlist>
         </description>
     </job>

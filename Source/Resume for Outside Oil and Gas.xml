@@ -16,8 +16,6 @@
 	<xi:include href="Institutions.xml"/>
 	<xi:include href="Education.xml"/>
 	<xi:include href="Experience for Outside Oil and Gas.xml"/>
-	<xi:include href="Experience.xml"/>
-	<!--<xi:include href="Experience with Language Info.xml"/>-->
 	<xi:include href="Certifications.xml"/>
 	<xi:include href="Skills.xml"/>
 	<xi:include href="Memberships.xml"/>

@@ -32,10 +32,10 @@
 	\newcites{publications}{Publications}
 	\newcites{patents}{Patents}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% DEFINE PERSONAL INFORMATION.  DEFINE BEFORE BEGIN DOCUMENT OR IT
-% WILL NOT BE PROCESSED CORRECTLY.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% DEFINE PERSONAL INFORMATION.  DEFINE BEFORE BEGIN DOCUMENT OR IT
+	% WILL NOT BE PROCESSED CORRECTLY.
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \name{<xsl:apply-templates select="/resume/head/name"/>}
 	\addresslinea{\myaddresslineoneshort}
@@ -55,7 +55,7 @@
 	\begin{document}
 	\thispagestyle{lefooterhorizontalline}
 	\makeresumeheaderB
-
+	
 	\catagory{Summary}
 	<xsl:apply-templates select="/resume/summary"/>
 
@@ -68,7 +68,7 @@
 	\catagory{Education}
 	<xsl:apply-templates select="/resume/education"/>
 
-    \vspace*{1pt}
+    <!--\vspace*{1pt}-->
     \catagory{Publications}
     <xsl:apply-templates select="/resume/publications/publication"/>
 	\bibliographystylepublications{leplain}
@@ -79,10 +79,10 @@
 	\bibliographystylepatents{leplain}
 	\bibliographypatents{le}
 
-    <!--\catagory{Other Skills}
+    \catagory{Other Skills}
     \begin{bulletedlist}
 		<xsl:apply-templates select="/resume/skills/group"/>
-	\end{bulletedlist}-->
+	\end{bulletedlist}
 	<!--\begin{multicols}{3}
 		<xsl:apply-templates select="/resume/skills/group"/>
 	\end{multicols}-->
@@ -99,14 +99,6 @@
 
     \end{document}
     </xsl:template>
-
-	<!--<xsl:template match="group">
-		<xsl:apply-templates select="./skill"/>
-	</xsl:template>
-	
-	<xsl:template match="skill">
-		\item <xsl:call-template name="make-string-latex-compatible"><xsl:with-param name="text" select="text()"/></xsl:call-template>
-	</xsl:template>-->
 
     <xsl:template match="group">
         <xsl:variable name="heading" select="@heading"/>
