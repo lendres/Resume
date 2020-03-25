@@ -24,20 +24,18 @@ Education:
 Publications:
 <xsl:apply-templates select="/resume/publications/publication"/>
 
-Patents:
-<xsl:apply-templates select="/resume/patents/patent"/>
+<xsl:apply-templates select="/resume/patents"/>
 
 Skills:
 <xsl:apply-templates select="/resume/skills/group"/>
 
-Certifications:
 <xsl:apply-templates select="/resume/certifications"/>
 
-Affiliations:
-<xsl:apply-templates select="/resume/memberships/membership"/>
+<xsl:apply-templates select="/resume/memberships"/>
 
 	</xsl:template>
 
+	
     <xsl:template match="group">
         <xsl:variable name="heading" select="@heading"/>
         <xsl:value-of select="$heading"/><xsl:if test="$heading!=''">: </xsl:if>
@@ -73,14 +71,23 @@ Affiliations:
 		</xsl:for-each>
 	</xsl:template>
 
-    <xsl:template match="membership">
+	
+	<!-- Memberships. -->
+	<xsl:template match="memberships">
+<xsl:text>
+Affiliations:
+</xsl:text>
+		<xsl:apply-templates select="./membership"/>
+	</xsl:template>
+	
+	<xsl:template match="membership">
         <xsl:variable name="notes" select="notes"/>
         <xsl:choose>
             <xsl:when test="$notes=''">
-                <xsl:call-template name="membership-start"/>
+				<xsl:call-template name="membership-start"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:call-template name="membership-start"/><xsl:value-of select="$notes"/>
+				<xsl:call-template name="membership-start"/><xsl:value-of select="$notes"/>
 <xsl:text>
 </xsl:text>
 			</xsl:otherwise>
@@ -93,7 +100,7 @@ Affiliations:
         <xsl:variable name="id" select="institution/@id"/>
         <xsl:variable name="institution" select="/resume/institutions/institution[@id=$id]"/>
         <xsl:variable name="institutionname" select="$institution/@name"/>
-        <xsl:value-of select="date/@month"/><xsl:text> </xsl:text><xsl:value-of select="date/@year"/>
+<xsl:value-of select="date/@month"/><xsl:text> </xsl:text><xsl:value-of select="date/@year"/>
 <xsl:text>
 </xsl:text>
         <xsl:value-of select="$institutionname"/><xsl:if test="$institution/description!=''"> - <xsl:value-of select="$institution/description"/></xsl:if>
@@ -101,9 +108,43 @@ Affiliations:
 </xsl:text>
     </xsl:template>
 
+	
 	<!-- Patents -->
-	<xsl:template match="patent">
+	<!--<xsl:template match="patent">
 		<xsl:variable name="id" select="@id"/>
+		<xsl:call-template name="write-patent">
+			<xsl:with-param name="position" select="position()"/>
+			<xsl:with-param name="patentnode" select="/resume/bibliography/*[@id=$id]"/>
+		</xsl:call-template>
+	</xsl:template>
+		<xsl:call-template name="write-patent">
+			<xsl:with-param name="position" select="position()"/>
+			<xsl:with-param name="patentnode" select="/resume/bibliography/*[@id=$id]"/>
+		</xsl:call-template>
+	<xsl:template name="write-patent">
+		<xsl:param name="position"/><xsl:param name="patentnode"/>[<xsl:value-of select="$position"/>] <xsl:call-template name="publication-authors"/><xsl:value-of select="$patentnode/title"/>.  <xsl:value-of select="$patentnode/publisher"/>, filed <xsl:value-of select="$patentnode/filed/date/@month"/><xsl:text> </xsl:text><xsl:value-of select="$patentnode/filed/date/@day"/><xsl:text>, </xsl:text><xsl:value-of select="$patentnode/filed/date/@year"/>.
+<xsl:text>
+</xsl:text>
+	</xsl:template>
+	-->
+	
+
+	<xsl:template match="patents">
+<xsl:text>
+Patents:
+</xsl:text>
+		<xsl:for-each select="patent">
+			<xsl:variable name="id" select="@id"/>
+			<xsl:apply-templates select="/resume/bibliography/*[@id=$id]">
+				<xsl:with-param name="position" select="position()"/>
+			</xsl:apply-templates>
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template match="patent">
+		<xsl:param name="position"/>[<xsl:value-of select="$position"/>] <xsl:value-of select="title"/>.  <xsl:call-template name="publication-authors"/><xsl:value-of select="publisher"/><xsl:text> </xsl:text> <xsl:value-of select="number"/>, filed <xsl:value-of select="./filed/date/@month"/><xsl:text> </xsl:text><xsl:value-of select="./filed/date/@day"/><xsl:text>, </xsl:text><xsl:value-of select="filed/date/@year"/>.
+<xsl:text>
+</xsl:text>
 	</xsl:template>
 	
 
@@ -127,6 +168,12 @@ Affiliations:
 </xsl:text>
 	</xsl:template>
 
+	<xsl:template match="onlinearticle">
+		<xsl:param name="position"/>[<xsl:value-of select="$position"/>] <xsl:call-template name="publication-authors"/><xsl:value-of select="title"/>.  <xsl:value-of select="website"/>, online article, <xsl:value-of select="date/@month"/>, <xsl:value-of select="date/@year"/>.
+		<xsl:text>
+</xsl:text>
+	</xsl:template>
+
 	<xsl:template match="phdthesis">
 		<xsl:param name="position"/>[<xsl:value-of select="$position"/>] <xsl:call-template name="publication-authors"/><xsl:value-of select="title"/>.  PhD thesis, <xsl:variable name="id" select="school/@id"/> <xsl:variable name="school" select="/resume/institutions/institution[@id=$id]"/> <xsl:value-of select="$school/@name"/>, <xsl:value-of select="$school/address/city"/>, <xsl:value-of select="$school/address/state"/>, <xsl:value-of select="date/@month"/>, <xsl:value-of select="date/@year"/>.
 <xsl:text>
@@ -138,19 +185,27 @@ Affiliations:
 		<xsl:value-of select="/resume/bibliography/journals/journal[@id=$id]/abbname"/>
 	</xsl:template>
 	
+	
 	<!-- Certifications -->
     <xsl:template match="certifications">
-        <xsl:for-each select="certification">
-            <xsl:value-of select="date/@month"/><xsl:text> </xsl:text><xsl:value-of select="date/@year"/>
+<xsl:text>
+Certifications:
+</xsl:text>
+		<xsl:for-each select="certification">
+<xsl:value-of select="date/@month"/><xsl:text> </xsl:text><xsl:value-of select="date/@year"/>
 <xsl:text>
 </xsl:text>
 			<xsl:value-of select="title"/>
 <xsl:text>
 </xsl:text>
 			<xsl:value-of select="address/city"/><xsl:text>, </xsl:text><xsl:value-of select="address/state"/><xsl:text>  </xsl:text><xsl:value-of select="address/zip"/>
+<xsl:text>
+</xsl:text>
         </xsl:for-each>
     </xsl:template>
 
+	
+	<!-- Main experience entry. -->
 	<xsl:template match="experience">
 		<xsl:variable name="njobs" select="count(job)"/>
         <xsl:for-each select="job">
@@ -169,18 +224,35 @@ Affiliations:
             <xsl:call-template name="get-company-info">
 	            <xsl:with-param name="companyreference" select="company"/>
             </xsl:call-template>
-			<xsl:variable name="desc" select="description"/>
-			<xsl:choose>
-				<xsl:when test="$desc!=''">
-<xsl:value-of select="normalize-space($desc)"/>
+<xsl:variable name="desc" select="description"/>
+<xsl:choose>
+<xsl:when test="$desc!=''">
+<!--<xsl:value-of select="normalize-space($desc)"/>-->
+<xsl:call-template name="job-description"><xsl:with-param name="description" select="$desc"/></xsl:call-template>
 <xsl:text>
 
 </xsl:text>
-				</xsl:when>
-			</xsl:choose>
-		</xsl:for-each>
+</xsl:when>
+</xsl:choose>
+</xsl:for-each>
+	</xsl:template>
+	<!-- End of main experience entry. -->
+
+	<xsl:template name="job-description"><xsl:param name="description"/>
+<xsl:value-of select="normalize-space($description/p/text())"/>
+<xsl:text>
+</xsl:text>
+<xsl:apply-templates select="$description/bulletedlist"/>
 	</xsl:template>
 
+	<xsl:template match="bulletedlist">
+<xsl:for-each select="item"><xsl:text>- </xsl:text><xsl:value-of select="normalize-space()"/>
+<xsl:text>
+</xsl:text>
+</xsl:for-each>
+	</xsl:template>
+	
+	<!-- Dates -->
     <xsl:template match="from">
         <xsl:apply-templates select="*"/>
     </xsl:template>

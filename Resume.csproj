@@ -31,6 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Command Line Arguments.txt" />
     <Content Include="HTML\resume.css" />
     <Content Include="Source\Bibliography.xml" />
     <Content Include="Source\Certifications.xml" />
@@ -44,12 +45,15 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Education.xml" />
+    <Content Include="Source\Experience.xml" />
     <Content Include="Source\html.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Institutions.xml" />
     <Content Include="Source\Journals.xml" />
-    <Content Include="Source\Keywords for Outside Oil and Gass.xml" />
+    <Content Include="Source\Keywords for Outside Oil and Gas.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Source\Keywords.xml" />
     <Content Include="Source\latex.xslt">
       <SubType>Designer</SubType>
@@ -69,7 +73,9 @@
     <Content Include="Source\Skills for Outside Oil and Gas.xml" />
     <Content Include="Source\Skills.xml" />
     <Content Include="Source\Summary.xml" />
-    <Content Include="Source\text.xslt" />
+    <Content Include="Source\text.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Source\xsl-template-functions.xsl">
       <SubType>Designer</SubType>
     </Content>

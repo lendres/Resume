@@ -43,16 +43,13 @@
 	
 	<job>
         <title>Researcher in Drilling Mechanics and Dynamics</title>
-        <!-- <title>Ph.D. Candidate Intern</title> -->
         <company id="hcc"/>
-        <!--<group>Drilling Mechanics Group</group>-->
         <daterange>
             <from>
                 <date month="January" monthnumber="1" year="2006"/>
             </from>
             <to>
 				<date month="November" monthnumber="11" year="2013"/>
-                <!-- <now/> -->
             </to>
         </daterange>
         <description>

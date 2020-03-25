@@ -4,42 +4,48 @@
 1
 1
 Resume-XSLT.tex
-13
-6
-1
+15
+9
+2
 
 
 
 
 
 
-Resume-XSLT.tex
-TeX
-135278587 0 16 1 15 23 32 32 1385 631 0 198 285 -1 -1 0 0 1 0 0 1 1 0 23 15   0
 C:\Custom Program Files\LaTeX\bibtex\bib\le.bib
 BibTeX
-269484979 0 529 40 529 38 88 116 1014 680 1 430 228 -1 -1 0 0 60 0 0 60 1 0 38 529   0
+1049523 0 1032 19 1129 1 78 78 1400 713 1 70 722 -1 -1 0 0 60 0 0 60 1 0 1 1129   0
+C:\Custom Program Files\LaTeX\bibtex\bst\leplain.bst
+DATA
+5243122 0 595 21 590 20 0 0 1322 635 1 222 361 -1 -1 0 0 45 0 0 45 1 0 20 590   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\resume.cls
 DATA
-5243058 0 132 15 133 54 22 29 857 646 1 494 817 94 272 1 0 1 124 124 1 1 0 54 133   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
+273678514 0 204 26 203 31 104 104 1426 739 1 310 703 94 272 1 0 1 124 124 1 1 0 31 203   0
+Resume-XSLT.tex
+TeX
+135278587 2 -1 7268 -1 7265 32 32 1385 631 0 62 1767 -1 -1 0 0 0 -1 -1 0 1 0 7265 -1   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\lepageformat.sty
 TeX:DTX
-5255163 1 34 27 34 14 182 182 1608 558 0 126 646 -1 -1 0 0 96 0 0 96 1 0 14 34   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
-TeX:DTX
-5255099 1 28 2 28 15 66 87 1102 526 0 134 532 -1 -1 0 0 25 0 0 25 1 0 15 28   0
+5255099 0 -1 0 -1 957 198 261 1102 810 0 206 342 -1 -1 0 0 93 -1 -1 93 1 0 957 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
-5255099 0 168 19 119 9 66 87 992 651 0 86 114 -1 -1 0 0 99 0 0 99 1 0 9 119   0
+5255099 0 -1 3899 -1 2918 52 52 1374 687 0 86 551 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\lelists.sty
+TeX:DTX
+5255163 1 -1 3978 -1 3716 130 130 1452 765 0 22 874 -1 -1 0 0 13 -1 -1 13 1 0 3716 -1   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
+TeX:DTX
+5255163 0 -1 1981 -1 1913 0 0 1322 635 0 126 627 -1 -1 0 0 95 -1 -1 95 1 0 1913 -1   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
+TeX:DTX
+5255099 0 -1 1063 -1 1060 26 26 1348 661 0 22 513 -1 -1 0 0 24 -1 -1 24 1 0 1060 -1   0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat CloseDoc.edt
 ASCII:EDT
 269494138 7 35 1589 35 1 160 160 1513 759 1 80 805 -1 -1 0 0 21 0 0 21 1 0 1 35   0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat OpenDoc.edt
 ASCII:EDT
 269494138 7 80 1589 80 1 96 96 1449 695 1 80 828 -1 -1 0 0 21 0 0 21 1 0 1 80   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\lepageformat.sty
-TeX:DTX
-273690555 0 -1 0 -1 688 198 261 1102 810 0 254 272 -1 -1 0 0 93 -1 -1 93 1 0 688 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lesections.sty
 TeX:DTX
 273690555 0 -1 9164 -1 8693 176 232 1080 781 0 62 289 -1 -1 0 0 99 -1 -1 99 1 0 8693 -1   0

@@ -15,7 +15,8 @@
     \documentclass{resume}
     \usepackage{lelists}
     \setlength{\listtopsep}{0pt}
-    \setlength{\listindent}{0pt}
+    \setlength{\leftlistindent}{0pt}
+	\setlength{\rightlistindent}{0pt}
 
     \usepackage{subscripts}
     \usepackage{lehyperlink}
@@ -68,7 +69,6 @@
 	\catagory{Education}
 	<xsl:apply-templates select="/resume/education"/>
 
-    <!--\vspace*{1pt}-->
     \catagory{Publications}
     <xsl:apply-templates select="/resume/publications/publication"/>
 	\bibliographystylepublications{leplain}
@@ -86,13 +86,12 @@
 	<!--\begin{multicols}{3}
 		<xsl:apply-templates select="/resume/skills/group"/>
 	\end{multicols}-->
-
-	<!--\catagory{Certi{f}ications}
+	
 	<xsl:apply-templates select="/resume/certifications"/>
 
-	\catagory{Af{f}iliations}
-	<xsl:apply-templates select="/resume/memberships/membership"/>
-
+	<xsl:apply-templates select="/resume/memberships"/>
+	
+	<!--
     \vspace*{1pt}
     \catagory{References}
     \catentryshort{}{\normalfont Available upon request}-->
@@ -148,6 +147,13 @@
 		</xsl:for-each>
 	</xsl:template>
 
+	
+	<!-- Memberships. -->
+	<xsl:template match="memberships">
+		\catagory{Af{f}iliations}
+		<xsl:apply-templates select="./membership"/>
+	</xsl:template>
+	
     <xsl:template match="membership">
         <!-- Example: \catentryshort{January 2008}{Society of Petroleum Engineers (SPE)} -->
         <!-- Example: \catentry{December 1997}{Chi Epsilon - National Civil Engineering Honor Society}{Lawrence Tech chapter president from September 1998 to April 1999} -->
@@ -169,23 +175,30 @@
         {<xsl:value-of select="date/@year"/>}
         {<xsl:value-of select="$institutionname"/><xsl:if test="$institution/description!=''"> - <xsl:value-of select="$institution/description"/></xsl:if>}
     </xsl:template>
+		
 
+	<!-- Publications. -->
     <xsl:template match="publication">
         \nocitepublications{<xsl:value-of select="@id"/>}
     </xsl:template>
 
+	
+	<!-- Patents. -->
 	<xsl:template match="patent">
         \nocitepatents{<xsl:value-of select="@id"/>}
     </xsl:template>
 
+	
+	<!-- Certifications. -->
     <xsl:template match="certifications">
-        <xsl:for-each select="certification">
-			\catentrycertification{<xsl:value-of select="date/@year"/>}
-                {<xsl:value-of select="title"/>}
-                {<xsl:value-of select="address/city"/>, <xsl:value-of select="address/state"/>}
+		\catagory{Certi{f}ications}
+		<xsl:for-each select="certification">
+			\catentrycertification{<xsl:value-of select="date/@year"/>}{<xsl:value-of select="title"/>}{<xsl:value-of select="address/city"/>, <xsl:value-of select="address/state"/>}
         </xsl:for-each>
     </xsl:template>
 
+	
+	<!-- Experience. -->
 	<xsl:template match="experience">
 		<xsl:variable name="njobs" select="count(job)"/>
         <xsl:for-each select="job">
@@ -207,7 +220,6 @@
 			<xsl:variable name="desc" select="description"/>
 			<xsl:choose>
 				<xsl:when test="$desc!=''">
-					\vspace*{-6pt}
 					\noindent <xsl:call-template name="job-description"><xsl:with-param name="description" select="$desc"/></xsl:call-template>\hspace*{0pt}\\ \vspace*{-2pt}
 				</xsl:when>
 				<!-- 

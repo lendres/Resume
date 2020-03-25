@@ -1,0 +1,6 @@
+﻿LaTeX Resume for Outside Oil and Gas
+-input "..\..\..\..\Resume\Source\Resume for Outside Oil and Gas.xml" -transform "..\..\..\..\Resume\Source\latex.xslt" -output "..\..\..\..\Resume\LaTeX\Resume-XSLT.tex" -runpostprocessor -postprocessor "..\..\..\..\Resume\LaTeX\Make Resume.bat"
+
+Text Resume for Outside Oil and Gas
+-input "..\..\..\..\Resume\Source\Resume for Outside Oil and Gas.xml" -transform "..\..\..\..\Resume\Source\text.xslt" -output "..\..\..\..\Resume\LaTeX\Resume.txt" -runpostprocessor -postprocessor "..\..\..\..\Resume\LaTeX\Resume.txt"
+

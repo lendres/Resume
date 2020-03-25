@@ -2,7 +2,8 @@
     \documentclass{resume}
     \usepackage{lelists}
     \setlength{\listtopsep}{0pt}
-    \setlength{\listindent}{0pt}
+    \setlength{\leftlistindent}{0pt}
+	\setlength{\rightlistindent}{0pt}
 
     \usepackage{subscripts}
     \usepackage{lehyperlink}
@@ -47,7 +48,7 @@
 	An experienced research and development engineer in the area of computational dynamics and mechanics. Creative thinker with excellent presentation and communication skills. Experience with project management, team leading, and working internationally on team based projects.
 
 	\catagory{Areas of Expertise}
-	Computational Mechanics $\bullet$ Computational Dynamics $\bullet$ Numerical Integration $\bullet$ Dynamics of Drill Bits $\bullet$ Cutter-Rock Interaction $\bullet$ BHA Dynamics $\bullet$ Data Analysis and Interpretation $\bullet$ Whirl $\bullet$ Software Development $\bullet$ Software Architecture $\bullet$ Programming $\bullet$ Research $\bullet$ Teaching $\bullet$ Technical Writing
+	Computational Mechanics $\bullet$ Computational Dynamics $\bullet$ Numerical Integration $\bullet$ Drilling Mechanics and Dynamics $\bullet$ Data Analysis and Interpretation $\bullet$ Structural Analysis $\bullet$ Software Architecture $\bullet$ Programming $\bullet$ FEA $\bullet$ Research
 
     \catagory{Experience}
     
@@ -56,21 +57,20 @@
             {APS Technology}
 			{Houston, TX}
 			
-					\vspace*{-6pt}
-					\noindent Areas of worked included drilling dynamics, drilling optimization, and data analysis.
+					\noindent Areas of work included drilling dynamics, drilling optimization, and data analysis.
 		\begin{bulletedlist}
 			
 		\item 
-					Conducted an in-depth review of a proprietary drilling dynamics tool.  Review included available hardware sensors, calculations performed by the firmware, data file output, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented and recomendations made on how to proceed with further testing and development of the device.
+					Conducted an in-depth review of a proprietary drilling dynamics tool that uses magnetorheological fluid to adjust the damping properties of the tool.  Review included sensor capabilities, calculations performed by the firmware, data produced, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented and recommendations made on how to proceed with further testing and development of the device.
 				
 		\item 
-					Wrote FEA based software used to calculate deflections, stresses, and mode shapes of a drill string.
+					Developed an FEA based software that calculates deflections, stresses, natural frequencies, and mode shapes of a drill string.  The software is used to assess the bending capabilities and stress limits of tools and drill strings for use in directional drilling applications.  It is also used to ensure natural frequencies are not excited (avoid resonance) and to assess changes in mode shapes that occur from different tool designs.
 				
 		\item 
-					Developed data processing techniques and algorithms.  Implemented as a software package used to automate cleaning and processing of drilling data.
+					Developed specialized data processing techniques and algorithms used to automate cleaning and processing of drilling data.  The software removes corrupted data points and separates the data into drilling versus non-drilling (standby) time.  Reduced the process from an hour to a minute.
 				
 		\item 
-					Developed generalized plotting software designed to work with data from any downhole tool.  Software is immune to changes in firmware, easily adaptable to new tools, and has error handling for corrupted data.
+					Developed generalized plotting software designed to work with data from any downhole tool.  Software is immune to changes in firmware, easily adaptable to new tools, has error handling for corrupted data, and automatic conversion of units.  The industry lacks standards for data handling, so similar data is often stored differently, even within a company.  Before I solved this issue, three others at APS had tried and failed to find a maintainable solution.  Updates and new product introduction eventually rendered all previous attempts obsolete.
 				
 		\end{bulletedlist}
 			\vspace*{-12pt}
@@ -81,7 +81,6 @@
             {Baker Hughes}
 			{Houston, TX}
 			
-					\vspace*{-6pt}
 					\noindent 
 				Conducted research in the areas of drilling mechanics and dynamics.  Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.
 			
@@ -90,13 +89,14 @@
 		\item 
 					Developed an advanced, proprietary computational dynamics application used to predict and analyze the dynamic behavior of drill bits.  Was responsible for implementation and accuracy of physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
 				
-		\item Served as team member on project with objective to advance understanding of torsional and lateral drilling dynamics through a series of computer, laboratory, and full scale drill rig experiments.
-		\item Developed a laboratory analysis technique to improve understanding of lateral bit dynamics and more precisely define backward whirl.
-		\item Developed new techniques for designing drill bits to prevent lateral vibrations both in the new and worn states.
+		\item Developed a laboratory analysis technique to improve understanding of lateral bit dynamics.  The technique is a physics based approach that replaced the previous assumption based method.  The new method let engineers better interpret the results of laboratory tests.
+		\item Improved theoretical understanding of lateral drill bit vibrations.  Used this understanding to create new techniques for designing drill bits.  These techniques let engineers design bits directly rather than requiring hundreds of computer simulations to find a solution.
 		\item Designed and oversaw running of experiments in laboratory setting and on a full scale drill rig.
 		\item Analyzed and interpreted computer, laboratory, and drill rig data.
 		\item Developed software to post process a variety of disjointed laboratory and computer data types in a standardized, uniform way.
 		\item Lead a software development team based in Russia.
+		\item Trained new employees and directed the work of interns.
+		\item Served as a member of a cross-divisional numerical modeling and simulation committee.
 		\end{bulletedlist}
 			\vspace*{-12pt}
 	\hspace*{0pt}\\ \vspace*{-2pt}
@@ -118,6 +118,7 @@
                 {B.S. in Civil Engineering}
                 {Lawrence Technological University}
 		
+
     \catagory{Publications}
     
         \nocitepublications{ref:endres2003a}
@@ -153,14 +154,18 @@
     \catagory{Other Skills}
     \begin{bulletedlist}
 		
-        \item Engineering and Research: Design of Laboratory experiments,
+        \item Engineering and Research: Design of laboratory experiments,
                         stability analysis,
                         signal processing,
                         algorithm design,
-                        FEA,
                         CFD (basic),
                         plasticity,
-                        and structural engineering.
+                        structural engineering,
+                        3D modeling,
+                        additive manufacturing,
+                        basic electronics and microprocessors,
+                        teaching,
+                        and technical writing.
                         
         \item Programming: C,
                         C++,
@@ -177,7 +182,6 @@
                         XHTML,
                         CSS,
                         Windows Installer XML (WiX),
-                        INT's WellLog graphing library,
                         UML,
                         XML Schema Definitions (XSD),
                         PHP,
@@ -188,7 +192,7 @@
         \item Other software: Visual Studio,
                         AutoCAD,
                         Matlab,
-                        TortoiseSVN/CVS,
+                        Tortoise/HG/SVN/CVS,
                         GitHub,
                         SAP 2000,
                         RISA-3D,
@@ -198,13 +202,6 @@
                         NX,
                         Fusion 360,
                         and Ansys.
-                        
-        \item Other: Computer trouble shooting and repair (hardware and software),
-                        basic electronics,
-                        embedded programming,
-                        soldering,
-                        3D modeling,
-                        and additive manufacturing.
                         
 	\end{bulletedlist}
 	

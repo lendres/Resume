@@ -192,109 +192,142 @@
 		<date year="2015" month="June"/>
 		<url>http://www.codeproject.com/Articles/999650/Signal-Segmentation-Algorithm-of-Radhakrishnan-et</url>
 	</onlinearticle>
-	
-	<!--
-	<article id="">
-        <title></title>
-        <authors>
-            <name>
-                <first></first>
-                <last></last>
-            </name>
-            <name>
-                <first></first>
-                <last></last>
-            </name>
-        </authors>
-		<journal id=""/>
-        <booktitle></booktitle>
-        <date year="" month=""/>
-        <publisher id=""/>
-        <edition></edition>
-        <volume></volume>
-        <number></number>
-		<pages from="" to=""/>
-        <isbn></isbn>
-        <pages></pages>
-	</article>
 
-@phdthesis{ref:endres2007b,
-    author        = {Lanson Adam Endres},
-    title         = {Computation Modeling of Drill Bits: A New Method for Reproducing Bottom Hole Geometry and a Second-Order Explicit Integrator via Composition for Coupled Rotating Rigid Bodies},
-    school        = {University of California, San Diego},
-    year          = {2007},
-    address       = {La Jolla, CA},
-    month         = {December}
-}
+	<patent id="ref:endres2013a">
+		<title>Drill bit with distributed force profile</title>
+		<authors>
+			<name>
+				<first>Lance</first>
+				<middle>A.</middle>
+				<last>Endres</last>
+			</name>
+			<name>
+				<first>Gregory</first>
+				<middle>C.</middle>
+				<last>Prevost</last>
+			</name>
+			<name>
+				<first>Tyler</first>
+				<middle>R.</middle>
+				<last>Reynolds</last>
+			</name>
+		</authors>
+		<assignee>Baker Hughes Incorporated</assignee>
+		<number>20130008724</number>
+		<publisher>U.S. Patent</publisher>
+		<filed>
+			<date year="2012" month="June" day="14"/>
+		</filed>
+		<published>
+			<date year="2013" month="October" day="1"/>
+		</published>
+	</patent>
 
-@ARTICLE{,
-  AUTHOR =       {},
-  TITLE =        {},
-  JOURNAL =      {},
-  YEAR =         {},
-  volume =       {},
-  number =       {},
-  pages =        {},
-  month =        {},
-  note =         {,
-  abstract =     {},
-  keywords =     {},
-  source =       {},
-}
+	<patent id="ref:endres2013b">
+		<title>METHODS OF DESIGNING EARTH-BORING TOOLS USING A PLURALITY OF WEAR STATE VALUES AND RELATED METHODS OF FORMING EARTH-BORING TOOLS</title>
+		<authors>
+			<name>
+				<first>Lance</first>
+				<middle>A.</middle>
+				<last>Endres</last>
+			</name>
+			<name>
+				<first>Tyler</first>
+				<middle>R.</middle>
+				<last>Reynolds</last>
+			</name>
+			<name>
+				<first>Gregory</first>
+				<middle>C.</middle>
+				<last>Prevost</last>
+			</name>
+		</authors>
+		<assignee>Baker Hughes Incorporated</assignee>
+		<number>201300835902</number>
+		<publisher>U.S. Patent</publisher>
+		<filed>
+			<date year="2011" month="August" day="5"/>
+		</filed>
+		<published>
+			<date year="2013" month="February" day="7"/>
+		</published>
+		<issued>
+			<date year="2014" month="August" day="26"/>
+		</issued>
+	</patent>
 
-@BOOK{,
-  AUTHOR =       {},
-  editor =       {},
-  TITLE =        {},
-  PUBLISHER =    {},
-  YEAR =         {},
-  volume =       {},
-  number =       {},
-  series =       {},
-  address =      {},
-  edition =      {},
-  month =        {},
-  note =         {},
-  abstract =     {},
-  isbn =         {},
-  price =        {},
-  keywords =     {},
-  source =       {},
-}
+	<patent id="ref:hohl2015a">
+		<title>Method to mitigate bit induced vibrations by intentionally modifying mode shapes of drill strings by mass or stiffness changes</title>
+		<authors>
+			<name>
+				<first>Andreas</first>
+				<last>Hohl</last>
+			</name>
+			<name>
+				<first>Mathias</first>
+				<last>Tergeist</last>
+			</name>
+			<name>
+				<first>Hatem</first>
+				<last>Oueslati</last>
+			</name>
+			<name>
+				<first>Christian</first>
+				<last>Herbig</last>
+			</name>
+			<name>
+				<first>Jayesh</first>
+				<middle>J.</middle>
+				<last>Jain</last>
+			</name>
+			<name>
+				<first>Hanno</first>
+				<last>Reckmann</last>
+			</name>
+			<name>
+				<first>Lance</first>
+				<middle>A.</middle>
+				<last>Endres</last>
+			</name>
+		</authors>
+		<assignee>Baker Hughes Incorporated</assignee>
+		<number>20150122547</number>
+		<publisher>U.S. Patent</publisher>
+		<filed>
+			<date year="2013" month="November" day="1"/>
+		</filed>
+		<published>
+			<date year="2015" month="May" day="7"/>
+		</published>
+	</patent>
 
-@INPROCEEDINGS{,
-  AUTHOR =       {},
-  TITLE =        {},
-  BOOKTITLE =    {},
-  YEAR =         {},
-  editor =       {},
-  volume =       {},
-  number =       {},
-  series =       {},
-  pages =        {},
-  address =      {},
-  month =        {},
-  organization = {},
-  publisher =    {},
-  note =         {},
-  abstract =     {},
-  keywords =     {},
-}
-
-@PHDTHESIS{,
-  AUTHOR =       {},
-  TITLE =        {},
-  SCHOOL =       {},
-  YEAR =         {},
-  type =         {},
-  address =      {},
-  month =        {},
-  note =         {},
-  abstract =     {},
-  keywords =     {},
-  source =       {},
-}
-
--->
-
+	<patent id="ref:prevost2013a">
+		<title>METHODS OF DESIGNING EARTH-BORING TOOLS USING A PLURALITY OF DEPTH OF CUT VALUES AND RELATED METHODS OF FORMING EARTH-BORING TOOLS</title>
+		<authors>
+			<name>
+				<first>Gregory</first>
+				<middle>C.</middle>
+				<last>Prevost</last>
+			</name>
+			<name>
+				<first>Lance</first>
+				<middle>A.</middle>
+				<last>Endres</last>
+			</name>
+			<name>
+				<first>Tyler</first>
+				<middle>R.</middle>
+				<last>Reynolds</last>
+			</name>
+		</authors>
+		<assignee>Baker Hughes Incorporated</assignee>
+		<number>20130035903</number>
+		<publisher>U.S. Patent</publisher>
+		<filed>
+			<date year="2011" month="August" day="5"/>
+		</filed>
+		<published>
+			<date year="2013" month="July" day="2"/>
+		</published>
+	</patent>
 </bibliography>

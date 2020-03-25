@@ -2,14 +2,19 @@
 
 <skills>
 	<group heading="Engineering and Research">
-		<skill catagory="engineering" experiene="8">Design of Laboratory experiments</skill>
+		<skill catagory="engineering" experiene="8">Design of laboratory experiments</skill>
 		<skill catagory="engineering" experiene="8">stability analysis</skill>
 		<skill catagory="engineering" experiene="8">signal processing</skill>
 		<skill catagory="engineering" experiene="8">algorithm design</skill>
-		<skill catagory="engineering" experiene="8">FEA</skill>
+		<!--<skill catagory="engineering" experiene="8">FEA</skill>-->
 		<skill catagory="engineering" experiene="8">CFD (basic)</skill>
 		<skill catagory="engineering" experiene="8">plasticity</skill>
 		<skill catagory="engineering" experiene="8">structural engineering</skill>
+		<skill catagory="engineering" experience="">3D modeling</skill>
+		<skill catagory="engineering" experience="">additive manufacturing</skill>
+		<skill catagory="engineering" experience="">basic electronics and microprocessors</skill>
+		<skill catagory="engineering" experience="">teaching</skill>
+		<skill catagory="engineering" experience="">technical writing</skill>
 	</group>
 	<group heading="Programming">
 		<skill catagory="programming" experience="10">C</skill>
@@ -27,7 +32,6 @@
 		<skill catagory="programming" experience="9">XHTML</skill>
 		<skill catagory="programming" experience="9">CSS</skill>
 		<skill catagory="programming" experience="5">Windows Installer XML (WiX)</skill>
-		<skill catagory="programming" experience="5">INT's WellLog graphing library</skill>
 		<skill catagory="programming" experience="2">UML</skill>
 		<skill catagory="programming" experience="4">XML Schema Definitions (XSD)</skill>
 		<skill catagory="programming" experience="2">PHP</skill>
@@ -50,7 +54,7 @@
 		<skill catagory="software" experience="10">Visual Studio</skill>
 		<skill catagory="software" experience="10">AutoCAD</skill>
 		<skill catagory="software" experience="10">Matlab</skill>
-		<skill catagory="software" experience="10">TortoiseSVN/CVS</skill>
+		<skill catagory="software" experience="10">Tortoise/HG/SVN/CVS</skill>
 		<skill catagory="software" experience="10">GitHub</skill>
 		<skill catagory="software" experience="7">SAP 2000</skill>
 		<skill catagory="software" experience="7">RISA-3D</skill>
@@ -65,12 +69,12 @@
 
     <!--<skill catagory="" experience=""></skill>-->
 
-	<group heading="Other">
+	<!--<group heading="Other">
 		<skill catagory="other" experience="">Computer trouble shooting and repair (hardware and software)</skill>
 		<skill catagory="other" experience="">basic electronics</skill>
 		<skill catagory="other" experience="">embedded programming</skill>
 		<skill catagory="other" experience="">soldering</skill>
 		<skill catagory="other" experience="">3D modeling</skill>
 		<skill catagory="other" experience="">additive manufacturing</skill>
-	</group>
+	</group>-->
 </skills>
