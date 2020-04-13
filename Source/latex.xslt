@@ -45,7 +45,7 @@
 	\renewcommand*{\phonename}{{\small{}Phone:}}
 	\phone{\myphoneone}
 	\renewcommand*{\emailname}{{\small{}Email:}}
-	\email{\myemailthree}
+	\email{\myemailone}
 	\website{\mywebsiteone}
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -108,26 +108,6 @@ Affiliations:
 </xsl:text>
     </xsl:template>
 
-	
-	<!-- Patents -->
-	<!--<xsl:template match="patent">
-		<xsl:variable name="id" select="@id"/>
-		<xsl:call-template name="write-patent">
-			<xsl:with-param name="position" select="position()"/>
-			<xsl:with-param name="patentnode" select="/resume/bibliography/*[@id=$id]"/>
-		</xsl:call-template>
-	</xsl:template>
-		<xsl:call-template name="write-patent">
-			<xsl:with-param name="position" select="position()"/>
-			<xsl:with-param name="patentnode" select="/resume/bibliography/*[@id=$id]"/>
-		</xsl:call-template>
-	<xsl:template name="write-patent">
-		<xsl:param name="position"/><xsl:param name="patentnode"/>[<xsl:value-of select="$position"/>] <xsl:call-template name="publication-authors"/><xsl:value-of select="$patentnode/title"/>.  <xsl:value-of select="$patentnode/publisher"/>, filed <xsl:value-of select="$patentnode/filed/date/@month"/><xsl:text> </xsl:text><xsl:value-of select="$patentnode/filed/date/@day"/><xsl:text>, </xsl:text><xsl:value-of select="$patentnode/filed/date/@year"/>.
-<xsl:text>
-</xsl:text>
-	</xsl:template>
-	-->
-	
 
 	<xsl:template match="patents">
 <xsl:text>

@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: patents.aux
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7380 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: patents.aux
 The style file: leplain.bst
 number is already a type "field" function name
 ---line 40 of file leplain.bst
@@ -34,16 +36,6 @@ I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 496 of file le.bib
  :  
  :  pages    = {69--82}
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 533 of file le.bib
- :  
- :  month    = {June},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 543 of file le.bib
- :  
- :  month    = {October},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 903 of file le.bib
@@ -85,4 +77,45 @@ while executing---line 1239 of file leplain.bst
 while executing---line 1239 of file leplain.bst
 You can't pop an empty literal stack for entry ref:prevost2013a
 while executing---line 1239 of file leplain.bst
-(There were 30 error messages)
+You've used 4 entries,
+            2431 wiz_defined-function locations,
+            657 strings with 6785 characters,
+and the built_in function-call counts, 1282 in all, are:
+= -- 120
+> -- 92
+< -- 0
++ -- 36
+- -- 32
+* -- 114
+:= -- 227
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 24
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 36
+empty$ -- 73
+format.name$ -- 32
+if$ -- 253
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 8
+newline$ -- 23
+num.names$ -- 8
+pop$ -- 36
+preamble$ -- 1
+purify$ -- 24
+quote$ -- 0
+skip$ -- 25
+stack$ -- 0
+substring$ -- 20
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 0
+while$ -- 8
+width$ -- 4
+write$ -- 42
+(There were 28 error messages)

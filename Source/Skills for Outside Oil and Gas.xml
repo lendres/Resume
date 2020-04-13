@@ -12,7 +12,7 @@
 		<skill catagory="engineering" experiene="8">structural engineering</skill>
 		<skill catagory="engineering" experience="">3D modeling</skill>
 		<skill catagory="engineering" experience="">additive manufacturing</skill>
-		<skill catagory="engineering" experience="">basic electronics and microprocessors</skill>
+		<skill catagory="engineering" experience="">basic electronics &amp; microprocessors</skill>
 		<skill catagory="engineering" experience="">teaching</skill>
 		<skill catagory="engineering" experience="">technical writing</skill>
 	</group>
@@ -24,7 +24,7 @@
 		<skill catagory="programming" experience="10">Visual Basic</skill>
 		<skill catagory="programming" experience="10">Fortran</skill>
 		<skill catagory="programming" experience="10">AutoLISP</skill>
-		<skill catagory="programming" experience="8">threading (POSIX and .NET)</skill>
+		<skill catagory="programming" experience="8">threading (POSIX &amp; .NET)</skill>
 		<skill catagory="programming" experience="10">XML</skill>
 		<skill catagory="programming" experience="8">XPath</skill>
 		<skill catagory="programming" experience="8">XSLT</skill>
@@ -34,10 +34,10 @@
 		<skill catagory="programming" experience="5">Windows Installer XML (WiX)</skill>
 		<skill catagory="programming" experience="2">UML</skill>
 		<skill catagory="programming" experience="4">XML Schema Definitions (XSD)</skill>
-		<skill catagory="programming" experience="2">PHP</skill>
+		<!--<skill catagory="programming" experience="2">PHP</skill>-->
 		<skill catagory="programming" experience="5">JavaScript</skill>
-		<skill catagory="programming" experience="5">code profiling and optimization</skill>
-		<skill catagory="programming" experience="5">software architecture</skill>
+		<skill catagory="programming" experience="5">code profiling &amp; optimization</skill>
+		<!--<skill catagory="programming" experience="5">software architecture</skill>-->
 	</group>
 
 	<!--<group heading="Microsoft software">
