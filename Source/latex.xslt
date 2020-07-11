@@ -46,7 +46,8 @@
 	\phone{\myphoneone}
 	\renewcommand*{\emailname}{{\small{}Email:}}
 	\email{\myemailone}
-	\website{\mywebsiteone}
+	\website{\mywebsiteoneshort}
+	\websitetwo{\mywebsitetwoshort}
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	% BEGIN DOCUMENT.
@@ -55,7 +56,7 @@
 	\pagestyle{lehorizontallinewpagenumber}
 	\begin{document}
 	\thispagestyle{lefooterhorizontalline}
-	\makeresumeheaderB
+	\makeresumeheaderC
 	
 	\catagory{Summary}
 	<xsl:apply-templates select="/resume/summary"/>

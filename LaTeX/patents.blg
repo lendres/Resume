@@ -1,7 +1,9 @@
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7380 64-bit)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: patents.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: leplain.bst
+Reallocating 'name_of_file' (item size: 1) to 3 items.
 number is already a type "field" function name
 ---line 40 of file leplain.bst
  :     number

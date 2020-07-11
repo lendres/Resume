@@ -14,6 +14,7 @@
 		<skill catagory="engineering" experience="">3D modeling</skill>
 		<skill catagory="engineering" experience="">additive manufacturing</skill>
 		<skill catagory="engineering" experience="">basic electronics &amp; microprocessors</skill>
+		<skill catagory="engineering" experience="">basic PCB design</skill>
 		<skill catagory="engineering" experience="">teaching</skill>
 		<skill catagory="engineering" experience="">technical writing</skill>
 	</group>
@@ -62,9 +63,10 @@
 		<skill catagory="software" experience="7">Lisa FEA</skill>
 		<skill catagory="software" experience="4">iSIGHT design optimization software</skill>
 		<skill catagory="software" experience="10">LaTeX</skill>
-		<skill catagory="software" experience="10">NX</skill>
+		<!--<skill catagory="software" experience="10">NX</skill>-->
 		<skill catagory="software" experience="10">Fusion 360</skill>
 		<skill catagory="software" experience="10">Ansys</skill>
+		<skill catagory="software" experience="10">KiCad</skill>
       <!--<skill catagory="software" experience="10">Teamcenter</skill>-->
 	</group>
 
