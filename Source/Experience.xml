@@ -2,16 +2,37 @@
 
 <experience>
 	<job>
+		<title>Founder and CEO</title>
+		<company id="ikosy"/>
+		<daterange>
+			<from>
+				<date month="March" monthnumber="3" year="2021"/>
+			</from>
+			<to>Current</to>
+		</daterange>
+		<description>
+			<p>Founded Ikosy Technologies with the goal of bringing easy to use desktop pick-and-place technology to the maker community.</p>
+			<!--<bulletedlist>
+				<item>
+				</item>
+				<item>
+				</item>
+			</bulletedlist>-->
+		</description>
+	</job>
+	<job>
 		<title>Principal Engineer</title>
 		<company id="aps-houston"/>
 		<daterange>
 			<from>
 				<date month="January" monthnumber="1" year="2014"/>
 			</from>
-			<to>Current</to>
+			<to>
+				<date month="June" monthnumber="6" year="2020"/>
+			</to>
 		</daterange>
 		<description>
-			<p>Areas of worked included drilling dynamics, drilling optimization, and data analysis and processing.</p>
+			<p>Areas of worked included drilling dynamics, drilling optimization, and data analysis.</p>
 			<bulletedlist>
 				<item>
 					Conducted an in-depth review of a proprietary drilling dynamics tool.  Review included available hardware sensors, calculations performed by the firmware, data file output, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented in a report which detailed the current status, where improvements could be made, and how to proceed with further testing and development of the device.
@@ -19,9 +40,6 @@
 				<item>
 					Developed data processing techniques and algorithms.  Implemented as a software package used to automate cleaning and processing of drilling data.
 				</item>
-				<!--<item>
-					Rewrote BHA analysis software to fix software issues and assess and repair sciencetific issues.
-				</item>-->
 				<item>
 					Rewrote drill string analysis software to fix software issues and assess and repair sciencetific issues.
 				</item>
@@ -65,8 +83,8 @@
 				<item>Designed and oversaw running of experiments in laboratory setting and on a full scale drill rig.</item>
 				<item>Analyzed and interpreted computer, laboratory, and drill rig data.</item>
 				<item>Developed software to post process a variety of disjointed laboratory and computer data types in a standardized, uniform way.</item>
-				<item>Trained new employees and directed the work of interns.</item>
-				<item>Served as a member of a cross-divisional numerical modeling and simulation committee.</item>
+				<!--<item>Trained new employees and directed the work of interns.</item>
+				<item>Served as a member of a cross-divisional numerical modeling and simulation committee.</item>-->
 			</bulletedlist>
         </description>
     </job>

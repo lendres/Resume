@@ -101,8 +101,12 @@
     </xsl:template>
 
     <xsl:template match="group">
-        <xsl:variable name="heading" select="@heading"/>
-        \item <xsl:value-of select="$heading"/><xsl:if test="$heading!=''">: </xsl:if>
+        <xsl:variable name="heading">
+			<xsl:call-template name="make-string-latex-compatible">
+				<xsl:with-param name="text" select="@heading"/>
+			</xsl:call-template>
+		</xsl:variable>
+		\item <xsl:value-of select="$heading"/><xsl:if test="$heading!=''">: </xsl:if>
 
         <xsl:variable name="count" select="count(skill)"/>
 

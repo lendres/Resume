@@ -22,6 +22,10 @@
 		</address>
 		<url>http://www.aps-tech.com</url>
 	</institution>
+
+	<institution id="chiepsilon" name="Chi Epsilon">
+		<description>National Civil Engineering Honor Society</description>
+	</institution>
 	
     <institution id="hcc" name="Baker Hughes" type="business">
         <address type="business">
@@ -45,6 +49,32 @@
         <url>http://www.burkett-wong.com</url>
     </institution>
 
+	<institution id="ikosy" name="Ikosy Technologies" type="business">
+		<address type="business">
+			<street>26531 Jules Ct</street>
+			<city>Spring</city>
+			<state>TX</state>
+			<zip>77386</zip>
+			<country>USA</country>
+		</address>
+		<url>http://www.ikosy.tech</url>
+	</institution>
+
+	<institution id="lambdaiotatau" name="Lambda Iota Tau">
+		<description>Lawrence Technological University Honor Society</description>
+	</institution>
+
+	<institution id="ltu" name="Lawrence Technological University" type="university">
+		<address type="university">
+			<street>21000 West Ten Mile Road</street>
+			<city>Southfield</city>
+			<state>MI</state>
+			<zip plusfour="1058">48075</zip>
+			<country>USA</country>
+		</address>
+		<url>http://www.ltu.edu</url>
+	</institution>
+
     <institution id="ses" name="Strategic Energy Solutions">
         <address type="business">
             <street>23237 Woodward Avenue</street>
@@ -67,6 +97,12 @@
         <url></url>
     </institution>
 
+	<institution id="spe" name="Society of Petroleum Engineers"/>
+
+	<institution id="taubetapi" name="Tau Beta Pi">
+		<description>National Engineering Honor Society</description>
+	</institution>
+
     <institution id="ucsd" name="University of California, San Diego" type="university">
         <address type="university">
             <street>9500 Gilman Dr</street>
@@ -76,31 +112,6 @@
             <country>USA</country>
         </address>
         <url>http://www.ucsd.edu</url>
-    </institution>
-
-    <institution id="ltu" name="Lawrence Technological University" type="university">
-        <address type="university">
-            <street>21000 West Ten Mile Road</street>
-            <city>Southfield</city>
-            <state>MI</state>
-            <zip plusfour="1058">48075</zip>
-            <country>USA</country>
-        </address>
-        <url>http://www.ltu.edu</url>
-    </institution>
-
-    <institution id="spe" name="Society of Petroleum Engineers"/>
-
-    <institution id="chiepsilon" name="Chi Epsilon">
-        <description>National Civil Engineering Honor Society</description>
-    </institution>
-
-    <institution id="taubetapi" name="Tau Beta Pi">
-        <description>National Engineering Honor Society</description>
-    </institution>
-    
-    <institution id="lambdaiotatau" name="Lambda Iota Tau">
-        <description>Lawrence Technological University Honor Society</description>
     </institution>
 
 </institutions>

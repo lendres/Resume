@@ -8,6 +8,7 @@ taskkill /IM FoxitPhantomPDF.exe
 echo.
 echo.
 echo.
+echo Making Resume-XSLT
 
 rem cd LaTeX
 

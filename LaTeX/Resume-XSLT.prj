@@ -5,8 +5,8 @@
 1
 Resume-XSLT.tex
 15
-9
-3
+8
+7
 
 
 
@@ -22,30 +22,30 @@ DATA
 C:\Custom Program Files\LaTeX\TeX\LaTeX\resume.cls
 DATA
 5243058 5 107 94 107 95 104 104 1426 739 1 822 627 94 272 1 0 1 116 116 1 1 0 95 107   0
-Resume-XSLT.tex
-TeX
-403714043 1 -1 1096 -1 1033 32 32 1385 631 0 22 475 -1 -1 0 0 0 -1 -1 0 1 0 1033 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lepageformat.sty
 TeX:DTX
-5255099 1 -1 103 -1 0 198 261 1102 810 0 22 -46 -1 -1 0 0 93 -1 -1 93 1 0 0 -1   0
+5255099 1 -1 103 -1 0 198 261 1102 810 0 22 0 -1 -1 0 0 93 -1 -1 93 1 0 0 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
 5255099 0 -1 3899 -1 2918 52 52 1374 687 0 86 551 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lelists.sty
 TeX:DTX
-5255163 0 -1 3978 -1 3795 130 130 1452 765 0 150 2432 -1 -1 0 0 13 -1 -1 13 1 0 3795 -1   0
+5255163 0 -1 3978 -1 3795 130 130 1452 765 0 150 874 -1 -1 0 0 13 -1 -1 13 1 0 3795 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
 TeX:DTX
 5255163 0 -1 1981 -1 1913 0 0 1322 635 0 126 627 -1 -1 0 0 95 -1 -1 95 1 0 1913 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
 TeX:DTX
-5255099 0 -1 1097 -1 1098 26 26 1348 661 0 502 532 -1 -1 0 0 24 -1 -1 24 1 0 1098 -1   0
+273690555 0 -1 847 -1 911 26 26 1348 661 0 518 456 -1 -1 0 0 24 -1 -1 24 1 0 911 -1   0
+Resume-XSLT.tex
+TeX
+420491259 0 -1 9234 -1 7137 32 32 1385 631 0 62 -635 -1 -1 0 0 0 -1 -1 0 1 0 7137 -1   0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat CloseDoc.edt
 ASCII:EDT
-269494138 7 35 1589 35 1 160 160 1513 759 1 80 805 -1 -1 0 0 21 0 0 21 1 0 1 35   0
+269494138 7 35 1592 35 1 160 160 1513 759 1 70 665 -1 -1 0 0 21 0 0 21 1 0 1 35   0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat OpenDoc.edt
 ASCII:EDT
-269494138 7 80 1589 80 1 96 96 1449 695 1 80 828 -1 -1 0 0 21 0 0 21 1 0 1 80   0
+269494138 7 80 1592 80 1 96 96 1449 695 1 70 817 -1 -1 0 0 21 0 0 21 1 0 1 80   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lesections.sty
 TeX:DTX
 273690555 0 -1 9164 -1 8693 176 232 1080 781 0 62 289 -1 -1 0 0 99 -1 -1 99 1 0 8693 -1   0

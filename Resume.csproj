@@ -38,7 +38,7 @@
     <Content Include="Source\common.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\Experience for Outside Oil and Gas.xml">
+    <Content Include="Archived\Experience for Outside Oil and Gas.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Archived\Experience with Language Info.xml">
@@ -51,7 +51,7 @@
     </Content>
     <Content Include="Source\Institutions.xml" />
     <Content Include="Source\Journals.xml" />
-    <Content Include="Source\Keywords for Outside Oil and Gas.xml">
+    <Content Include="Archived\Keywords for Outside Oil and Gas.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Keywords.xml" />
@@ -64,13 +64,13 @@
     <Content Include="Source\Publications.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\Resume for Outside Oil and Gas.xml">
+    <Content Include="Archived\Resume for Outside Oil and Gas.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Resume.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\Skills for Outside Oil and Gas.xml" />
+    <Content Include="Archived\Skills for Outside Oil and Gas.xml" />
     <Content Include="Source\Skills.xml" />
     <Content Include="Source\Summary.xml" />
     <Content Include="Source\text.xslt">
