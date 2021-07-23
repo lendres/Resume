@@ -4,9 +4,9 @@
 1
 1
 Resume-XSLT.tex
-15
+16
+8
 7
-2
 
 
 
@@ -15,31 +15,34 @@ Resume-XSLT.tex
 
 C:\Custom Program Files\LaTeX\bibtex\bib\le.bib
 BibTeX
-1049523 0 1032 19 531 31 78 78 1400 713 1 366 380 -1 -1 0 0 60 0 0 60 1 0 31 531   0
+1049523 0 1032 19 531 19 78 78 1400 713 1 302 380 -1 -1 0 0 60 0 0 60 1 0 19 531   0
 C:\Custom Program Files\LaTeX\bibtex\bst\leplain.bst
 DATA
 5243122 0 595 21 590 20 0 0 1322 635 1 222 646 -1 -1 0 0 45 0 0 45 1 0 20 590   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lepageformat.sty
 TeX:DTX
-273690555 1 -1 103 -1 0 198 261 1102 810 0 22 0 -1 -1 0 0 93 -1 -1 93 1 0 0 -1   0
+5255099 1 -1 103 -1 0 198 261 1102 810 0 22 0 -1 -1 0 0 93 -1 -1 93 1 0 0 -1   0
+Resume-XSLT.tex
+TeX
+152055803 0 -1 9234 -1 393 32 32 1385 631 0 230 190 -1 -1 0 0 0 -1 -1 0 1 0 393 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
-5255099 0 -1 3899 -1 2918 52 52 1374 687 0 86 551 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0
+5255099 0 -1 3899 -1 2918 52 52 1374 687 0 78 551 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lelists.sty
 TeX:DTX
-5255163 0 -1 3978 -1 3795 130 130 1452 765 0 150 874 -1 -1 0 0 13 -1 -1 13 1 0 3795 -1   0
+5255163 0 -1 3978 -1 3795 130 130 1452 765 0 150 798 -1 -1 0 0 13 -1 -1 13 1 0 3795 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
 TeX:DTX
 5255163 0 -1 1981 -1 1913 0 0 1322 635 0 126 627 -1 -1 0 0 95 -1 -1 95 1 0 1913 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
 TeX:DTX
-5255099 0 -1 847 -1 911 26 26 1348 661 0 518 456 -1 -1 0 0 24 -1 -1 24 1 0 911 -1   0
+273690554 5 3 31 3 32 26 26 1348 661 0 270 57 -1 -1 0 0 25 0 0 25 1 0 32 3   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\myaddresses.sty
+TeX:DTX
+273690619 1 -1 111 -1 1134 0 0 1348 583 0 446 570 -1 -1 0 0 -1 -1 -1 -1 1 0 1134 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\resume.cls
 DATA
 273678514 5 107 94 107 95 104 104 1426 739 1 822 627 94 272 1 0 1 116 116 1 1 0 95 107   0
-Resume-XSLT.tex
-TeX
-420491259 0 -1 9234 -1 7137 32 32 1385 631 0 62 -635 -1 -1 0 0 0 -1 -1 0 1 0 7137 -1   0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat CloseDoc.edt
 ASCII:EDT
 269494138 7 35 1592 35 1 160 160 1513 759 1 70 665 -1 -1 0 0 21 0 0 21 1 0 1 35   0
