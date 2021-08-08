@@ -4,9 +4,9 @@
 1
 1
 Resume-XSLT.tex
-16
+13
 8
-7
+3
 
 
 
@@ -24,7 +24,7 @@ TeX:DTX
 5255099 1 -1 103 -1 0 198 261 1102 810 0 22 0 -1 -1 0 0 93 -1 -1 93 1 0 0 -1   0
 Resume-XSLT.tex
 TeX
-152055803 0 -1 9234 -1 393 32 32 1385 631 0 230 190 -1 -1 0 0 0 -1 -1 0 1 0 393 -1   0
+420491259 0 -1 26 -1 21 32 32 1385 631 0 190 0 -1 -1 0 0 0 -1 -1 0 1 0 21 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
 5255099 0 -1 3899 -1 2918 52 52 1374 687 0 78 551 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0
@@ -36,13 +36,7 @@ TeX:DTX
 5255163 0 -1 1981 -1 1913 0 0 1322 635 0 126 627 -1 -1 0 0 95 -1 -1 95 1 0 1913 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
 TeX:DTX
-273690554 5 3 31 3 32 26 26 1348 661 0 270 57 -1 -1 0 0 25 0 0 25 1 0 32 3   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\myaddresses.sty
-TeX:DTX
-273690619 1 -1 111 -1 1134 0 0 1348 583 0 446 570 -1 -1 0 0 -1 -1 -1 -1 1 0 1134 -1   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\resume.cls
-DATA
-273678514 5 107 94 107 95 104 104 1426 739 1 822 627 94 272 1 0 1 116 116 1 1 0 95 107   0
+5255098 5 3 31 3 32 26 26 1348 661 0 270 57 -1 -1 0 0 25 0 0 25 1 0 32 3   0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat CloseDoc.edt
 ASCII:EDT
 269494138 7 35 1592 35 1 160 160 1513 759 1 70 665 -1 -1 0 0 21 0 0 21 1 0 1 35   0
@@ -58,8 +52,5 @@ DATA
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lefontsizes.sty
 TeX:DTX:UNIX
 273788859 0 -1 0 -1 0 132 174 1062 772 0 22 0 -1 -1 0 0 84 -1 -1 84 1 0 0 -1   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\contentsindexbibformat.sty
-TeX:DTX
-290467771 0 -1 8784 -1 8784 0 0 952 549 0 254 1173 -1 -1 0 0 -1 -1 -1 -1 1 0 8784 -1   0
 
 *Resume-XSLT.tex
