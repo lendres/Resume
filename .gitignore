@@ -1,3 +1,21 @@
+# Temporary and output files and folders
+.vs/
+bin/
+obj/
+
+TestResults/
+
+*.suo
+*.pdb
+*.aux
+*.bbl
+*.dvi
+*.log
+*.bak
+
+*.dvi
+*.pdf
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -41,17 +59,3 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-
-.vs/
-bin/
-obj/
-
-TestResults/
-
-*.suo
-*.pdb
-*.aux
-*.bbl
-*.dvi
-*.log
-*.bak
