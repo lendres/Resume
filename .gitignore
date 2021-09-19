@@ -12,6 +12,7 @@ TestResults/
 *.dvi
 *.log
 *.bak
+*.out
 
 *.dvi
 *.pdf
