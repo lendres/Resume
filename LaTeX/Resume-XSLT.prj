@@ -4,15 +4,21 @@
 1
 1
 Resume-XSLT.tex
-13
-8
-3
+14
+1
+0
 
 
 
 
 
 
+C:\Custom Program Files\LaTeX\TeX\LaTeX\lelistofnotations.sty
+TeX:DTX
+273690619 0 -1 478 -1 564 0 0 1348 583 0 422 266 -1 -1 0 0 -1 -1 -1 -1 1 0 564 -1   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\lelists.sty
+TeX:DTX
+273690619 1 -1 1035 -1 1007 130 130 1452 765 0 22 304 -1 -1 0 0 13 -1 -1 13 1 0 1007 -1   0
 C:\Custom Program Files\LaTeX\bibtex\bib\le.bib
 BibTeX
 1049523 0 1032 19 531 18 78 78 1400 713 1 302 380 -1 -1 0 0 60 0 0 60 1 0 18 531   0
@@ -28,9 +34,6 @@ TeX
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
 5255099 0 -1 3899 -1 2918 52 52 1374 687 0 78 513 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\lelists.sty
-TeX:DTX
-5255163 0 -1 3978 -1 3795 130 130 1452 765 0 150 513 -1 -1 0 0 13 -1 -1 13 1 0 3795 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
 TeX:DTX
 5255163 0 -1 1981 -1 1913 0 0 1322 635 0 126 513 -1 -1 0 0 95 -1 -1 95 1 0 1913 -1   0
