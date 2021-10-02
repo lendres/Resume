@@ -80,6 +80,9 @@
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="LaTeX\Make Resume.bat" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="Build">
     <Copy SourceFiles="@(Content)" DestinationFiles="@(Content->'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />

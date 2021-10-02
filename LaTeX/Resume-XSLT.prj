@@ -5,8 +5,8 @@
 1
 Resume-XSLT.tex
 14
+2
 1
-0
 
 
 
@@ -15,7 +15,10 @@ Resume-XSLT.tex
 
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lelistofnotations.sty
 TeX:DTX
-273690619 0 -1 478 -1 564 0 0 1348 583 0 422 266 -1 -1 0 0 -1 -1 -1 -1 1 0 564 -1   0
+5255163 0 -1 478 -1 564 0 0 1348 583 0 422 266 -1 -1 0 0 140 -1 -1 140 1 0 564 -1   0
+Resume-XSLT.tex
+TeX
+420491259 0 -1 26 -1 21 32 32 1385 631 0 174 19 -1 -1 0 0 0 -1 -1 0 1 0 21 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lelists.sty
 TeX:DTX
 273690619 1 -1 1035 -1 1007 130 130 1452 765 0 22 304 -1 -1 0 0 13 -1 -1 13 1 0 1007 -1   0
@@ -28,9 +31,6 @@ DATA
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lepageformat.sty
 TeX:DTX
 5255099 1 -1 103 -1 0 198 261 1102 810 0 22 0 -1 -1 0 0 93 -1 -1 93 1 0 0 -1   0
-Resume-XSLT.tex
-TeX
-420491259 0 -1 26 -1 21 32 32 1385 631 0 190 0 -1 -1 0 0 0 -1 -1 0 1 0 21 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
 5255099 0 -1 3899 -1 2918 52 52 1374 687 0 78 513 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0

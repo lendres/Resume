@@ -12,13 +12,13 @@
 	<xsl:output indent="yes" method="text"/>
 
 	<xsl:template match="/">
-    \documentclass{resume}
+    \documentclass{leresume}
     \usepackage{lelists}
     \setlength{\listtopsep}{0pt}
     \setlength{\leftlistindent}{0pt}
 	\setlength{\rightlistindent}{0pt}
 
-    \usepackage{subscripts}
+    \usepackage{lesubscripts}
     \usepackage{lehyperlink}
     \usepackage{leheadersandfooters}
 

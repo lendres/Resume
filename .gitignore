@@ -13,6 +13,7 @@ TestResults/
 *.log
 *.bak
 *.out
+*.blg
 
 *.dvi
 *.pdf
