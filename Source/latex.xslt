@@ -16,6 +16,7 @@
     \usepackage{lelists}
     \setlength{\listtopsep}{0pt}
     \setlength{\leftlistindent}{0pt}
+	\setlength{\listlevelleftindent}{12pt}
 	\setlength{\rightlistindent}{0pt}
 
     \usepackage{lesubscripts}
@@ -240,7 +241,7 @@
 					\newpage{}
 			</xsl:if>-->
 		</xsl:for-each>
-		\vspace*{-8pt}
+		\vspace*{-20pt}
 	</xsl:template>
 
 	<xsl:template name="job-description">
@@ -253,11 +254,11 @@
 		\begin{bulletedlist}
 			<xsl:apply-templates select="*"/>
 		\end{bulletedlist}
-			\vspace*{-12pt}
 	</xsl:template>
 	
 	<xsl:template match="item">
 		\item <xsl:value-of select="text()"/>
+		<xsl:apply-templates select="*"/>
 	</xsl:template>
 	
 	<xsl:template match="from">

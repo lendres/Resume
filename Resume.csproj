@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Archived\2021-10-17 Experience.xml" />
+    <Content Include="Archived\2021-10-17 Keywords.xml" />
+    <Content Include="Archived\2021-10-17 Summary.xml" />
     <Content Include="Command Line Arguments.txt" />
     <Content Include="HTML\resume.css" />
     <Content Include="Source\Bibliography.xml" />

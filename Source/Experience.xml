@@ -32,29 +32,20 @@
 			</to>
 		</daterange>
 		<description>
-			<p>Areas of worked included drilling dynamics, drilling optimization, and data analysis.</p>
+			<p>Areas of work included drilling dynamics, drilling optimization, and data analysis.</p>
 			<bulletedlist>
 				<item>
-					Conducted an in-depth review of a proprietary drilling dynamics tool.  Review included available hardware sensors, calculations performed by the firmware, data file output, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented in a report which detailed the current status, where improvements could be made, and how to proceed with further testing and development of the device.
+					Developed an FEA based software that calculates deflections, stresses, natural frequencies, and mode shapes of a drill string.  The software is used to assess the bending capabilities and stress limits of tools and drill strings for use in directional drilling applications.  It is also used to ensure natural frequencies are not excited (avoid resonance) and to assess changes in mode shapes that occur from different tool designs.
 				</item>
 				<item>
-					Developed data processing techniques and algorithms.  Implemented as a software package used to automate cleaning and processing of drilling data.
+					Developed specialized data processing techniques and algorithms used to automate cleaning and processing of drilling data.  The software removes corrupted data points and separates the data into drilling versus non-drilling (standby) time.  Reduced the process from an hour to a minute.
 				</item>
 				<item>
-					Wrote an FEA based software application used for engineering analysis of drill strings.
+					Developed generalized plotting software designed to work with data from any downhole tool.  Software is immune to changes in firmware, easily adaptable to new tools, has error handling for corrupted data, and automatic conversion of units.  The industry lacks standards for data handling, so similar data is often stored differently, even within a company.  Before I solved this issue, three others at APS had tried and failed to find a solution.
 				</item>
 				<item>
-					Developed generalized plotting software designed to work with data from any downhole tool.  Software needed to be immune to changes in firmware, easily adapt to new tool output, and have error handling for corrupted data.  Consisted of a data translation and validation library (custom written) combined with INT's WellLog plotting library.
+					Conducted an in-depth review of a proprietary drilling dynamics tool that uses magnetorheological fluid to adjust the damping properties of the tool.  Review included sensor capabilities, calculations performed by the firmware, data produced, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented and recommendations made on how to proceed with further testing and development of the device.
 				</item>
-				<item>
-					Provided recommendations on developing a path to full drilling automation.  Contributions included assessing available resources, assessing currently available technology, and determining what technology needs to be developed.
-				</item>
-				<!--<item>
-					Developed an architecture for all of the drilling optimization and automation software.
-				</item>
-				<item>
-					Taught drilling dynamics and mechanics, object oriented design practices, and .Net Framework.
-				</item>-->
 			</bulletedlist>
 		</description>
 	</job>
@@ -70,102 +61,36 @@
 				<date month="November" monthnumber="11" year="2013"/>
             </to>
         </daterange>
-        <description>
+		<description>
 			<p>
 				Conducted research in the areas of drilling mechanics and dynamics.  Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.
 			</p>
 			<bulletedlist>
 				<item>
-					Developed an advanced, proprietary computational dynamics application used to predict and analyze the dynamic behavior of drill bits, forces acting on cutters, cutting/bottom hole patterns, and AKO kinematics.  Was responsible for software design and architecture, algorithms, implementation and accuracy of physics, project schedule, deliverables, and budget.  Led a team based in Russia to continue the development of the software.</item>
-				<item>Researcher working to advance understanding of torsional and lateral drilling dynamics through a series of computer, laboratory, and full scale drill rig experiments.</item>
-				<item>Developed a laboratory analysis technique to improve understanding of lateral bit dynamics and precisely define backward whirl.</item>
-				<item>Developed new techniques for designing drill bits to prevent lateral vibrations both in the new and worn states.</item>
+					Developed an advanced, proprietary computational dynamics application used to predict and analyze the dynamic behavior of drill bits.  Was responsible for implementation and accuracy of physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
+					<bulletedlist>
+						<item>
+							The software models the physics of the drill bit removing rock material.
+						</item>
+						<item>
+							The software is parallelized by use of multiple threads to speed up the simulation.  I created a clever technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes.
+						</item>
+						<item>
+							Developed a technique to reduce the cost of solving the inverse problem by an order of magnitude.
+						</item>
+						<item>Lead a software development team based in Russia.</item>
+					</bulletedlist>
+				</item>
+
+
+				<item>Developed a laboratory analysis technique to improve understanding of lateral bit dynamics.  The technique is a physics-based approach that replaced the previous assumption based method.  The new method lets engineers better interpret the results of laboratory tests.</item>
+				<item>Improved theoretical understanding of lateral drill bit vibrations.  Used this understanding to create new techniques for designing drill bits.  These techniques let engineers design bits directly rather than requiring hundreds of computer simulations to find a solution.</item>
 				<item>Designed and oversaw running of experiments in laboratory setting and on a full-scale drill rig.</item>
 				<item>Analyzed and interpreted computer, laboratory, and drill rig data.</item>
-				<item>Developed software to post-process a variety of disjointed laboratory and computer data types in a standardized, uniform way.</item>
-				<!--<item>Trained new employees and directed the work of interns.</item>
-				<item>Served as a member of a cross-divisional numerical modeling and simulation committee.</item>-->
+				<item>Developed software to post process a variety of disjointed laboratory and computer data types in a standardized, uniform way.</item>
+
 			</bulletedlist>
-        </description>
+		</description>
     </job>
-    <!--<job>
-        <title>Structural Engineer</title>
-        <company id="burkettwong"/>
-        <daterange>
-            <from>
-                <date month="August" monthnumber="8" year="2005"/>
-            </from>
-            <to>
-                <date month="January" monthnumber="1" year="2006"/>
-            </to>
-        </daterange>
-        <description>
-            <p>Performed load calculations, checked drawings.</p>
-        </description>
-    </job>
-    <job>
-        <title>Graduate Student Researcher</title>
-        <company id="ucsd"/>
-        <daterange>
-            <from>
-                <date month="September" monthnumber="9" year="2002"/>
-            </from>
-            <to>
-				<date month="December" monthnumber="12" year="2005"/>
-            </to>
-        </daterange>
-        <description>
-            <p>Performed research in the area of computational mechanics and numerical integration.</p>
-        </description>
-    </job>
-    <job>
-        <title>Teaching Assistant</title>
-        <company id="ucsd"/>
-        <daterange>
-            <from>
-                <date month="September" monthnumber="9" year="2001"/>
-            </from>
-            <to>
-                <date month="June" monthnumber="6" year="2002"/>
-            </to>
-        </daterange>
-        <description>
-            <p>
-				Wrote exams, graded homework and exams, held office hours, and lectured classes when the professor
-				was unavailable.  Specifically requested by several students to be their T.A.\ because of 
-				performance as their T.A.\ in a prior class.
-			</p>
-        </description>
-    </job>
-	<job>
-        <title>C.A.D. Manager</title>
-        <company id="ses"/>
-        <daterange>
-            <from>
-                <date month="November" monthnumber="11" year="1998"/>
-            </from>
-            <to>
-                <date month="September" monthnumber="9" year="2000"/>
-            </to>
-        </daterange>
-        <description>
-            <p>
-				Created high quality, professional engineering drawings, conducted training, established 
-				and maintained C.A.D. standards, and wrote productivity software for AutoCAD.
-			</p>
-        </description>
-    </job>
-    <job>
-        <title>C.A.D. Operator</title>
-        <company id="sed"/>
-        <daterange>
-            <from>
-                <date month="June" monthnumber="6" year="1996"/>
-            </from>
-            <to>
-                <date month="November" monthnumber="11" year="1998"/>
-            </to>
-        </daterange>
-        <description></description>
-    </job>-->
+	
 </experience>
