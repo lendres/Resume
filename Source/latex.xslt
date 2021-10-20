@@ -226,7 +226,7 @@
 			<xsl:variable name="desc" select="description"/>
 			<xsl:choose>
 				<xsl:when test="$desc!=''">
-					\noindent <xsl:call-template name="job-description"><xsl:with-param name="description" select="$desc"/></xsl:call-template>\hspace*{0pt}\\ \vspace*{-2pt}
+					\noindent <xsl:call-template name="job-description"><xsl:with-param name="description" select="$desc"/></xsl:call-template>
 				</xsl:when>
 				<!-- 
 					If we don't have a description, then adjust the spacing to match the entries that do have
@@ -241,7 +241,6 @@
 					\newpage{}
 			</xsl:if>-->
 		</xsl:for-each>
-		\vspace*{-20pt}
 	</xsl:template>
 
 	<xsl:template name="job-description">
@@ -260,7 +259,15 @@
 		\item <xsl:value-of select="text()"/>
 		<xsl:apply-templates select="*"/>
 	</xsl:template>
+
+	<xsl:template match="bold">
+		\textbf{<xsl:value-of select="text()"/>}
+	</xsl:template>
 	
+	<xsl:template match="italic">
+		\textit{<xsl:value-of select="text()"/>}
+	</xsl:template>
+
 	<xsl:template match="from">
 		<xsl:apply-templates select="*"/>
 	</xsl:template>
