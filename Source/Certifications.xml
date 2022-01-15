@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <certifications>
+	<!--<certification>
+		<title>Artificial Intelligence and Machine Learning</title>
+		<organization>University of Texas</organization>
+		<date month="July" year="2022"/>
+		<address>
+			<city>Austin</city>
+			<state>TX</state>
+			<zip>78712</zip>
+			<country>USA</country>
+		</address>
+	</certification>-->
 	<certification>
         <title>Engineer in Training (E.I.T./F.E. Exam)</title>
         <date month="April" year="1999"/>

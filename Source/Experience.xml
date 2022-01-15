@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <experience>
-	<!--<job>
+	<job>
 		<title>Founder and President</title>
 		<company id="ikosy"/>
 		<daterange>
@@ -12,14 +12,19 @@
 		</daterange>
 		<description>
 			<p>Founded Ikosy Technologies to bring easy to use desktop pick-and-place technology to the maker community.</p>
-			--><!--<bulletedlist>
+			<bulletedlist>
 				<item>
+					Identified the business opportunity and formulated the business plan.
 				</item>
 				<item>
+					Recruited a team of founders who each bring a unique skill set.
 				</item>
-			</bulletedlist>--><!--
+				<item>
+					Designed a desktop sized pick-and-place machine.
+				</item>
+			</bulletedlist>
 		</description>
-	</job>-->
+	</job>
 	<job>
 		<title>Principal Engineer</title>
 		<company id="aps-houston"/>

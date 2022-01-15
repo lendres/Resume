@@ -15,7 +15,9 @@
 		<skill catagory="programming" experience="10">C</skill>
 		<skill catagory="programming" experience="10">C++</skill>
 		<skill catagory="programming" experience="10">C#</skill>
+		<skill catagory="programming" experience="10">Python</skill>
 		<skill catagory="programming" experience="10">.NET Framework</skill>
+		<skill catagory="programming" experience="5">software architecture</skill>
 		<skill catagory="programming" experience="10">Visual Basic</skill>
 		<skill catagory="programming" experience="10">Fortran</skill>
 		<skill catagory="programming" experience="10">AutoLISP</skill>
@@ -33,10 +35,9 @@
 		<skill catagory="programming" experience="2">PHP</skill>
 		<skill catagory="programming" experience="5">JavaScript</skill>
 		<skill catagory="programming" experience="5">code profiling and optimization</skill>
-		<skill catagory="programming" experience="5">software architecture</skill>
 	</group>
 
-	<!--<group heading="Microsoft software">
+	<group heading="Microsoft software">
 		<skill catagory="software" experience="10">Windows</skill>
 		<skill catagory="software" experience="10">Word</skill>
 		<skill catagory="software" experience="10">Excel</skill>
@@ -44,23 +45,25 @@
 		<skill catagory="software" experience="5">Project</skill>
 		<skill catagory="software" experience="5">Access</skill>
 		<skill catagory="software" experience="10">Outlook</skill>
-	</group>-->
+	</group>
 
 	<!--<group heading="Other software">-->
 	<group heading="Software">
+		<skill catagory="software" experience="10">Matlab</skill>
 		<skill catagory="software" experience="10">Visual Studio</skill>
 		<skill catagory="software" experience="10">AutoCAD</skill>
-		<skill catagory="software" experience="10">Matlab</skill>
-		<skill catagory="software" experience="10">TortoiseSVN/CVS</skill>
 		<skill catagory="software" experience="10">GitHub</skill>
 		<!--<skill catagory="software" experience="7">SAP 2000</skill>
 		<skill catagory="software" experience="7">RISA-3D</skill>
 		<skill catagory="software" experience="7">Lisa FEA</skill>
 		<skill catagory="software" experience="4">iSIGHT design optimization software</skill>-->
 		<skill catagory="software" experience="10">LaTeX</skill>
-		<skill catagory="software" experience="10">NX</skill>
 		<skill catagory="software" experience="10">Fusion 360</skill>
 		<skill catagory="software" experience="10">Solidworks</skill>
+		<skill catagory="software" experience="10">KiCad</skill>
+		<skill catagory="software" experience="10">Photoshop</skill>
+		<!--<skill catagory="software" experience="10">NX</skill>-->
+		<skill catagory="software" experience="10">TortoiseSVN/CVS</skill>
 		<skill catagory="software" experience="10">Ansys</skill>
       <!--<skill catagory="software" experience="10">Teamcenter</skill>-->
 	</group>

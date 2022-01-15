@@ -114,4 +114,15 @@
         <url>http://www.ucsd.edu</url>
     </institution>
 
+	<institution id="utexas" name="University of Texas" type="university">
+		<address type="university">
+			<street>110 Inner Campus Dr</street>
+			<city>Austin</city>
+			<state>TX</state>
+			<zip>78712</zip>
+			<country>USA</country>
+		</address>
+		<url>http://www.utexas.edu</url>
+	</institution>
+
 </institutions>

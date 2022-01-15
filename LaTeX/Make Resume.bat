@@ -10,14 +10,11 @@ echo.
 echo.
 echo Making Resume-XSLT
 
-rem cd LaTeX
 
 echo Do pdfLaTeX...
 pdflatex "Resume-XSLT.tex"
 
 
-echo.
-echo.
 echo.
 echo.
 echo.
@@ -31,8 +28,6 @@ bibtex "publications"
 bibtex "patents"
 
 
-echo.
-echo.
 echo.
 echo.
 echo.
@@ -55,12 +50,6 @@ rem start "" /max "C:\Program Files\Adobe\Reader 9.0\Reader\AcroRd32.exe" /A "pa
 start Resume-XSLT.pdf
 
 
-echo Do LaTeX...
-rem latex "Resume-XSLT.tex" -output-format dvi --src
-
-
 echo.
 echo Done!
-
-
 rem pause
