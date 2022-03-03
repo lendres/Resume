@@ -53,8 +53,10 @@
 	<group heading="Software">
 		<skill catagory="software" experience="10">Matlab</skill>
 		<skill catagory="software" experience="10">Visual Studio</skill>
+		<skill catagory="software" experience="10">Spyder</skill>
+		<skill catagory="software" experience="10">Jupyter Notebooks</skill>
 		<skill catagory="software" experience="10">AutoCAD</skill>
-		<skill catagory="software" experience="10">GitHub</skill>
+		<skill catagory="software" experience="8">GitHub</skill>
 		<!--<skill catagory="software" experience="7">SAP 2000</skill>
 		<skill catagory="software" experience="7">RISA-3D</skill>
 		<skill catagory="software" experience="7">Lisa FEA</skill>-->
