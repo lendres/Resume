@@ -1,0 +1,103 @@
+Lance A. Endres, Ph.D.
+
+Summary:
+An experienced research and development engineer. Creative thinker with a track record of solving problems no one else could. Experienced project manager and team leader who is well versed in working on projects with internationally based teams.
+
+Areas of Expertise:
+Modeling, Simulation, Machine Learning, Artificial Intelligence, Computational Mechanics, Computational Dynamics, Algorithm Development, Data Processing, Analysis, and Interpretation, Software Development, Software Architecture, Numerical Integration, Research, Drilling Dynamics
+
+Experience:
+March 2021 to Current
+Founder and President
+Ikosy Technologies
+Spring, TX  77386
+Founded Ikosy Technologies to bring easy to use desktop pick-and-place technology to the maker community.
+- Identified the business opportunity and formulated the business plan.
+- Recruited a team of founders who each bring a unique skill set.
+- Designed a desktop sized pick-and-place machine.
+
+
+January 2014 to June 2020
+Principal Engineer
+APS Technology
+Houston, TX  77032
+Areas of work included drilling dynamics, drilling optimization, and data analysis.
+- Developed an FEA based software that calculates deflections, stresses, natural frequencies, and mode shapes of a drill string. The software is used to assess the bending capabilities and stress limits of tools and drill strings, ensure natural frequencies are not excited and to assess the consequences of design changes.
+- Developed specialized data processing techniques and algorithms used to automate cleaning and processing of drilling data. The software removes corrupted data points and separates the data into drilling versus non-drilling (standby) time. Reduced the process from an hour to a minute.
+- Developed generalized plotting software designed to work with data from any downhole tool. Software is immune to changes in firmware, easily adaptable to new tools, has error handling for corrupted data, and automatic conversion of units. The industry lacks standards for data handling, so similar data is often stored differently, even within a company. Before I solved this issue, three others at APS had tried and failed to find a solution.
+
+
+January 2006 to November 2013
+Researcher in Drilling Mechanics and Dynamics
+Baker Hughes
+Houston, TX  77019
+Conducted research in the areas of drilling mechanics and dynamics. Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.
+- Developed an advanced, proprietary computer model used to predict and analyze the dynamic behavior of drill bits. Was responsible for the physics, software design and architecture, algorithms, project schedule, deliverables, and budget. The software models the physics of a drill bit removing rock material. The software is multi-threaded to speed up the simulation through parallelization. I created a clever technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes. The physics model is calibrated to laboratory data by solving the inverse problem. I developed a technique to reduce the cost of solving by an order of magnitude.Lead the Russia based software development team.
+- Improved theoretical understanding of lateral drill bit vibrations. Used this understanding to create new techniques for designing drill bits. These techniques let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution. This saved time and money.
+- Developed a technique used to interpret laboratory data. The technique is a physics-based approach that replaced the previous assumption-based method.
+- Designed and oversaw the running of experiments in a laboratory setting and on a full-scale drill rig.
+
+
+
+
+Education:
+December 2007
+Ph.D. in Structural Engineering
+University of California, San Diego
+La Jolla, CA  92093
+
+December 2004
+M.S. in Structural Engineering
+University of California, San Diego
+La Jolla, CA  92093
+
+May 1999
+B.S. in Civil Engineering
+Lawrence Technological University
+Southfield, MI  48075
+
+July 2022
+Post Graduate Program in Artificial Intelligence and Machine Learning
+University of Texas
+Austin, TX  78712
+
+
+
+Publications:
+[1] L. Endres and P. Krysl.  Refinement of Finite Element Approximations on Tetrahedral Meshes Using Charms.  In Seventh U.S. National Congress on Computational Mechanics, Albuquerque, NM, July 2003.
+
+[2] L. Endres and P. Krysl.  Octasection-based refinement of finite element approximations on tetrahedral meshes that guarantees shape quality.  Int J for Numer Meth in Eng, 59 (1) , 2004.
+
+[3] P. Krysl and L. Endres.  Explicit Newmark/Verlet Algorithm for Time Integration of the Rotational Dynamics of Rigid Bodies.  Int J for Numer Meth in Eng, 62 (15) , 2005.
+
+[4] L. Endres and P. Krysl.  Second-Order Explicit Integrator Via Composition for Coupled Rotating Rigid Bodies Applied to Roller Cone Drill Bits.  Commun Numer Meth in Eng, 24 (12) , 2007.
+
+[5] Lanson Adam Endres.  Computation Modeling of Drill Bits: A New Method for Reproducing Bottom Hole Geometry and a Second-Order Explicit Integrator via Composition for Coupled Rotating Rigid Bodies.  PhD thesis, University of California, San Diego, La Jolla, CA, December, 2007.
+
+[6] T. Schwefe and L. Ledgerwood and J. Jain and D. Fuselier and L. Endres and H. Oueslati.  Development and Testing of Stick/Slip-Resistant PDC Bits.  In SPE Drilling Conference and Exhibition, Fort Worth, TX,  2014.
+
+[7] L. Endres.  Signal Segmentation Algorithm of Radhakrishnan, et al. Ported to C and C#.  Code Project, online article, June, 2015.
+		
+
+Patents:
+[1] Drill bit with distributed force profile.  Lance A. Endres and Gregory C. Prevost and Tyler R. Reynolds.  U.S. Patent 20130008724, filed June 14, 2012.
+
+[2] METHODS OF DESIGNING EARTH-BORING TOOLS USING A PLURALITY OF WEAR STATE VALUES AND RELATED METHODS OF FORMING EARTH-BORING TOOLS.  Lance A. Endres and Tyler R. Reynolds and Gregory C. Prevost.  U.S. Patent 201300835902, filed August 5, 2011.
+
+[3] METHODS OF DESIGNING EARTH-BORING TOOLS USING A PLURALITY OF DEPTH OF CUT VALUES AND RELATED METHODS OF FORMING EARTH-BORING TOOLS.  Gregory C. Prevost and Lance A. Endres and Tyler R. Reynolds.  U.S. Patent 20130035903, filed August 5, 2011.
+
+[4] Method to mitigate bit induced vibrations by intentionally modifying mode shapes of drill strings by mass or stiffness changes.  Andreas Hohl and Mathias Tergeist and Hatem Oueslati and Christian Herbig and Jayesh J. Jain and Hanno Reckmann and Lance A. Endres.  U.S. Patent 20150122547, filed November 1, 2013.
+
+
+
+Skills:
+Research and Engineering: design of laboratory experiments, algorithm design, stability analysis, signal processing, FEA, CFD (basic), plasticity, and structural engineering.
+                        
+Modeling and Simulation: data analysis, data cleaning, scikit-learn, pandas, numpy, and XGBoost.
+                        
+Programming: C, C++, C#, Python, .NET Framework, software architecture, Visual Basic, Fortran, AutoLISP, threading (POSIX and .NET), XML, XPath, XSLT, HTML, XHTML, CSS, Windows Installer XML (WiX), INT's WellLog graphing library, UML, XML Schema Definitions (XSD), PHP, JavaScript, code profiling and optimization, unit testing, and sanity checks.
+                        
+Software: Matlab, Visual Studio, Spyder, Jupyter Notebooks, AutoCAD, GitHub, iSIGHT, LaTeX, Fusion 360, Solidworks, KiCad, Photoshop, TortoiseSVN/CVS, Ansys, Windows, Word, Excel, PowerPoint, Project, and Outlook.
+                        
+Other: 3D modeling, 3D printing, computer trouble shooting and repair (hardware and software), basic electronics & circuits, PCB design, microprocessor basics, Arduino and Raspberry Pi, embedded programming (Arduino), soldering, surface mount devices and reflowing, and lighting displays (smart LEDs).
+                        

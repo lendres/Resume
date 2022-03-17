@@ -3,16 +3,19 @@
 1
 1
 1
-Resume-XSLT.tex
+Lance A Endres - CV.tex
 15
-4
-3
+1
+0
 
 
 
 
 
 
+Lance A Endres - CV.tex
+TeX
+403714043 0 -1 0 -1 0 0 0 1348 583 0 22 0 -1 -1 0 0 -1 -1 -1 -1 1 0 0 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lelistofnotations.sty
 TeX:DTX
 5255163 0 -1 478 -1 564 0 0 1348 583 0 326 171 -1 -1 0 0 140 -1 -1 140 1 0 564 -1   0
@@ -21,13 +24,10 @@ TeX:DTX
 5254971 1 -1 1767 -1 2405 130 130 1452 765 0 22 551 -1 -1 0 0 13 -1 -1 13 1 0 2405 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leresume.cls
 DATA
-5244850 0 131 23 131 27 208 208 1556 791 1 278 323 -1 -1 0 0 16 0 0 16 1 0 27 131   0
+273680306 0 131 23 131 27 208 208 1556 791 1 278 323 -1 -1 0 0 16 0 0 16 1 0 27 131   0
 C:\Custom Program Files\LaTeX\bibtex\bib\le.bib
 BibTeX
 269484979 0 563 15 559 15 78 78 1400 713 1 254 342 -1 -1 0 0 60 0 0 60 1 0 15 559   0
-Resume-XSLT.tex
-TeX
-420491258 1 78 161 78 168 32 32 1385 631 0 1478 361 -1 -1 0 0 1 0 0 1 1 0 168 78   0
 C:\Custom Program Files\LaTeX\bibtex\bst\leplain.bst
 DATA
 5243122 0 595 21 590 20 0 0 1322 635 1 222 532 -1 -1 0 0 45 0 0 45 1 0 20 590   0
@@ -59,4 +59,4 @@ C:\Custom Program Files\LaTeX\TeX\LaTeX\lefontsizes.sty
 TeX:DTX:UNIX
 273788859 0 -1 0 -1 0 132 174 1062 772 0 22 0 -1 -1 0 0 84 -1 -1 84 1 0 0 -1   0
 
-*Resume-XSLT.tex
+*? R:\Programming\Resume\LaTeX\Resume-XSLT.tex

@@ -20,7 +20,7 @@
 					Recruited a team of founders who each bring a unique skill set.
 				</item>
 				<item>
-					Designed a desktop sized pick-and-place machine.
+					Designed a desktop-sized pick-and-place machine.
 				</item>
 			</bulletedlist>
 		</description>
@@ -40,14 +40,14 @@
 			<p>Areas of work included drilling dynamics, drilling optimization, and data analysis.</p>
 			<bulletedlist>
 				<item>
-					Developed an FEA based software that calculates deflections, stresses, natural frequencies, and mode shapes of a drill string.  The software is used to assess the bending capabilities and stress limits of tools and drill strings, ensure natural frequencies are not excited and to assess the consequences of design changes.
+					Developed an FEA based software that calculates deflections, stresses, natural frequencies, and mode shapes of a drill string.  The software is used to assess the bending capabilities and stress limits of tools and drill strings, ensure natural frequencies are not excited, and assess the consequences of design changes.
 					<!--<bulletedlist>
 						<item>The software is used to assess the bending capabilities and stress limits of tools and drill strings.</item>
 						<item>It is also used to ensure natural frequencies are not excited (avoid resonance) and to assess changes in mode shapes that occur from different tool designs.</item>
 					</bulletedlist>-->
 				</item>
 				<item>
-					Developed specialized data processing techniques and algorithms used to automate cleaning and processing of drilling data.  The software removes corrupted data points and separates the data into drilling versus non-drilling (standby) time.  <italic>Reduced the process from an hour to a minute.</italic>
+					Developed specialized data processing techniques and algorithms used to automate the cleaning and processing of drilling data.  The software removes corrupted data points and separates the data into drilling versus non-drilling (standby) time.  <italic>Reduced the process from an hour to a minute.</italic>
 					<!--Developed specialized data processing techniques and algorithms used to automate cleaning and processing of drilling data.
 					<bulletedlist>
 						<item>The software detects removes corrupted data points.</item>
@@ -88,7 +88,7 @@
 							The software models the physics of a drill bit removing rock material.
 						</item>
 						<item>
-							The software is multi-threaded to speed up the simulation through parallization.  I created a clever technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes.
+							The software is multi-threaded to speed up the simulation through parallelization.  I created a clever technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes.
 						</item>
 						<item>
 							The physics model is calibrated to laboratory data by solving the inverse problem.  <bold>I developed a technique to reduce the cost of solving by an order of magnitude.</bold>
@@ -98,7 +98,7 @@
 				</item>
 				<item>Improved theoretical understanding of lateral drill bit vibrations.  Used this understanding to create new techniques for designing drill bits.  <italic>These techniques let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution.</italic>  This saved time and money.</item>
 				<item>Developed a technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.</item>
-				<item>Designed and oversaw running of experiments in laboratory setting and on a full-scale drill rig.</item>
+				<item>Designed and oversaw experiments in a laboratory setting and on a full-scale drill rig.</item>
 				<!--<item>Analyzed and interpreted computer, laboratory, and drill rig data.</item>
 				<item>Developed software to post process a variety of disjointed laboratory and computer data types in a standardized, uniform way.</item>-->
 			</bulletedlist>

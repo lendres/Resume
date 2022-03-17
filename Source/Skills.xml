@@ -2,14 +2,25 @@
 
 <skills>
 	<group heading="Research and Engineering">
-		<skill catagory="engineering" experiene="8">Design of laboratory experiments</skill>
+		<skill catagory="engineering" experiene="8">design of laboratory experiments</skill>
+		<skill catagory="engineering" experiene="8">algorithm design</skill>
 		<skill catagory="engineering" experiene="8">stability analysis</skill>
 		<skill catagory="engineering" experiene="8">signal processing</skill>
-		<skill catagory="engineering" experiene="8">algorithm design</skill>
 		<skill catagory="engineering" experiene="8">FEA</skill>
 		<skill catagory="engineering" experiene="8">CFD (basic)</skill>
 		<skill catagory="engineering" experiene="8">plasticity</skill>
 		<skill catagory="engineering" experiene="8">structural engineering</skill>
+	</group>
+	<group heading="Modeling and Simulation">
+		<skill catagory="modeling" experiene="8">data analysis</skill>
+		<skill catagory="modeling" experiene="8">data cleaning</skill>
+		<skill catagory="modeling" experiene="8">scikit-learn</skill>
+		<skill catagory="modeling" experiene="8">pandas</skill>
+		<skill catagory="modeling" experiene="8">numpy</skill>
+		<skill catagory="modeling" experiene="8">XGBoost</skill>
+		<!--<skill catagory="modeling" experiene="8"></skill>
+		<skill catagory="modeling" experiene="8"></skill>
+		<skill catagory="modeling" experiene="8"></skill>-->
 	</group>
 	<group heading="Programming">
 		<skill catagory="programming" experience="10">C</skill>

@@ -12,7 +12,7 @@ echo Making Resume-XSLT
 
 
 echo Do pdfLaTeX...
-pdflatex "Resume-XSLT.tex"
+pdflatex "Lance A Endres - CV.tex"
 
 
 echo.
