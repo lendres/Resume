@@ -4,7 +4,7 @@
 1
 1
 Lance A Endres - CV.tex
-15
+16
 1
 0
 
@@ -15,7 +15,16 @@ Lance A Endres - CV.tex
 
 Lance A Endres - CV.tex
 TeX
-403714043 0 -1 0 -1 0 0 0 1348 583 0 22 0 -1 -1 0 0 0 -1 -1 0 1 0 0 -1   0
+403714043 0 -1 0 -1 1141 0 0 1348 583 0 302 703 -1 -1 0 0 0 -1 -1 0 1 0 1141 -1   0
+S:\Ikosy\Common\Media\Pick and Place Assembly Instructions\Archive\Instructions.tex
+TeX
+269496315 0 -1 0 -1 1868 0 0 1348 583 0 182 779 -1 -1 0 0 0 -1 -1 0 1 0 1868 -1   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\lefontsizes.sty
+TeX:DTX:UNIX
+273690555 0 -1 0 -1 523 132 174 1062 772 0 190 285 -1 -1 0 0 84 -1 -1 84 1 0 523 -1   0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
+TeX:DTX
+273690619 0 -1 1981 -1 1913 0 0 1322 635 0 110 513 -1 -1 0 0 95 -1 -1 95 1 0 1913 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lelistofnotations.sty
 TeX:DTX
 5255163 0 -1 478 -1 564 0 0 1348 583 0 326 171 -1 -1 0 0 140 -1 -1 140 1 0 564 -1   0
@@ -37,9 +46,6 @@ TeX:DTX
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
 5255099 0 -1 3899 -1 2918 52 52 1374 687 0 78 513 -1 -1 0 0 98 -1 -1 98 1 0 2918 -1   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\lefonts.sty
-TeX:DTX
-5255163 0 -1 1981 -1 1913 0 0 1322 635 0 126 513 -1 -1 0 0 95 -1 -1 95 1 0 1913 -1   0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
 TeX:DTX
 5255098 5 3 31 3 32 26 26 1348 661 0 270 57 -1 -1 0 0 25 0 0 25 1 0 32 3   0
@@ -55,8 +61,5 @@ TeX:DTX
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lebook.cls
 DATA
 273678514 0 0 1 6 1 154 203 1058 752 1 70 85 -1 -1 0 0 23 0 0 23 1 0 1 6   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\lefontsizes.sty
-TeX:DTX:UNIX
-273788859 0 -1 0 -1 0 132 174 1062 772 0 22 0 -1 -1 0 0 84 -1 -1 84 1 0 0 -1   0
 
 *Lance A Endres - CV.tex

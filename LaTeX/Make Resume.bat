@@ -1,6 +1,5 @@
 title Make Resume
 
-rem close "Adobe Reader - [Endres Dissertation.pdf]"
 taskkill /IM FoxitPhantomPDF.exe
 
 @echo off
@@ -8,7 +7,7 @@ taskkill /IM FoxitPhantomPDF.exe
 echo.
 echo.
 echo.
-echo Making Resume-XSLT
+echo Making Lance A Endres - CV
 
 
 echo Do pdfLaTeX...
@@ -23,7 +22,7 @@ echo.
 
 
 echo Do BibTeX...
-bibtex "Resume-XSLT.tex"
+bibtex "Lance A Endres - CV.tex"
 bibtex "publications"
 bibtex "patents"
 
