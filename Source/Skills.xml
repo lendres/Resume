@@ -14,6 +14,7 @@
 	<group heading="Modeling and Simulation">
 		<skill catagory="modeling" experiene="8">data analysis</skill>
 		<skill catagory="modeling" experiene="8">data cleaning</skill>
+		<skill catagory="software" experience="10">Matlab</skill>
 		<skill catagory="modeling" experiene="8">scikit-learn</skill>
 		<skill catagory="modeling" experiene="8">pandas</skill>
 		<skill catagory="modeling" experiene="8">numpy</skill>
@@ -41,13 +42,16 @@
 		<skill catagory="programming" experience="9">HTML</skill>
 		<skill catagory="programming" experience="9">XHTML</skill>
 		<skill catagory="programming" experience="9">CSS</skill>
-		<skill catagory="programming" experience="5">Windows Installer XML (WiX)</skill>
+		<skill catagory="programming" experience="5">Windows Installer XML</skill>
 		<skill catagory="programming" experience="5">INT's WellLog graphing library</skill>
 		<skill catagory="programming" experience="2">UML</skill>
-		<skill catagory="programming" experience="4">XML Schema Definitions (XSD)</skill>
+		<skill catagory="programming" experience="4">XML Schema Definitions</skill>
 		<skill catagory="programming" experience="2">PHP</skill>
 		<skill catagory="programming" experience="5">JavaScript</skill>
-		<skill catagory="programming" experience="5">code profiling and optimization</skill>
+		<skill catagory="programming" experience="5">continuous integration/delivery</skill>
+		<skill catagory="programming" experience="5">profiling</skill>
+		<skill catagory="programming" experience="5">optimization</skill>
+		<skill catagory="programming" experience="5">quality assurance</skill>
 		<skill catagory="programming" experience="5">unit testing</skill>
 		<skill catagory="programming" experience="5">sanity checks</skill>
 	</group>
@@ -64,7 +68,6 @@
 
 	<!--<group heading="Other software">-->
 	<group heading="Software">
-		<skill catagory="software" experience="10">Matlab</skill>
 		<skill catagory="software" experience="10">Visual Studio</skill>
 		<skill catagory="software" experience="10">Spyder</skill>
 		<skill catagory="software" experience="10">Jupyter Notebooks</skill>
