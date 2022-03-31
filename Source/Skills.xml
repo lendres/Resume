@@ -21,8 +21,12 @@
 		<skill catagory="modeling" experiene="8">Matplotlib</skill>
 		<skill catagory="modeling" experiene="8">Seaborn</skill>
 		<skill catagory="modeling" experiene="8">XGBoost</skill>
+		<skill catagory="modeling" experiene="8">supervised learning</skill>
+
+		
+		<skill catagory="modeling" experiene="8">unsupervised learning</skill>
+		<skill catagory="modeling" experiene="8">TensorFlow</skill>
 		<!--<skill catagory="modeling" experiene="8"></skill>
-		<skill catagory="modeling" experiene="8"></skill>
 		<skill catagory="modeling" experiene="8"></skill>-->
 	</group>
 	<group heading="Programming">
