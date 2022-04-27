@@ -40,36 +40,33 @@
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
     \name{<xsl:apply-templates select="/resume/head/name"/>}
-	\addresslinea{\myaddresslineoneshort}
-	\addresslineb{\myaddresslinetwo}
+		\addresslinea{\myaddresslineoneshort}
+		\addresslineb{\myaddresslinetwo}
 
-	\renewcommand*{\phonename}{{\small{}Phone:}}
-	\phone{\myphoneone}
-	\renewcommand*{\emailname}{{\small{}Email:}}
-	\email{\myemailone}
-	\website{\mywebsiteoneshort}
-	\websitetwo{\mywebsitetwoshort}
+		\renewcommand*{\phonename}{{\small{}Phone:}}
+		\phone{\myphoneone}
+		\renewcommand*{\emailname}{{\small{}Email:}}
+		\email{\myemailone}
+		\website{\mywebsiteoneshort}
+		\websitetwo{\mywebsitetwoshort}
 
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	% BEGIN DOCUMENT.
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		% BEGIN DOCUMENT.
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\pagestyle{lehorizontallinewpagenumber}
-	\begin{document}
-	\thispagestyle{lefooterhorizontalline}
-	\makeresumeheaderC
-	
-	\catagory{Summary}
-	<xsl:apply-templates select="/resume/summary"/>
+		\pagestyle{lehorizontallinewpagenumber}
+		\begin{document}
+		\thispagestyle{leempty}
+		\makeresumeheaderC
+
+		\catagory{Summary}
+		<xsl:apply-templates select="/resume/summary"/>
 
 	\catagory{Areas of Expertise}
 	<xsl:apply-templates select="/resume/keywords"/>
 
     \catagory{Experience}
     <xsl:apply-templates select="/resume/experience"/>
-
-	\catagory{Education}
-	<xsl:apply-templates select="/resume/education"/>
 
     \catagory{Publications}
     <xsl:apply-templates select="/resume/publications/publication"/>
@@ -81,19 +78,22 @@
 	\bibliographystylepatents{leplain}
 	\bibliographypatents{le}
 
-    \catagory{Other Skills}
+    \catagory{Skill Set}
     \begin{bulletedlist}
 		<xsl:apply-templates select="/resume/skills/group"/>
 	\end{bulletedlist}
 	<!--\begin{multicols}{3}
 		<xsl:apply-templates select="/resume/skills/group"/>
 	\end{multicols}-->
+
+	\catagory{Education}
+	<xsl:apply-templates select="/resume/education"/>
 	
+	<!--
 	<xsl:apply-templates select="/resume/certifications"/>
 
 	<xsl:apply-templates select="/resume/memberships"/>
 	
-	<!--
     \vspace*{1pt}
     \catagory{References}
     \catentryshort{}{\normalfont Available upon request}-->

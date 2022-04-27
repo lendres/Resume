@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <education>
+	<degree level="Post Graduate Program">
+		<date month="July" monthnumber="6" year="2022"/>
+		<institution id="utexas"/>
+		<major>Artificial Intelligence and Machine Learning</major>
+	</degree>
 	<degree level="Ph.D.">
 		<date month="December" monthnumber="12" year="2007"/>
 		<institution id="ucsd"/>
@@ -15,10 +20,5 @@
 		<date month="May" monthnumber="5" year="1999"/>
 		<institution id="ltu"/>
 		<major>Civil Engineering</major>
-	</degree>
-	<degree level="Post Graduate Program">
-		<date month="July" monthnumber="6" year="2022"/>
-		<institution id="utexas"/>
-		<major>Artificial Intelligence and Machine Learning</major>
 	</degree>
 </education>

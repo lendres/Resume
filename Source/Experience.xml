@@ -17,10 +17,10 @@
 					Identified the business opportunity and formulated the business plan.
 				</item>
 				<item>
-					Recruited a team of founders who each bring a unique skill set.
+					Designed a desktop-sized pick-and-place machine.
 				</item>
 				<item>
-					Designed a desktop-sized pick-and-place machine.
+					Recruited a team of founders who each bring a unique skill set.
 				</item>
 			</bulletedlist>
 		</description>
@@ -55,8 +55,11 @@
 						<item><italic>Reduced the process from an hour to a minute.</italic></item>
 					</bulletedlist>-->
 				</item>
-				<item>
+				<!--<item>
 					Developed generalized plotting software designed to work with data from any downhole tool.  Software is immune to changes in firmware, easily adaptable to new tools, has error handling for corrupted data, and automatic conversion of units.  The industry lacks standards for data handling, so similar data is often stored differently, even within a company.  <bold>Before I solved this issue, three others had tried and failed to find a solution.</bold>
+				</item>-->
+				<item>
+					Developed a generalized plotting software which can be configured with any type of downhole tool.  The software is capable of handling corrupt data and conversion of units.
 				</item>
 				<!--<item>
 					Conducted an in-depth review of a proprietary drilling dynamics tool that uses magnetorheological fluid to adjust the damping properties of the tool.  Review included sensor capabilities, calculations performed by the firmware, data produced, control algorithms, dynamic behavior, and operational usage.  The conclusions were documented and recommendations made on how to proceed with further testing and development of the device.
@@ -82,21 +85,24 @@
 			</p>
 			<bulletedlist>
 				<item>
-					Developed an advanced, proprietary computer model used to predict and analyze the dynamic behavior of drill bits.  Was responsible for the physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
+					Developed a proprietary computer model used to predict the dynamic behavior of drill bits.
 					<bulletedlist>
+						<item>
+							Responsiblities included the physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
+						</item>
 						<item>
 							The software models the physics of a drill bit removing rock material.
 						</item>
 						<item>
-							The software is multi-threaded to speed up the simulation through parallelization.  I created a clever technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes.
+							The software is multi-threaded.  I created a technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes.
 						</item>
 						<item>
-							The physics model is calibrated to laboratory data by solving the inverse problem.  <bold>I developed a technique to reduce the cost of solving by an order of magnitude.</bold>
+							The physics model is calibrated to laboratory data by solving the inverse problem using a genetic algorithm.  I developed a technique to reduce the cost of solving by an order of magnitude.
 						</item>
 						<item>Lead the Russia based software development team.</item>
 					</bulletedlist>
 				</item>
-				<item>Improved theoretical understanding of lateral drill bit vibrations.  Used this understanding to create new techniques for designing drill bits.  <italic>These techniques let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution.</italic>  This saved time and money.</item>
+				<item>My research lead to an improved theoretical understanding of lateral drill bit vibrations.  I used this understanding to create new techniques for designing drill bits.  <italic>These techniques let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution.</italic>  This saved time and money.</item>
 				<item>Developed a technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.</item>
 				<item>Designed and oversaw experiments in a laboratory setting and on a full-scale drill rig.</item>
 				<!--<item>Analyzed and interpreted computer, laboratory, and drill rig data.</item>
