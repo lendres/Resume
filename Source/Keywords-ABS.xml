@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <keywords>
+	<keyword>Software Development</keyword>
+	<keyword>Software Architecture</keyword>
 	<keyword>Modeling</keyword>
 	<keyword>Simulation</keyword>
 	<keyword>Machine Learning</keyword>
@@ -9,8 +11,7 @@
 	<keyword>Computational Dynamics</keyword>
 	<keyword>Algorithm Development</keyword>
 	<keyword>Data Science</keyword>
-	<keyword>Software Development</keyword>
-	<keyword>Software Architecture</keyword>
+
 	<keyword>Numerical Integration</keyword>
 	<keyword>Research</keyword>
 	<keyword>Drilling Dynamics</keyword>

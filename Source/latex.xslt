@@ -39,28 +39,28 @@
 	% WILL NOT BE PROCESSED CORRECTLY.
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-    \name{<xsl:apply-templates select="/resume/head/name"/>}
-		\addresslinea{\myaddresslineoneshort}
-		\addresslineb{\myaddresslinetwo}
+	\name{<xsl:apply-templates select="/resume/head/name"/>}
+	\addresslinea{\myaddresslineoneshort}
+	\addresslineb{\myaddresslinetwo}
 
-		\renewcommand*{\phonename}{{\small{}Phone:}}
-		\phone{\myphoneone}
-		\renewcommand*{\emailname}{{\small{}Email:}}
-		\email{\myemailone}
-		\website{\mywebsiteoneshort}
-		\websitetwo{\mywebsitetwoshort}
+	\renewcommand*{\phonename}{{\small{}Phone:}}
+	\phone{\myphoneone}
+	\renewcommand*{\emailname}{{\small{}Email:}}
+	\email{\myemailone}
+	\website{\mywebsiteoneshort}
+	\websitetwo{\mywebsitetwoshort}
 
-		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-		% BEGIN DOCUMENT.
-		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% BEGIN DOCUMENT.
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-		\pagestyle{lehorizontallinewpagenumber}
-		\begin{document}
-		\thispagestyle{leempty}
-		\makeresumeheaderC
+	\pagestyle{lehorizontallinewpagenumber}
+	\begin{document}
+	\thispagestyle{leempty}
+	\makeresumeheaderC
 
-		\catagory{Summary}
-		<xsl:apply-templates select="/resume/summary"/>
+	\catagory{Summary}
+	<xsl:apply-templates select="/resume/summary"/>
 
 	\catagory{Areas of Expertise}
 	<xsl:apply-templates select="/resume/keywords"/>
@@ -142,10 +142,12 @@
 
 	
 	<xsl:template match="summary">
-		<xsl:value-of select="normalize-space(text())"/>
+		\noindent <xsl:value-of select="normalize-space(text())"/>
 	</xsl:template>
+
+	
 	<xsl:template match="keywords">
-		<xsl:for-each select="keyword">
+		\noindent <xsl:for-each select="keyword">
 			<xsl:if test="position()>1">
 				<xsl:text> $\bullet$ </xsl:text>
 			</xsl:if>

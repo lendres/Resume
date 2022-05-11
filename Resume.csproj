@@ -58,7 +58,7 @@
     <Content Include="Alternate Versions\Keywords for Outside Oil and Gas.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\Keywords.xml" />
+    <Content Include="Source\Keywords-ABS.xml" />
     <Content Include="Source\latex.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -71,7 +71,7 @@
     <Content Include="Alternate Versions\Resume for Outside Oil and Gas.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\Resume.xml">
+    <Content Include="Source\Resume-ABS.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Alternate Versions\Skills for Outside Oil and Gas.xml" />
