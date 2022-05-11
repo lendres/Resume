@@ -6,30 +6,37 @@
     xmlns:math="http://exslt.org/math"
     extension-element-prefixes="math"
     -->
+	<!--
+	To Do
+	- Fix DVI.  It seems some fonts are not rendering and the DVI viewing fails.
+	- Fix Bibtex.  It is issuing an error when it runs from Winedit.
+	- Change resume to run from the standard "makedocument" instead of the customer resume one.
+	-->
 
     <xsl:import href="common.xslt"/>
     <xsl:import href="xsl-template-functions.xsl"/>
 	<xsl:output indent="yes" method="text"/>
 
 	<xsl:template match="/">
-    \documentclass{leresume}
-    \usepackage{lelists}
-    \setlength{\listtopsep}{0pt}
-    \setlength{\leftlistindent}{0pt}
+	\documentclass{leresume}
+	\usepackage{lelists}
+	\setlength{\listtopsep}{0pt}
+	\setlength{\leftlistindent}{0pt}
 	\setlength{\listlevelleftindent}{12pt}
 	\setlength{\rightlistindent}{0pt}
 
-    \usepackage{lesubscripts}
-    \usepackage{lehyperlink}
-    \usepackage{leheadersandfooters}
 
-    \usepackage{multicol}
-    \setlength{\premulticols}{0in}
-    \setlength{\postmulticols}{0in}
+	\usepackage{lesubscripts}
+	\usepackage{lehyperlink}
+	\usepackage{leheadersandfooters}
 
-    \usepackage{leaddress}
-    \usepackage{times}
-	
+	\usepackage{multicol}
+	\setlength{\premulticols}{0in}
+	\setlength{\postmulticols}{0in}
+
+	\usepackage{leaddress}
+	\usepackage{times}
+
 	\usepackage[resetlabels]{multibib}
 	\newcites{publications}{Publications}
 	\newcites{patents}{Patents}
@@ -49,10 +56,15 @@
 	\email{\myemailone}
 	\website{\mywebsiteoneshort}
 	\websitetwo{\mywebsitetwoshort}
+	
+	% Prevent indented paragraphs.
+	\setlength{\parindent}{0pt}
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	% BEGIN DOCUMENT.
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\pretolerance=0
 
 	\pagestyle{lehorizontallinewpagenumber}
 	\begin{document}
@@ -62,8 +74,13 @@
 	\catagory{Summary}
 	<xsl:apply-templates select="/resume/summary"/>
 
-	\catagory{Areas of Expertise}
-	<xsl:apply-templates select="/resume/keywords"/>
+	<!--\catagory{Areas of Expertise}-->
+	\vspace{-4pt}
+	\begin{multicols}{3}
+		\begin{bulletedlist}
+			<xsl:apply-templates select="/resume/keywords"/>
+		\end{bulletedlist}
+	\end{multicols}
 
     \catagory{Experience}
     <xsl:apply-templates select="/resume/experience"/>
@@ -107,7 +124,7 @@
 				<xsl:with-param name="text" select="@heading"/>
 			</xsl:call-template>
 		</xsl:variable>
-		\item <xsl:value-of select="$heading"/><xsl:if test="$heading!=''">: </xsl:if>
+		\item \textbf{<xsl:value-of select="$heading"/>}<xsl:if test="$heading!=''">: </xsl:if>
 
         <xsl:variable name="count" select="count(skill)"/>
 
@@ -142,16 +159,21 @@
 
 	
 	<xsl:template match="summary">
-		\noindent <xsl:value-of select="normalize-space(text())"/>
+		<xsl:value-of select="normalize-space(text())"/>
 	</xsl:template>
 
 	
-	<xsl:template match="keywords">
+	<!--<xsl:template match="keywords">
 		\noindent <xsl:for-each select="keyword">
 			<xsl:if test="position()>1">
 				<xsl:text> $\bullet$ </xsl:text>
 			</xsl:if>
 			<xsl:value-of select="text()"/>
+		</xsl:for-each>
+	</xsl:template>-->
+	<xsl:template match="keywords">
+		<xsl:for-each select="keyword">
+			\item <xsl:value-of select="text()"/>
 		</xsl:for-each>
 	</xsl:template>
 
@@ -228,7 +250,7 @@
 			<xsl:variable name="desc" select="description"/>
 			<xsl:choose>
 				<xsl:when test="$desc!=''">
-					\noindent <xsl:call-template name="job-description"><xsl:with-param name="description" select="$desc"/></xsl:call-template>
+					<xsl:call-template name="job-description"><xsl:with-param name="description" select="$desc"/></xsl:call-template>
 				</xsl:when>
 				<!-- 
 					If we don't have a description, then adjust the spacing to match the entries that do have

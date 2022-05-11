@@ -49,7 +49,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Education.xml" />
-    <Content Include="Source\Experience.xml" />
+    <Content Include="Source\Experience-ABS.xml" />
     <Content Include="Source\html.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -75,7 +75,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Alternate Versions\Skills for Outside Oil and Gas.xml" />
-    <Content Include="Source\Skills.xml" />
+    <Content Include="Source\Skills-ABS.xml" />
     <Content Include="Source\Summary.xml" />
     <Content Include="Source\text.xslt">
       <SubType>Designer</SubType>

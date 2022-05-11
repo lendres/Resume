@@ -1,22 +1,23 @@
 
-    \documentclass{leresume}
-    \usepackage{lelists}
-    \setlength{\listtopsep}{0pt}
-    \setlength{\leftlistindent}{0pt}
+	\documentclass{leresume}
+	\usepackage{lelists}
+	\setlength{\listtopsep}{0pt}
+	\setlength{\leftlistindent}{0pt}
 	\setlength{\listlevelleftindent}{12pt}
 	\setlength{\rightlistindent}{0pt}
 
-    \usepackage{lesubscripts}
-    \usepackage{lehyperlink}
-    \usepackage{leheadersandfooters}
 
-    \usepackage{multicol}
-    \setlength{\premulticols}{0in}
-    \setlength{\postmulticols}{0in}
+	\usepackage{lesubscripts}
+	\usepackage{lehyperlink}
+	\usepackage{leheadersandfooters}
 
-    \usepackage{leaddress}
-    \usepackage{times}
-	
+	\usepackage{multicol}
+	\setlength{\premulticols}{0in}
+	\setlength{\postmulticols}{0in}
+
+	\usepackage{leaddress}
+	\usepackage{times}
+
 	\usepackage[resetlabels]{multibib}
 	\newcites{publications}{Publications}
 	\newcites{patents}{Patents}
@@ -36,10 +37,15 @@
 	\email{\myemailone}
 	\website{\mywebsiteoneshort}
 	\websitetwo{\mywebsitetwoshort}
+	
+	% Prevent indented paragraphs.
+	\setlength{\parindent}{0pt}
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	% BEGIN DOCUMENT.
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\pretolerance=0
 
 	\pagestyle{lehorizontallinewpagenumber}
 	\begin{document}
@@ -47,12 +53,28 @@
 	\makeresumeheaderC
 
 	\catagory{Summary}
-	
-		\noindent An experienced researcher, project manager, and team leader who is well versed in working on internationally based teams. Creative thinker with a track record of solving difficult problems.
-
-	\catagory{Areas of Expertise}
-	
-		\noindent Modeling $\bullet$ Simulation $\bullet$ Machine Learning $\bullet$ Artificial Intelligence $\bullet$ Computational Mechanics $\bullet$ Computational Dynamics $\bullet$ Algorithm Development $\bullet$ Data Science $\bullet$ Software Development $\bullet$ Software Architecture $\bullet$ Numerical Integration $\bullet$ Research $\bullet$ Drilling Dynamics
+	An experienced project manager, team leader, and researcher who is well versed in working on internationally based teams. Creative thinker with a track record of solving difficult problems. Areas of expertise include:
+	\vspace{-4pt}
+	\begin{multicols}{3}
+		\begin{bulletedlist}
+			
+			\item Software Development
+			\item Software Architecture
+			\item Team Leading
+			\item Structural Engineering
+			\item Project Management
+			\item Computational Mechanics
+			\item Computational Dynamics
+			\item Algorithm Development
+			\item Modeling
+			\item Simulation
+			\item Machine Learning
+			\item Artificial Intelligence
+			\item Data Science
+			\item Numerical Integration
+			\item Research
+		\end{bulletedlist}
+	\end{multicols}
 
     \catagory{Experience}
     
@@ -60,8 +82,7 @@
             {Founder and President}
             {Ikosy Technologies}
 			{Spring, TX}
-			
-					\noindent Founded Ikosy Technologies to bring easy to use desktop pick-and-place technology to the maker community.
+			Founded Ikosy Technologies to bring easy-to-use desktop pick-and-place technology to the maker community.
 		\begin{bulletedlist}
 			
 		\item 
@@ -71,7 +92,7 @@
 					Designed a desktop-sized pick-and-place machine.
 				
 		\item 
-					Recruited a team of founders who each bring a unique skill set.
+					Recruited and lead a team of founders.
 				
 		\end{bulletedlist}
 	
@@ -79,20 +100,46 @@
             {Principal Engineer}
             {APS Technology}
 			{Houston, TX}
-			
-					\noindent Areas of work included drilling dynamics, drilling optimization, and data analysis.
+			Areas of work included developing engineering software, data analysis, and drilling dynamics.\nolinebreak[4]
 		\begin{bulletedlist}
 			
 		\item 
-					Developed an FEA based software that calculates deflections, stresses, natural frequencies, and mode shapes of a drill string.  The software is used to assess the bending capabilities and stress limits of tools and drill strings, ensure natural frequencies are not excited, and assess the consequences of design changes.
+					Developed an FEA based software used for structural analysis of drill strings.
+				
+		\begin{bulletedlist}
+			
+		\item 
+						The software calculates deflections, stresses, natural frequencies, and mode shapes.
 					
 		\item 
-					Developed specialized data processing techniques and algorithms used to automate the cleaning and processing of drilling data.  The software removes corrupted data points and separates the data into drilling versus non-drilling time.  
-		\textit{Reduced the process from an hour to a minute.}
+						The software is used to assess the bending capabilities and stress limits of drill strings and assess the consequences of design changes.
+					
+		\end{bulletedlist}
 	
 		\item 
-					Developed a generalized plotting software which can be configured with any type of downhole tool.  The software is capable of handling corrupt data and conversion of units.
+					Developed a software application used to automate the cleaning and processing of data.
 				
+		\begin{bulletedlist}
+			
+		\item 
+						The software uses specialized data processing techniques and algorithms to automatically separate the data into drilling versus non-drilling time (up time versus down time).
+					
+		\end{bulletedlist}
+	
+		\item 
+					Developed generalized plotting software which can be configured for any type of input data.
+				
+		\begin{bulletedlist}
+			
+		\item 
+						The input data came from a wide variety of sources that each had their own data format (syntax, organization, content, units of measurements).  Software architecture
+						was used to generalize the process and handle all the data sources in an organized way.
+					
+		\item 
+						The software is capable of handling corrupt data and conversion of units.
+					
+		\end{bulletedlist}
+	
 		\end{bulletedlist}
 	
             \catentry{1/2006 - 11/2013}
@@ -100,7 +147,6 @@
             {Baker Hughes}
 			{Houston, TX}
 			
-					\noindent 
 				Conducted research in the areas of drilling mechanics and dynamics.  Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.
 			
 		\begin{bulletedlist}
@@ -111,7 +157,7 @@
 		\begin{bulletedlist}
 			
 		\item 
-							Responsiblities included the physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
+							Responsibilities included the physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
 						
 		\item 
 							The software models the physics of a drill bit removing rock material.
@@ -120,16 +166,15 @@
 							The software is multi-threaded.  I created a technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes.
 						
 		\item 
-							The physics model is calibrated to laboratory data by solving the inverse problem using a genetic algorithm.  I developed a technique to reduce the cost of solving by an order of magnitude.
+							The physics model is calibrated to laboratory data by solving the inverse problem.  I developed a technique to reduce the cost of solving by an order of magnitude.
 						
 		\item Lead a Russia based software development team.
 		\end{bulletedlist}
 	
-		\item My research lead to an improved theoretical understanding of lateral drill bit vibrations.  I used this understanding to create new techniques for designing drill bits.  
+		\item My research led to an improved theoretical understanding of lateral drill bit vibrations.  I used this understanding to create new techniques for designing drill bits.  
 		\textit{These techniques let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution.}
 	
 		\item Developed a technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.
-		\item Designed and oversaw experiments in a laboratory setting and on a full-scale drill rig.
 		\end{bulletedlist}
 	
 
@@ -168,7 +213,47 @@
     \catagory{Skill Set}
     \begin{bulletedlist}
 		
-		\item Modeling and Simulation: data analysis,
+		\item \textbf{Software Development}: software architecture,
+                        quality assurance,
+                        unit testing,
+                        sanity checks,
+                        continuous integration/delivery,
+                        documentation,
+                        customer interaction,
+                        C,
+                        C++,
+                        C\#,
+                        Python,
+                        .NET Framework,
+                        Visual Basic (.NET/VBA),
+                        Fortran,
+                        AutoLISP,
+                        threading (POSIX and .NET),
+                        XML,
+                        XPath,
+                        XSLT,
+                        HTML,
+                        XHTML,
+                        CSS,
+                        Windows Installer XML,
+                        INT's WellLog graphing library,
+                        UML,
+                        XML Schema Definitions,
+                        OpenGL,
+                        PHP,
+                        JavaScript,
+                        profiling,
+                        and optimization.
+                        
+		\item \textbf{Research and Engineering}: structural engineering,
+                        stability analysis,
+                        FEA,
+                        signal processing,
+                        design of laboratory experiments,
+                        CFD (basic),
+                        and plasticity.
+                        
+		\item \textbf{Modeling and Simulation}: data analysis,
                         data cleaning,
                         algorithm design,
                         scikit-learn,
@@ -185,41 +270,12 @@
                         unsupervised learning,
                         and clustering.
                         
-		\item Programming: C,
-                        C++,
-                        C\#,
-                        Python,
-                        .NET Framework,
-                        software architecture,
-                        Visual Basic,
-                        Fortran,
-                        AutoLISP,
-                        threading (POSIX and .NET),
-                        XML,
-                        XPath,
-                        XSLT,
-                        HTML,
-                        XHTML,
-                        CSS,
-                        Windows Installer XML,
-                        INT's WellLog graphing library,
-                        UML,
-                        XML Schema Definitions,
-                        PHP,
-                        JavaScript,
-                        continuous integration/delivery,
-                        profiling,
-                        optimization,
-                        quality assurance,
-                        unit testing,
-                        and sanity checks.
-                        
-		\item Software: Visual Studio,
+		\item \textbf{Software}: Visual Studio,
+                        GitHub,
                         Matlab,
+                        AutoCAD,
                         Spyder,
                         Jupyter Notebooks,
-                        AutoCAD,
-                        GitHub,
                         iSIGHT,
                         LaTeX,
                         Fusion 360,
@@ -235,15 +291,7 @@
                         Project,
                         and Outlook.
                         
-		\item Research and Engineering: design of laboratory experiments,
-                        stability analysis,
-                        signal processing,
-                        FEA,
-                        CFD (basic),
-                        plasticity,
-                        and structural engineering.
-                        
-		\item Other: 3D modeling,
+		\item \textbf{Other}: 3D modeling,
                         3D printing,
                         computer trouble shooting and repair (hardware and software),
                         basic electronics \& circuits,
@@ -252,8 +300,7 @@
                         Arduino and Raspberry Pi,
                         embedded programming (Arduino),
                         soldering,
-                        surface mount devices and reflowing,
-                        and lighting displays (smart LEDs).
+                        and surface mount devices and reflowing.
                         
 	\end{bulletedlist}
 	
