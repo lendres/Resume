@@ -22,4 +22,4 @@ call makedocument %1 0
 echo %1.pdf
 start "" %1.pdf
 
-pause
+rem pause
