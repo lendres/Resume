@@ -75,7 +75,7 @@
 	<xsl:apply-templates select="/resume/summary"/>
 
 	<!--\catagory{Areas of Expertise}-->
-	\vspace{-4pt}
+	\vspace{-6pt}
 	\begin{multicols}{3}
 		\begin{bulletedlist}
 			<xsl:apply-templates select="/resume/keywords"/>

@@ -18,20 +18,29 @@
 		<skill catagory="modeling" experiene="8">supervised learning</skill>
 		<skill catagory="modeling" experiene="8">unsupervised learning</skill>
 		<skill catagory="modeling" experiene="8">clustering</skill>
+		<skill catagory="modeling" experiene="8">TensorFlow</skill>
+		<skill catagory="modeling" experiene="8">Keras</skill>
 		<!--
 		<skill catagory="modeling" experiene="8">factor analysis</skill>
 		<skill catagory="modeling" experiene="8">TensorFlow</skill>
 		<skill catagory="modeling" experiene="8"></skill>
 		<skill catagory="modeling" experiene="8"></skill>-->
 	</group>
-	<group heading="Programming">
+	
+	<group heading="Software Development">
+		<skill catagory="programming" experience="5">software architecture</skill>
+		<skill catagory="programming" experience="5">quality assurance</skill>
+		<skill catagory="programming" experience="5">unit testing</skill>
+		<skill catagory="programming" experience="5">sanity checks</skill>
+		<skill catagory="programming" experience="5">continuous integration/delivery</skill>
+		<skill catagory="programming" experience="5">documentation</skill>
+		<skill catagory="programming" experience="5">customer interaction</skill>
 		<skill catagory="programming" experience="10">C</skill>
 		<skill catagory="programming" experience="10">C++</skill>
 		<skill catagory="programming" experience="10">C#</skill>
 		<skill catagory="programming" experience="10">Python</skill>
 		<skill catagory="programming" experience="10">.NET Framework</skill>
-		<skill catagory="programming" experience="5">software architecture</skill>
-		<skill catagory="programming" experience="10">Visual Basic</skill>
+		<skill catagory="programming" experience="10">Visual Basic (.NET/VBA)</skill>
 		<skill catagory="programming" experience="10">Fortran</skill>
 		<skill catagory="programming" experience="10">AutoLISP</skill>
 		<skill catagory="programming" experience="8">threading (POSIX and .NET)</skill>
@@ -45,14 +54,11 @@
 		<skill catagory="programming" experience="5">INT's WellLog graphing library</skill>
 		<skill catagory="programming" experience="2">UML</skill>
 		<skill catagory="programming" experience="4">XML Schema Definitions</skill>
+		<skill catagory="programming" experience="4">OpenGL</skill>
 		<skill catagory="programming" experience="2">PHP</skill>
 		<skill catagory="programming" experience="5">JavaScript</skill>
-		<skill catagory="programming" experience="5">continuous integration/delivery</skill>
 		<skill catagory="programming" experience="5">profiling</skill>
 		<skill catagory="programming" experience="5">optimization</skill>
-		<skill catagory="programming" experience="5">quality assurance</skill>
-		<skill catagory="programming" experience="5">unit testing</skill>
-		<skill catagory="programming" experience="5">sanity checks</skill>
 	</group>
 	
 	<!--<group heading="Microsoft software">
@@ -85,7 +91,7 @@
 		<!--<skill catagory="software" experience="10">NX</skill>-->
 		<skill catagory="software" experience="10">TortoiseSVN/CVS</skill>
 		<skill catagory="software" experience="10">Ansys</skill>
-		<skill catagory="software" experience="10">Windows</skill>
+		<!--<skill catagory="software" experience="10">Windows</skill>-->
 		<skill catagory="software" experience="10">Word</skill>
 		<skill catagory="software" experience="10">Excel</skill>
 		<skill catagory="software" experience="10">PowerPoint</skill>

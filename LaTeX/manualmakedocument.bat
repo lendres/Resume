@@ -3,10 +3,6 @@ echo.
 echo.
 echo MANUALMAKEDOCUMENT
 
-title Make Resume
-taskkill /IM FoxitPhantomPDF.exe
-
-
 rem Use this file to process the document without WinEdt.
 rem It can be double clicked or run from the command line.
 
@@ -33,10 +29,4 @@ echo File name passed to make document: %FILEROOT%
 
 
 call runmakedocument %FILEROOT%
-bibtex "publications"
-bibtex "patents"
-call runmakedocument %FILEROOT%
-
-start "" %FILEROOT%.pdf
-
 rem pause

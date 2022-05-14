@@ -11,6 +11,15 @@ rem		0 - No processing.
 rem		1 - Processing for the "glossary" package.
 rem		2 - Processing for the "glossaries" package.
 
+title Make Resume
+taskkill /IM FoxitPhantomPDF.exe
+
+call makedocument %1 0
+bibtex "publications"
+bibtex "patents"
 call makedocument %1 0
 
-rem pause
+echo %1.pdf
+start "" %1.pdf
+
+pause
