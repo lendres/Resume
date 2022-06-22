@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <skills>
-	<group heading="Modeling and Simulation">
+	<group heading="Machine Learing, Artificial Intelligence, and Data Science">
 		<skill catagory="modeling" experiene="8">ANNs</skill>
 		<skill catagory="modeling" experiene="8">CNNs</skill>
 		<skill catagory="modeling" experiene="8">NLP</skill>
@@ -28,7 +28,8 @@
 		<!--
 		<skill catagory="modeling" experiene="8">factor analysis</skill>
 		<skill catagory="modeling" experiene="8"></skill>
-		<skill catagory="modeling" experiene="8"></skill>-->
+		<skill catagory="modeling" experiene="8"></skill>
+		-->
 	</group>
 	
 	<group heading="Software Development">
@@ -55,11 +56,11 @@
 		<skill catagory="programming" experience="9">XHTML</skill>
 		<skill catagory="programming" experience="9">CSS</skill>
 		<skill catagory="programming" experience="5">Windows Installer XML</skill>
-		<skill catagory="programming" experience="5">INT's WellLog graphing library</skill>
+		<!--<skill catagory="programming" experience="5">INT's WellLog graphing library</skill>-->
 		<skill catagory="programming" experience="2">UML</skill>
 		<skill catagory="programming" experience="4">XML Schema Definitions</skill>
 		<skill catagory="programming" experience="4">OpenGL</skill>
-		<skill catagory="programming" experience="2">PHP</skill>
+		<!--<skill catagory="programming" experience="2">PHP</skill>-->
 		<skill catagory="programming" experience="5">JavaScript</skill>
 		<skill catagory="programming" experience="5">profiling</skill>
 		<skill catagory="programming" experience="5">optimization</skill>
@@ -75,7 +76,6 @@
 		<skill catagory="software" experience="10">Outlook</skill>
 	</group>-->
 
-	<!--<group heading="Other software">-->
 	<group heading="Software">
 		<skill catagory="software" experience="10">Visual Studio</skill>
 		<skill catagory="software" experience="10">Matlab</skill>
@@ -84,68 +84,19 @@
 		<skill catagory="software" experience="10">Google Colab</skill>
 		<skill catagory="software" experience="10">AutoCAD</skill>
 		<skill catagory="software" experience="8">GitHub</skill>
-		<!--<skill catagory="software" experience="7">SAP 2000</skill>
-		<skill catagory="software" experience="7">RISA-3D</skill>
-		<skill catagory="software" experience="7">Lisa FEA</skill>-->
 		<skill catagory="software" experience="4">iSIGHT</skill>
 		<skill catagory="software" experience="10">LaTeX</skill>
 		<skill catagory="software" experience="10">Fusion 360</skill>
 		<skill catagory="software" experience="10">Solidworks</skill>
 		<skill catagory="software" experience="10">KiCad</skill>
 		<skill catagory="software" experience="10">Photoshop</skill>
-		<!--<skill catagory="software" experience="10">NX</skill>-->
 		<skill catagory="software" experience="10">TortoiseSVN/CVS</skill>
 		<skill catagory="software" experience="10">Ansys</skill>
-		<!--<skill catagory="software" experience="10">Windows</skill>-->
 		<skill catagory="software" experience="10">Word</skill>
 		<skill catagory="software" experience="10">Excel</skill>
 		<skill catagory="software" experience="10">PowerPoint</skill>
 		<skill catagory="software" experience="5">Project</skill>
 		<skill catagory="software" experience="10">Outlook</skill>
-      <!--<skill catagory="software" experience="10">Teamcenter</skill>-->
 	</group>
 	
-	<group heading="Research and Engineering">
-		<skill catagory="engineering" experiene="8">design of laboratory experiments</skill>
-		<skill catagory="engineering" experiene="8">stability analysis</skill>
-		<skill catagory="engineering" experiene="8">signal processing</skill>
-		<skill catagory="engineering" experiene="8">FEA</skill>
-		<skill catagory="engineering" experiene="8">CFD (basic)</skill>
-		<skill catagory="engineering" experiene="8">plasticity</skill>
-		<skill catagory="engineering" experiene="8">structural engineering</skill>
-	</group>
-
-	<!--<group heading="Home Repair and Remodeling">
-		<skill catagory="homerepair" experience="">trim (baseboards, casing)</skill>
-		<skill catagory="homerepair" experience="">painting</skill>
-		<skill catagory="homerepair" experience="">drywall</skill>
-		<skill catagory="homerepair" experience="">electrical</skill>
-		<skill catagory="homerepair" experience="">PVC plumbing</skill>
-		<skill catagory="homerepair" experience="">flooring (hardwood, tile)</skill>
-		<skill catagory="homerepair" experience="">framing</skill>
-		<skill catagory="homerepair" experience="">Hardiboard installation</skill>
-		<skill catagory="homerepair" experience="">home automation</skill>
-		<skill catagory="homerepair" experience="">wood working</skill>
-	</group>-->
-
-	<group heading="Other">
-		<skill catagory="other" experience="">3D modeling</skill>
-		<skill catagory="other" experience="">3D printing</skill>
-		<skill catagory="other" experience="">computer trouble shooting and repair (hardware and software)</skill>
-		<skill catagory="other" experience="">basic electronics &amp; circuits</skill>
-		<skill catagory="other" experience="">PCB design</skill>
-		<skill catagory="other" experience="">microprocessor basics</skill>
-		<skill catagory="other" experience="">Arduino and Raspberry Pi</skill>
-		<skill catagory="other" experience="">embedded programming (Arduino)</skill>
-		<skill catagory="other" experience="">soldering</skill>
-		<skill catagory="other" experience="">surface mount devices and reflowing</skill>
-		<!--<skill catagory="other" experience="">additive manufacturing</skill>-->
-		<skill catagory="other" experience="">lighting displays (smart LEDs)</skill>
-	</group>
-
-	<!--<group heading="Art &amp; Culture">
-		<skill catagory="culture" experience="">traveling and learning about cultures</skill>
-		<skill catagory="culture" experience="">photography</skill>
-		<skill catagory="culture" experience="">fiction and non-fiction writing</skill>
-	</group>-->
 </skills>

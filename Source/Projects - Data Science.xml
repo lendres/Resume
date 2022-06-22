@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<projects>
+	<!--<project>
+		<title></title>
+		<description>
+
+		</description>
+		<skills>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+		</skills>
+	</project>
+
+	<project>
+		<title></title>
+		<description>
+
+		</description>
+		<skills>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+			<skill></skill>
+		</skills>
+	</project>-->
+
+	<project>
+		<title>Bank Customer Churn Prediction</title>
+		<description>
+			Identify the customers that are more likely to churn by building an Artificial Neural Network.
+			<!--Help the operations team identify the customers that are more likely to churn by building an artificial Neural Network from scratch.-->
+		</description>
+		<skills>
+			<skill>Tensorflow</skill>
+			<skill>Keras</skill>
+			<skill>ANN</skill>
+			<skill>Google Colab</skill>
+		</skills>
+    </project>
+
+	<project>
+		<title>Three Dimensionsal Bit Dynamics</title>
+		<description>
+			Create a computer model that matches simulation performace to laboratory data.
+		</description>
+		<skills>
+			<skill>genetic algorithm</skill>
+			<skill>gradient descent</skill>
+			<skill>time series data</skill>
+			<skill>physics modeling</skill>
+		</skills>
+	</project>
+
+	<project>
+		<title>AllLife Bank Credit Card Customer Segmentation</title>
+		<description>
+			Identify different segments of customers based on their spending patterns and bank interactions by using clustering algorithms.
+			<!--Identify different segments in the existing customer, based on their spending patterns as well as past interaction with the bank, using clustering algorithms, 
+			and provide recommendations to the bank on how to better market to and service these customers.-->
+		</description>
+		<skills>
+			<skill>EDA</skill>
+			<skill>k-means clustering</skill>
+			<skill>hierarchical clustering</skill>
+			<skill>cluster Profiling</skill>
+		</skills>
+	</project>
+
+	<project>
+		<title>Credit Card Churn Prediction</title>
+		<description>
+			Predict if a customer will leave the credit card services and, if so, for what reasons.
+			<!--Predict if a customer will leave the credit card services or not and the reason behind it.-->
+		</description>
+		<skills>
+			<skill>cross validation</skill>
+			<skill>regularization</skill>
+			<skill>pipelines</skill>
+			<skill>hyperparameter tuning</skill>
+			<skill>up sampling</skill>
+			<skill>down sampling</skill>
+		</skills>
+	</project>
+
+	<project>
+		<title>Travel Package Purchase Prediction</title>
+		<description>
+			A travel company dataset was used to analyze the customers' information and build a model to predict potential customers who are going to 
+			purchase a newly introduced package.
+			<!--A travel company dataset was used to analyze the customers' information and build a model to predict the potential customer who is going to 
+			purchase the newly introduced package.-->
+		</description>
+		<skills>
+			<skill>EDA</skill>
+			<skill>data preprocessing</skill>
+			<skill>customer profiling</skill>
+			<skill>Bagging</skill>
+			<skill>Random Forest</skill>
+			<skill>AdaBoost</skill>
+			<skill>Gradient Boosting</skill>
+			<skill>XGBoost</skill>
+			<skill>Stacking Classifier</skill>
+			<skill>GridSearchCV</skill>
+		</skills>
+	</project>
+
+	<project>
+		<title>AllLife Bank Personal Loan Campaign Modeling</title>
+		<description>
+			AllLife Bank dataset was used to build a model to identify the potential customers who have a higher probability of purchasing a loan.
+			<!--AllLife Bank dataset was used to build a model that will help the marketing department to identify the potential customers who have a higher probability of
+			purchasing the loan.-->
+		</description>
+		<skills>
+			<skill>EDA</skill>
+			<skill>data preprocessing</skill>
+			<skill>logistic regression</skill>
+			<skill>Decision Trees</skill>
+			<skill>AUC-ROC curves</skill>
+		</skills>
+	</project>
+
+	<!--
+	<project>
+		<title>Cars4U</title>
+		<description>
+			sing the Cars4U dataset, need to come up with a pricing model that can effectively predict the price of used cars and can help the business in devising profitable 
+			strategies using differential pricing.
+		</description>
+		<skills>
+			<skill>EDA</skill>
+			<skill>linear regression</skill>
+		</skills>
+	</project>
+
+	<project>
+		<title>Cardio Good Fitness</title>
+		<description>
+			Execute preliminary data analysis by exploring the dataset and coming up with some basic observations about the data. Build customer profile to help capitalize 
+			based on it. Also, extract actionable insights that drive the sales of the business.
+		</description>
+		<skills>
+			<skill>EDA</skill>
+			<skill>Pandas</skill>
+			<skill>NumPy</skill>
+			<skill>visualisation techniques</skill>
+		</skills>
+	</project>
+	-->
+
+</projects>

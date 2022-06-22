@@ -79,6 +79,9 @@
 			<xsl:apply-templates select="/resume/keywords"/>
 		\end{bulletedlist}
 	\end{multicols}
+	
+    \catagory{Projects}
+    <xsl:apply-templates select="/resume/projects"/>
 
     \catagory{Experience}
     <xsl:apply-templates select="/resume/experience"/>
@@ -225,6 +228,52 @@
         </xsl:for-each>
     </xsl:template>
 
+
+
+	<!-- Projects. -->
+	<xsl:template match="projects">
+		<xsl:for-each select="project">
+		\project{<xsl:value-of select="./title"/>}{<xsl:value-of select="./description"/>}{
+			<xsl:for-each select="./skills/skill">
+				<xsl:choose>
+					<xsl:when test="position()=1">
+						<xsl:value-of select="."/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>, </xsl:text>
+						<xsl:value-of select="."/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:for-each>
+		}
+		
+
+			<!--<xsl:if test="position()>1">
+				\vspace*{6pt}
+			</xsl:if>
+
+			\textbf{<xsl:value-of select="./title"/>}
+
+			<xsl:value-of select="./description"/>
+
+			\textbf{Skills}:
+			<xsl:for-each select="./skills/skill">
+				<xsl:choose>
+					<xsl:when test="position()=1">
+						<xsl:value-of select="."/>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:text>, </xsl:text>
+						<xsl:value-of select="."/>
+					</xsl:otherwise>
+				</xsl:choose>
+			</xsl:for-each>-->
+
+		</xsl:for-each>
+	</xsl:template>
+	
+	
+
 	
 	<!-- Experience. -->
 	<xsl:template match="experience">
@@ -259,9 +308,6 @@
 						\vspace*{-8pt}
 				</xsl:when>
 			</xsl:choose>
-			<!--<xsl:if test="position()=2">
-					\newpage{}
-			</xsl:if>-->
 		</xsl:for-each>
 	</xsl:template>
 

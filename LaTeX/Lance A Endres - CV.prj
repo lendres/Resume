@@ -13,9 +13,12 @@ Lance A Endres - CV.tex
 
 
 
+C:\Custom Program Files\LaTeX\TeX\LaTeX\leresume.cls
+DATA
+273680306 0 157 15 164 13 208 208 1556 791 1 214 570 -1 -1 0 0 16 0 0 16 1 0 13 164   0
 Lance A Endres - CV.tex
 TeX
-403714043 1 -1 2978 -1 2993 0 0 1348 583 0 982 817 -1 -1 0 0 0 -1 -1 0 1 0 2993 -1   0
+403714043 0 -1 2978 -1 2388 0 0 1348 583 0 878 513 -1 -1 0 0 0 -1 -1 0 1 0 2388 -1   0
 S:\Ikosy\Common\Media\Pick and Place Assembly Instructions\Archive\Instructions.tex
 TeX
 269496315 0 -1 0 -1 1868 0 0 1348 583 0 182 779 -1 -1 0 0 0 -1 -1 0 1 0 1868 -1   0
@@ -31,9 +34,6 @@ TeX:DTX
 C:\Custom Program Files\LaTeX\TeX\LaTeX\lelists.sty
 TeX:DTX
 5254971 1 -1 1767 -1 2405 130 130 1452 765 0 22 551 -1 -1 0 0 13 -1 -1 13 1 0 2405 -1   0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\leresume.cls
-DATA
-273680306 0 131 23 131 27 208 208 1556 791 1 278 323 -1 -1 0 0 16 0 0 16 1 0 27 131   0
 C:\Custom Program Files\LaTeX\bibtex\bib\le.bib
 BibTeX
 269484979 0 563 15 559 15 78 78 1400 713 1 254 342 -1 -1 0 0 60 0 0 60 1 0 15 559   0
