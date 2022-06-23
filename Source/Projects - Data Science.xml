@@ -52,7 +52,7 @@
 	<project>
 		<title>Three Dimensionsal Bit Dynamics</title>
 		<description>
-			Create a computer model that matches simulation performace to laboratory data.
+			Create a computer model that matches the measurements recorded in laboratory data.
 		</description>
 		<skills>
 			<skill>genetic algorithm</skill>
@@ -65,7 +65,7 @@
 	<project>
 		<title>AllLife Bank Credit Card Customer Segmentation</title>
 		<description>
-			Identify different segments of customers based on their spending patterns and bank interactions by using clustering algorithms.
+			Identify different segments of customers based on their spending patterns and bank interactions.
 			<!--Identify different segments in the existing customer, based on their spending patterns as well as past interaction with the bank, using clustering algorithms, 
 			and provide recommendations to the bank on how to better market to and service these customers.-->
 		</description>
@@ -73,7 +73,8 @@
 			<skill>EDA</skill>
 			<skill>k-means clustering</skill>
 			<skill>hierarchical clustering</skill>
-			<skill>cluster Profiling</skill>
+			<skill>cluster profiling</skill>
+			<skill>unsupervised learning</skill>
 		</skills>
 	</project>
 
@@ -87,7 +88,7 @@
 			<skill>cross validation</skill>
 			<skill>regularization</skill>
 			<skill>pipelines</skill>
-			<skill>hyperparameter tuning</skill>
+			<!--<skill>hyperparameter tuning</skill>-->
 			<skill>up sampling</skill>
 			<skill>down sampling</skill>
 		</skills>
@@ -96,15 +97,13 @@
 	<project>
 		<title>Travel Package Purchase Prediction</title>
 		<description>
-			A travel company dataset was used to analyze the customers' information and build a model to predict potential customers who are going to 
-			purchase a newly introduced package.
+			Predict if a customer will purchase a new travel package by using the company's dataset.
+			<!--A travel company dataset was used to analyze the customers' information and build a model to predict potential customers who are going to 
+			purchase a newly introduced package.-->
 			<!--A travel company dataset was used to analyze the customers' information and build a model to predict the potential customer who is going to 
 			purchase the newly introduced package.-->
 		</description>
 		<skills>
-			<skill>EDA</skill>
-			<skill>data preprocessing</skill>
-			<skill>customer profiling</skill>
 			<skill>Bagging</skill>
 			<skill>Random Forest</skill>
 			<skill>AdaBoost</skill>
@@ -112,6 +111,9 @@
 			<skill>XGBoost</skill>
 			<skill>Stacking Classifier</skill>
 			<skill>GridSearchCV</skill>
+			<!--<skill>EDA</skill>
+			<skill>data preprocessing</skill>
+			<skill>customer profiling</skill>-->
 		</skills>
 	</project>
 

@@ -17,7 +17,12 @@
 		<skill catagory="modeling" experiene="8">XGBoost</skill>
 		<skill catagory="modeling" experiene="8">hypothesis testing</skill>
 		<skill catagory="modeling" experiene="8">confidence interval</skill>
-		<skill catagory="modeling" experiene="8">regression</skill>
+		<skill catagory="modeling" experiene="8">Decision Trees</skill>
+		<skill catagory="modeling" experiene="8">Random Forest</skill>
+		<skill catagory="modeling" experiene="8">k-nearest neighbors</skill>
+		<skill catagory="modeling" experiene="8">k-means clustering</skill>
+		<skill catagory="modeling" experiene="8">linear regression</skill>
+		<skill catagory="modeling" experiene="8">logistic regression</skill>
 		<skill catagory="modeling" experiene="8">time series data</skill>
 		<skill catagory="modeling" experiene="8">supervised learning</skill>
 		<skill catagory="modeling" experiene="8">unsupervised learning</skill>
@@ -26,7 +31,9 @@
 		<skill catagory="modeling" experiene="8">OpenCV</skill>
 
 		<!--
-		<skill catagory="modeling" experiene="8">factor analysis</skill>
+		<skill catagory="modeling" experiene="8">principal component analysis</skill>
+		
+		<skill catagory="modeling" experiene="8"></skill>
 		<skill catagory="modeling" experiene="8"></skill>
 		<skill catagory="modeling" experiene="8"></skill>
 		-->
