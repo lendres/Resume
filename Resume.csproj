@@ -64,6 +64,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Education.xml" />
+    <Content Include="Source\Experience - Data Science.xml" />
     <Content Include="Source\Experience - Software.xml" />
     <Content Include="Source\Keywords - Data Science.xml" />
     <Content Include="Source\Projects - Software.xml" />

@@ -44,24 +44,26 @@
 				</item>
 				<bulletedlist>
 					<item>
-						The software uses specialized data processing techniques and algorithms to automatically separate time series data into categories based on the signal.
-					</item>
-				</bulletedlist>					
-						
-
-				<item>
-					Developed generalized plotting software which can be configured for any type of input data.
-				</item>
-				<bulletedlist>
-					<item>
-						The input data came from a wide variety of sources that each had their own data format (syntax, organization, content, units of measurements).  Software architecture
-						was used to generalize the process and handle all the data sources in an organized way.
-					</item>
-					<item>
-						The software is capable of handling (cleaning) corrupt data and conversion of units.
+						Skills used: time series data, EDA, data cleaning and processing, algorithm development, C#, C++, C, .Net Framework, XML, XSLT, HTML, Javascript, Matlab
 					</item>
 				</bulletedlist>
 
+				<item>
+					Developed generalized plotting software which can be configured for a variety of input data.
+				</item>
+				<bulletedlist>
+					<item>
+						Skills used: C#, .Net Framework, XML, XSLT, HTML, Javascript
+					</item>
+				</bulletedlist>
+				<!--<item>
+					Data analysis.
+				</item>
+				<bulletedlist>
+					<item>
+						Technologies used: Matlab
+					</item>
+				</bulletedlist>-->
 			</bulletedlist>
 		</description>
 	</job>
@@ -83,24 +85,19 @@
 			</p>
 			<bulletedlist>
 				<item>
-					Developed a proprietary computer model used to predict the dynamic behavior of drill bits.  The software models the physics of a drill bit removing rock material.
+					Developed a proprietary computer model used to predict the dynamic behavior of drill bits.  The software is a computer simulation of a drill bit removing rock material.
 					<bulletedlist>
-						<item>
-							The physics model is fit to laboratory data using genetic algorithms or gradient descent.  
-						</item>
-						<item>
-							I developed a technique to reduce the cost of solving by an order of magnitude.
-						</item>
-						<item>Led a Russia based software development team.</item>
 						<item>
 							Responsibilities included the physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
 						</item>
-						<!--<item>
-							The software is multi-threaded.  I created a technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes.
-						</item>-->
+						<item>
+							Led a Russia based software development team.
+						</item>
+						<item>
+							Skills used: genetic algorithms, gradient descent, time series data, EDA, data cleaning and processing, algorithm development, C++, C, C#, .Net Framework, XML, XSLT, QT, multithreading, Matlab, HTML, Javascript, team leading, computational mechanics, computational dynamics
+						</item>
 					</bulletedlist>
 				</item>
-				<item>Developed a data processing technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.</item>
 			</bulletedlist>
 		</description>
     </job>
