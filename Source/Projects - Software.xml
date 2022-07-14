@@ -45,7 +45,6 @@
 			<skill>Tensorflow</skill>
 			<skill>Keras</skill>
 			<skill>Google Colab</skill>
-			<skill>Python</skill>
 		</skills>
 	</project>
 
@@ -60,7 +59,6 @@
 			<skill>Tensorflow</skill>
 			<skill>Keras</skill>
 			<skill>Google Colab</skill>
-			<skill>Python</skill>
 		</skills>
     </project>
 
@@ -74,7 +72,6 @@
 			<skill>gradient descent</skill>
 			<skill>time series data</skill>
 			<skill>physics modeling</skill>
-			<skill>Python</skill>
 		</skills>
 	</project>-->
 
@@ -86,11 +83,11 @@
 			and provide recommendations to the bank on how to better market to and service these customers.-->
 		</description>
 		<skills>
+			<skill>EDA</skill>
 			<skill>k-means clustering</skill>
 			<skill>hierarchical clustering</skill>
 			<skill>cluster profiling</skill>
 			<skill>unsupervised learning</skill>
-			<skill>Python%</skill>
 		</skills>
 	</project>
 
@@ -101,14 +98,12 @@
 			<!--Predict if a customer will leave the credit card services or not and the reason behind it.-->
 		</description>
 		<skills>
-			<skill>EDA</skill>
 			<skill>cross validation</skill>
 			<skill>regularization</skill>
 			<skill>pipelines</skill>
 			<!--<skill>hyperparameter tuning</skill>-->
 			<skill>up sampling</skill>
 			<skill>down sampling</skill>
-			<skill>Python%</skill>
 		</skills>
 	</project>
 
@@ -131,9 +126,7 @@
 			<skill>GridSearchCV</skill>
 			--><!--<skill>EDA</skill>
 			<skill>data preprocessing</skill>
-			<skill>customer profiling</skill>-->
-				<!--
-			<skill>Python</skill>
+			<skill>customer profiling</skill>--><!--
 		</skills>
 	</project>
 
@@ -141,10 +134,8 @@
 		<title>AllLife Bank Personal Loan Campaign Modeling</title>
 		<description>
 			AllLife Bank dataset was used to build a model to identify the potential customers who have a higher probability of purchasing a loan.
-			-->
-				<!--AllLife Bank dataset was used to build a model that will help the marketing department to identify the potential customers who have a higher probability of
-			purchasing the loan.-->
-				<!--
+			--><!--AllLife Bank dataset was used to build a model that will help the marketing department to identify the potential customers who have a higher probability of
+			purchasing the loan.--><!--
 		</description>
 		<skills>
 			<skill>EDA</skill>
@@ -152,7 +143,6 @@
 			<skill>logistic regression</skill>
 			<skill>Decision Trees</skill>
 			<skill>AUC-ROC curves</skill>
-			<skill>Python</skill>
 		</skills>
 	</project>-->
 
@@ -166,7 +156,6 @@
 		<skills>
 			<skill>EDA</skill>
 			<skill>linear regression</skill>
-			<skill>Python</skill>
 		</skills>
 	</project>
 
@@ -181,7 +170,6 @@
 			<skill>Pandas</skill>
 			<skill>NumPy</skill>
 			<skill>visualisation techniques</skill>
-			<skill>Python</skill>
 		</skills>
 	</project>
 	-->

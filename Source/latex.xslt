@@ -80,7 +80,6 @@
 		\end{bulletedlist}
 	\end{multicols}
 	
-    \catagory{Projects}
     <xsl:apply-templates select="/resume/projects"/>
 
     \catagory{Experience}
@@ -100,9 +99,6 @@
     \begin{bulletedlist}
 		<xsl:apply-templates select="/resume/skills/group"/>
 	\end{bulletedlist}
-	<!--\begin{multicols}{3}
-		<xsl:apply-templates select="/resume/skills/group"/>
-	\end{multicols}-->
 
 	\catagory{Education}
 	<xsl:apply-templates select="/resume/education"/>
@@ -232,6 +228,7 @@
 
 	<!-- Projects. -->
 	<xsl:template match="projects">
+		\catagory{Additional Projects}
 		<xsl:for-each select="project">
 		\project{<xsl:value-of select="./title"/>}{<xsl:value-of select="./description"/>}{
 			<xsl:for-each select="./skills/skill">
@@ -246,29 +243,6 @@
 				</xsl:choose>
 			</xsl:for-each>
 		}
-		
-
-			<!--<xsl:if test="position()>1">
-				\vspace*{6pt}
-			</xsl:if>
-
-			\textbf{<xsl:value-of select="./title"/>}
-
-			<xsl:value-of select="./description"/>
-
-			\textbf{Skills}:
-			<xsl:for-each select="./skills/skill">
-				<xsl:choose>
-					<xsl:when test="position()=1">
-						<xsl:value-of select="."/>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:text>, </xsl:text>
-						<xsl:value-of select="."/>
-					</xsl:otherwise>
-				</xsl:choose>
-			</xsl:for-each>-->
-
 		</xsl:for-each>
 	</xsl:template>
 	
@@ -317,16 +291,32 @@
 		<xsl:apply-templates select="$description/bulletedlist"/>
 	</xsl:template>
 
+
+	<xsl:variable name="skill">
+
+	</xsl:variable>
+	
+	
 	<xsl:template match="bulletedlist">
 		\begin{bulletedlist}
 			<xsl:apply-templates select="*"/>
 		\end{bulletedlist}
 	</xsl:template>
-	
+
+
 	<xsl:template match="item">
-		\item <xsl:value-of select="text()"/>
+		\item
+		<xsl:call-template name="make-string-latex-compatible">
+			<xsl:with-param name="text" select="text()"/>
+		</xsl:call-template>
 		<xsl:apply-templates select="*"/>
 	</xsl:template>
+	
+	
+	<!--<xsl:template match="item">
+		\item <xsl:value-of select="text()"/>
+		<xsl:apply-templates select="*"/>
+	</xsl:template>-->
 
 	<xsl:template match="bold">
 		\textbf{<xsl:value-of select="text()"/>}
