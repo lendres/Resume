@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<group heading="Machine Learing, Artificial Intelligence, and Data Science">
+	<skill catagory="modeling" experiene="8">ANNs</skill>
+	<skill catagory="modeling" experiene="8">CNNs</skill>
+	<skill catagory="modeling" experiene="8">NLP</skill>
+	<skill catagory="modeling" experiene="8">TensorFlow</skill>
+	<skill catagory="modeling" experiene="8">data analysis</skill>
+	<skill catagory="modeling" experiene="8">data cleaning</skill>
+	<skill catagory="modeling" experiene="8">algorithm design</skill>
+	<skill catagory="modeling" experiene="8">scikit-learn</skill>
+	<skill catagory="modeling" experiene="8">pandas</skill>
+	<skill catagory="modeling" experiene="8">numpy</skill>
+	<skill catagory="modeling" experiene="8">Matplotlib</skill>
+	<skill catagory="modeling" experiene="8">Seaborn</skill>
+	<skill catagory="modeling" experiene="8">XGBoost</skill>
+	<skill catagory="modeling" experiene="8">hypothesis testing</skill>
+	<skill catagory="modeling" experiene="8">confidence interval</skill>
+	<skill catagory="modeling" experiene="8">Decision Trees</skill>
+	<skill catagory="modeling" experiene="8">Random Forest</skill>
+	<skill catagory="modeling" experiene="8">k-nearest neighbors</skill>
+	<skill catagory="modeling" experiene="8">k-means clustering</skill>
+	<skill catagory="modeling" experiene="8">linear regression</skill>
+	<skill catagory="modeling" experiene="8">logistic regression</skill>
+	<skill catagory="modeling" experiene="8">time series data</skill>
+	<skill catagory="modeling" experiene="8">supervised learning</skill>
+	<skill catagory="modeling" experiene="8">unsupervised learning</skill>
+	<skill catagory="modeling" experiene="8">clustering</skill>
+	<skill catagory="modeling" experiene="8">PIL</skill>
+	<skill catagory="modeling" experiene="8">OpenCV</skill>
+
+	<!--
+	<skill catagory="modeling" experiene="8">principal component analysis</skill>
+		
+	<skill catagory="modeling" experiene="8"></skill>
+	<skill catagory="modeling" experiene="8"></skill>
+	<skill catagory="modeling" experiene="8"></skill>
+	-->
+</group>

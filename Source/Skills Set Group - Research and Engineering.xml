@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<group heading="Research and Engineering">
+	<skill catagory="engineering" experiene="8">design of laboratory experiments</skill>
+	<skill catagory="engineering" experiene="8">stability analysis</skill>
+	<skill catagory="engineering" experiene="8">signal processing</skill>
+	<skill catagory="engineering" experiene="8">FEA</skill>
+	<skill catagory="engineering" experiene="8">CFD (basic)</skill>
+	<skill catagory="engineering" experiene="8">plasticity</skill>
+	<skill catagory="engineering" experiene="8">structural engineering</skill>
+</group>

@@ -80,8 +80,10 @@
             </to>
         </daterange>
 		<description>
+			<!-- \nolinebreak[4] -->
+			<!--Conducted research in the areas of drilling mechanics and dynamics.  Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.-->
 			<p>
-				Conducted research in the areas of drilling mechanics and dynamics.  Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.
+				Developed software used for data processing, data analysis, and drilling dynamics predictions.
 			</p>
 			<bulletedlist>
 				<item>

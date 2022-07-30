@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<group heading="Software">
+	<skill catagory="software" experience="10">Visual Studio</skill>
+	<skill catagory="software" experience="10">Matlab</skill>
+	<skill catagory="software" experience="10">Spyder</skill>
+	<skill catagory="software" experience="10">Jupyter Notebooks</skill>
+	<skill catagory="software" experience="10">Google Colab</skill>
+	<skill catagory="software" experience="10">AutoCAD</skill>
+	<skill catagory="software" experience="8">GitHub</skill>
+	<skill catagory="software" experience="4">iSIGHT</skill>
+	<skill catagory="software" experience="10">LaTeX</skill>
+	<skill catagory="software" experience="10">Fusion 360</skill>
+	<skill catagory="software" experience="10">Solidworks</skill>
+	<skill catagory="software" experience="10">KiCad</skill>
+	<skill catagory="software" experience="10">Photoshop</skill>
+	<skill catagory="software" experience="10">TortoiseSVN/CVS</skill>
+	<skill catagory="software" experience="10">Ansys</skill>
+	<skill catagory="software" experience="10">Word</skill>
+	<skill catagory="software" experience="10">Excel</skill>
+	<skill catagory="software" experience="10">PowerPoint</skill>
+	<skill catagory="software" experience="5">Project</skill>
+	<skill catagory="software" experience="10">Outlook</skill>
+</group>

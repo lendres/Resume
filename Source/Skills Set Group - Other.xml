@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<group heading="Other">
+	<skill catagory="other" experience="">3D modeling</skill>
+	<skill catagory="other" experience="">3D printing</skill>
+	<skill catagory="other" experience="">computer trouble shooting and repair (hardware and software)</skill>
+	<skill catagory="other" experience="">basic electronics &amp; circuits</skill>
+	<skill catagory="other" experience="">PCB design</skill>
+	<skill catagory="other" experience="">microprocessor basics</skill>
+	<skill catagory="other" experience="">Arduino and Raspberry Pi</skill>
+	<skill catagory="other" experience="">embedded programming (Arduino)</skill>
+	<skill catagory="other" experience="">soldering</skill>
+	<skill catagory="other" experience="">surface mount devices and reflowing</skill>
+	<!--<skill catagory="other" experience="">additive manufacturing</skill>-->
+	<skill catagory="other" experience="">lighting displays (smart LEDs)</skill>
+</group>

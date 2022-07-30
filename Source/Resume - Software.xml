@@ -11,12 +11,12 @@
 		</name>
 	</head>
 
-	<xi:include href="Summary.xml"/>
+	<xi:include href="Summary - Software.xml"/>
 	<xi:include href="Keywords - Software.xml"/>
 	<xi:include href="Institutions.xml"/>
 	<xi:include href="Education.xml"/>
 	<xi:include href="Projects - Data Science.xml"/>
-	<xi:include href="Experience - Software.xml"/>
+	<xi:include href="Experience - Data Science.xml"/>
 	<!--<xi:include href="Certifications.xml"/>
 	<xi:include href="Memberships.xml"/>-->
 	<xi:include href="Skills.xml"/>

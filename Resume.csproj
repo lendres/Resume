@@ -67,7 +67,6 @@
     <Content Include="Source\Experience - Data Science.xml" />
     <Content Include="Source\Experience - Software.xml" />
     <Content Include="Source\Keywords - Data Science.xml" />
-    <Content Include="Source\Projects - Software.xml" />
     <Content Include="Source\Projects - Data Science.xml" />
     <Content Include="Source\Experience.xml" />
     <Content Include="Source\html.xslt">
@@ -96,8 +95,14 @@
     <Content Include="Source\Resume - Data Science.xml" />
     <Content Include="Source\Resume - Software.xml" />
     <Content Include="Source\Resume.xml" />
+    <Content Include="Source\Skills Set Group - Other.xml" />
+    <Content Include="Source\Skills Set Group - Research and Engineering.xml" />
+    <Content Include="Source\Skills Set Group - Software.xml" />
+    <Content Include="Source\Skills Set Group - Software Development.xml" />
+    <Content Include="Source\Skills Set Group - Machine Learning.xml" />
     <Content Include="Source\Skills - Data Science.xml" />
     <Content Include="Source\Skills.xml" />
+    <Content Include="Source\Summary - Software.xml" />
     <Content Include="Source\Summary - Data Science.xml" />
     <Content Include="Source\Summary.xml" />
     <Content Include="Source\text.xslt">
