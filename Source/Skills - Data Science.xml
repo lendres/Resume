@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
-<skills xmlns:xi="http://www.w3.org/2001/XInclude">
-	<xi:include href="Skills Set Group - Machine Learning.xml"/>
-	<xi:include href="Skills Set Group - Software Development.xml"/>
-	<xi:include href="Skills Set Group - Software.xml"/>
-</skills>

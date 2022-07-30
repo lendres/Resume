@@ -100,7 +100,6 @@
     <Content Include="Source\Skills Set Group - Software.xml" />
     <Content Include="Source\Skills Set Group - Software Development.xml" />
     <Content Include="Source\Skills Set Group - Machine Learning.xml" />
-    <Content Include="Source\Skills - Data Science.xml" />
     <Content Include="Source\Skills.xml" />
     <Content Include="Source\Summary - Software.xml" />
     <Content Include="Source\Summary - Data Science.xml" />
