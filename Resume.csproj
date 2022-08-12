@@ -63,6 +63,7 @@
     <Content Include="Alternate Versions\Experience with Language Info.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Source\Education - Generic.xml" />
     <Content Include="Source\Education.xml" />
     <Content Include="Source\Experience - Data Science.xml" />
     <Content Include="Source\Experience - Software.xml" />

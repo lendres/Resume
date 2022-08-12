@@ -15,7 +15,7 @@
 	<xi:include href="Keywords - Data Science.xml"/>
 	<xi:include href="Projects - Data Science.xml"/>
 	<xi:include href="Institutions.xml"/>
-	<xi:include href="Education.xml"/>
+	<xi:include href="Education - Generic.xml"/>
 	<xi:include href="Experience - Data Science.xml"/>
 	<!--<xi:include href="Certifications.xml"/>
 	<xi:include href="Memberships.xml"/>-->
