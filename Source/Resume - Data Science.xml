@@ -1,32 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <resume xmlns:xi="http://www.w3.org/2001/XInclude">
-	<head>
-		<name>
-			<first>Lance</first>
-			<middle>A.</middle>
-			<last>Endres</last>
-			<title>Ph.D.</title>
-			<!--<title>E.I.T.</title>-->
-		</name>
-	</head>
+	<xi:include href=".\Common\Head.xml"/>
 
-	<xi:include href="Summary - Data Science.xml"/>
-	<xi:include href="Keywords - Data Science.xml"/>
-	<xi:include href="Projects - Data Science.xml"/>
-	<xi:include href="Institutions.xml"/>
-	<xi:include href="Education - Generic.xml"/>
-	<xi:include href="Experience - Data Science.xml"/>
-	<!--<xi:include href="Certifications.xml"/>
-	<xi:include href="Memberships.xml"/>-->
-	<xi:include href="Skills.xml"/>
+	<xi:include href=".\Summary\Summary - Data Science.xml"/>
+	<xi:include href=".\Keywords\Keywords - Data Science.xml"/>
+	<xi:include href=".\Projects\Projects - Data Science.xml"/>
+	<xi:include href=".\Common\Institutions.xml"/>
+	<xi:include href=".\Education\Education - Generic.xml"/>
+	<xi:include href=".\Experience\Experience - Data Science.xml"/>
+	
+	<xi:include href=".\Skills\Skills.xml"/>
 
 	<!-- Publications is a list of LaTeX BibTeX references.  Specifies which references are in the output. -->
-	<xi:include href="Publications.xml"/>
+	<xi:include href=".\Common\Publications.xml"/>
 
 	<!-- Bibliography is written for non-LaTeX output.  It has all the information in the file. -->
-	<xi:include href="Bibliography.xml"/>
+	<xi:include href=".\Common\Bibliography.xml"/>
 
-	<xi:include href="Patents.xml"/>
+	<xi:include href=".\Common\Patents.xml"/>
 
 </resume>

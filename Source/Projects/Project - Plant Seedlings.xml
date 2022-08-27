@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<project>
+	<title>Plants Seedling Image Classification</title>
+	<description>
+		Classify plant species based on images of the seedlings using a Convolutional Neural Network.
+	</description>
+	<skills>
+		<skill>convolutional neural network</skill>
+		<skill>Tensorflow</skill>
+		<skill>Keras</skill>
+		<skill>Google Colab</skill>
+		<skill>Python</skill>
+	</skills>
+</project>

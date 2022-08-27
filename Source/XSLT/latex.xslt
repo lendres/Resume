@@ -10,12 +10,13 @@
 	To Do
 	- Fix DVI.  It seems some fonts are not rendering and the DVI viewing fails.
 	- Fix Bibtex.  It is issuing an error when it runs from Winedit.
-	- Change resume to run from the standard "makedocument" instead of the customer resume one.
 	-->
 
     <xsl:import href="common.xslt"/>
     <xsl:import href="xsl-template-functions.xsl"/>
 	<xsl:output indent="yes" method="text"/>
+
+	<xsl:param name="projectlocation"/>
 
 	<xsl:template match="/">
 	\documentclass{leresume}
@@ -78,12 +79,20 @@
 		\begin{bulletedlist}
 			<xsl:apply-templates select="/resume/keywords"/>
 		\end{bulletedlist}
-	\end{multicols}
-	
-    <xsl:apply-templates select="/resume/projects"/>
+		\end{multicols}
 
-    \catagory{Experience}
-    <xsl:apply-templates select="/resume/experience"/>
+	<xsl:choose>
+		<!-- Last skill so format it a little different. -->
+		<xsl:when test="$projectlocation='afterexperience'">
+			<xsl:apply-templates select="/resume/experience"/>
+			<xsl:apply-templates select="/resume/projects"/>
+		</xsl:when>
+
+		<xsl:otherwise>
+			<xsl:apply-templates select="/resume/projects"/>
+			<xsl:apply-templates select="/resume/experience"/>
+		</xsl:otherwise>
+	</xsl:choose>
 
     \catagory{Publications}
     <xsl:apply-templates select="/resume/publications/publication"/>
@@ -251,6 +260,7 @@
 	
 	<!-- Experience. -->
 	<xsl:template match="experience">
+		\catagory{Experience}
 		<xsl:variable name="njobs" select="count(job)"/>
         <xsl:for-each select="job">
             \catentry{<xsl:apply-templates select="./daterange/from"/> - <xsl:apply-templates select="./daterange/to"/>}

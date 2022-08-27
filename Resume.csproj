@@ -52,73 +52,69 @@
   <ItemGroup>
     <Content Include="Command Line Arguments.txt" />
     <Content Include="HTML\resume.css" />
-    <Content Include="Source\Bibliography.xml" />
-    <Content Include="Source\Certifications.xml" />
-    <Content Include="Source\common.xslt">
+    <Content Include="Source\Common\Bibliography.xml" />
+    <Content Include="Source\Common\Certifications.xml" />
+    <Content Include="Source\Common\Head.xml" />
+    <Content Include="Source\Experience\Experience - Oil and Gas - Short.xml" />
+    <Content Include="Source\Keywords\Keywords - Oil and Gas Plus Machine Learning.xml" />
+    <Content Include="Source\Projects\Project - Bank Customer Churn.xml" />
+    <Content Include="Source\Projects\Project - Plant Seedlings.xml" />
+    <Content Include="Source\Projects\Projects - Data Science.xml" />
+    <Content Include="Source\Projects\Projects - Artificial Intelligence.xml" />
+    <Content Include="Source\Resume - Oil and Gas Plus Machine Learning.xml" />
+    <Content Include="Source\XSLT\common.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Alternate Versions\Experience for Outside Oil and Gas.xml">
+    <Content Include="Source\Education\Education - Generic.xml" />
+    <Content Include="Source\Education\Education.xml" />
+    <Content Include="Source\Experience\Experience - Oil and Gas.xml" />
+    <Content Include="Source\Experience\Experience - Data Science.xml" />
+    <Content Include="Source\Experience\Experience - Software.xml" />
+    <Content Include="Source\Keywords\Keywords - Data Science.xml" />
+    <Content Include="Source\Projects\Project - Twitter Sentiment.xml" />
+    <Content Include="Source\Experience\Job - Ikosy.xml" />
+    <Content Include="Source\XSLT\html.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Alternate Versions\Experience with Language Info.xml">
+    <Content Include="Source\Common\Institutions.xml" />
+    <Content Include="Source\Common\Journals.xml" />
+    <Content Include="Source\Keywords\Keywords - Software.xml" />
+    <Content Include="Source\Keywords\Keywords - Oil and Gas.xml" />
+    <Content Include="Source\XSLT\latex.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\Education - Generic.xml" />
-    <Content Include="Source\Education.xml" />
-    <Content Include="Source\Experience - Data Science.xml" />
-    <Content Include="Source\Experience - Software.xml" />
-    <Content Include="Source\Keywords - Data Science.xml" />
-    <Content Include="Source\Projects - Data Science.xml" />
-    <Content Include="Source\Experience.xml" />
-    <Content Include="Source\html.xslt">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Source\Institutions.xml" />
-    <Content Include="Source\Journals.xml" />
-    <Content Include="Alternate Versions\Keywords for Outside Oil and Gas.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Source\Keywords - Software.xml" />
-    <Content Include="Source\Keywords.xml" />
-    <Content Include="Source\latex.xslt">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Source\Memberships.xml" />
+    <Content Include="Source\Common\Memberships.xml" />
     <Content Include="Source\Notes.txt" />
-    <Content Include="Source\Patents.xml" />
-    <Content Include="Source\Publications.xml">
+    <Content Include="Source\Common\Patents.xml" />
+    <Content Include="Source\Common\Publications.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Alternate Versions\Resume for Outside Oil and Gas.xml">
-      <SubType>Designer</SubType>
-    </Content>
-    <Content Include="Alternate Versions\Skills for Outside Oil and Gas.xml" />
     <Content Include="Source\Resume - Data Science.xml" />
     <Content Include="Source\Resume - Software.xml" />
-    <Content Include="Source\Resume.xml" />
-    <Content Include="Source\Skills Set Group - Other.xml" />
-    <Content Include="Source\Skills Set Group - Research and Engineering.xml" />
-    <Content Include="Source\Skills Set Group - Software.xml" />
-    <Content Include="Source\Skills Set Group - Software Development.xml" />
-    <Content Include="Source\Skills Set Group - Machine Learning.xml" />
-    <Content Include="Source\Skills.xml" />
-    <Content Include="Source\Summary - Software.xml" />
-    <Content Include="Source\Summary - Data Science.xml" />
-    <Content Include="Source\Summary.xml" />
-    <Content Include="Source\text.xslt">
+    <Content Include="Source\Resume - Oil and Gas.xml" />
+    <Content Include="Source\Skills\Skills Set Group - Other.xml" />
+    <Content Include="Source\Skills\Skills Set Group - Research and Engineering.xml" />
+    <Content Include="Source\Skills\Skills Set Group - Software.xml" />
+    <Content Include="Source\Skills\Skills Set Group - Software Development.xml" />
+    <Content Include="Source\Skills\Skills Set Group - Machine Learning.xml" />
+    <Content Include="Source\Skills\Skills.xml" />
+    <Content Include="Source\Summary\Summary - Software.xml" />
+    <Content Include="Source\Summary\Summary - Data Science.xml" />
+    <Content Include="Source\Summary\Summary - Oil and Gas.xml" />
+    <Content Include="Source\XSLT\text.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\xsl-template-functions.xsl">
+    <Content Include="Source\XSLT\xsl-template-functions.xsl">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Source\XSLT\XSLT Input Arguments.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="LaTeX\Make Resume.bat" />
+    <None Include="LaTeX\manualmakedocument.bat" />
+    <None Include="LaTeX\runmakedocument.bat" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Archived\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
       <Visible>False</Visible>

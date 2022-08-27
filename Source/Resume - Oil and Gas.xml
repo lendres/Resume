@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <resume xmlns:xi="http://www.w3.org/2001/XInclude">
+	
 	<xi:include href=".\Common\Head.xml"/>
 
-	<xi:include href=".\Summary\Summary - Software.xml"/>
-	<xi:include href=".\Keywords\Keywords - Software.xml"/>
+	<xi:include href=".\Summary\Summary - Oil and Gas.xml"/>
+	<xi:include href=".\Keywords\Keywords - Oil and Gas.xml"/>
 	<xi:include href=".\Common\Institutions.xml"/>
 	<xi:include href=".\Education\Education - Generic.xml"/>
-	<xi:include href=".\Projects\Projects - Data Science.xml"/>
-	<xi:include href=".\Experience\Experience - Software.xml"/>
-
+	<xi:include href=".\Experience\Experience - Oil and Gas.xml"/>
+	
 	<xi:include href=".\Skills\Skills.xml"/>
 
 	<!-- Publications is a list of LaTeX BibTeX references.  Specifies which references are in the output. -->

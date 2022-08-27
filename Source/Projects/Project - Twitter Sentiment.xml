@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<project>
+	<title>Twitter Sentiment Analysis for Airline Services</title>
+	<description>
+		Identify the sentiment from a tweet to understand an airlines' customer satisfaction.
+	</description>
+	<skills>
+		<!--<skill>natural language processing</skill>-->
+		<skill>NLP</skill>
+		<skill>count vectorizer</skill>
+		<skill>TF-IDF vectorizer</skill>
+		<skill>TensoFlow</skill>
+		<skill>word embedding</skill>
+		<skill>LSTM</skill>
+		<!--<skill>long short term memory</skill>-->
+		<skill>VADER</skill>
+	</skills>
+</project>

@@ -1,68 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<projects>
-	<!--<project>
-		<title></title>
-		<description>
-
-		</description>
-		<skills>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-		</skills>
-	</project>
-
-	<project>
-		<title></title>
-		<description>
-
-		</description>
-		<skills>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-			<skill></skill>
-		</skills>
-	</project>-->
-
-	<project>
-		<title>Plants Seedling Classification</title>
-		<description>
-			Classify plant species based on images of the seedlings using a Convolutional Neural Network.
-		</description>
-		<skills>
-			<skill>convolutional neural network</skill>
-			<skill>Tensorflow</skill>
-			<skill>Keras</skill>
-			<skill>Google Colab</skill>
-			<skill>Python</skill>
-		</skills>
-	</project>
-
-	<project>
-		<title>Bank Customer Churn Prediction</title>
-		<description>
-			Identify the customers that are more likely to churn by building an Artificial Neural Network.
-			<!--Help the operations team identify the customers that are more likely to churn by building an artificial Neural Network from scratch.-->
-		</description>
-		<skills>
-			<skill>artificial neural network</skill>
-			<skill>Tensorflow</skill>
-			<skill>Keras</skill>
-			<skill>Google Colab</skill>
-			<skill>Python</skill>
-		</skills>
-    </project>
+<projects xmlns:xi="http://www.w3.org/2001/XInclude">
+	<xi:include href="Project - Twitter Sentiment.xml"/>
+	<xi:include href="Project - Plant Seedlings.xml"/>
+	<xi:include href="Project - Bank Customer Churn.xml"/>
 
 	<!--<project>
 		<title>Three Dimensionsal Bit Dynamics</title>
@@ -76,14 +17,15 @@
 			<skill>physics modeling</skill>
 			<skill>Python</skill>
 		</skills>
-	</project>-->
+	</project>
 
 	<project>
 		<title>AllLife Bank Credit Card Customer Segmentation</title>
 		<description>
 			Identify different segments of customers based on their spending patterns and bank interactions.
+			-->
 			<!--Identify different segments in the existing customer, based on their spending patterns as well as past interaction with the bank, using clustering algorithms, 
-			and provide recommendations to the bank on how to better market to and service these customers.-->
+			and provide recommendations to the bank on how to better market to and service these customers.--><!--
 		</description>
 		<skills>
 			<skill>k-means clustering</skill>
@@ -93,7 +35,7 @@
 			<skill>Python%</skill>
 		</skills>
 	</project>
-
+	-->
 	<project>
 		<title>Credit Card Churn Prediction</title>
 		<description>

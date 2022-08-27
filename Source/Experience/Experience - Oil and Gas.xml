@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<experience xmlns:xi="http://www.w3.org/2001/XInclude">
+	<xi:include href="Job - Ikosy.xml"/>
+
+	<job>
+		<title>Principal Engineer</title>
+		<company id="aps-houston"/>
+		<daterange>
+			<from>
+				<date month="January" monthnumber="1" year="2014"/>
+			</from>
+			<to>
+				<date month="June" monthnumber="6" year="2020"/>
+			</to>
+		</daterange>
+		<description>
+			<p>Areas of work included developing engineering software, data analysis, and drilling dynamics.\nolinebreak[4]</p>
+			<bulletedlist>
+				<item>
+					Developed an FEA based software used for structural analysis of drill strings.
+				</item>
+				<bulletedlist>
+					<item>
+						The software calculates deflections, stresses, natural frequencies, and mode shapes.
+					</item>
+					<item>
+						The software is used to assess the bending capabilities and stress limits of drill strings and assess the consequences of design changes.
+					</item>
+				</bulletedlist>
+				<item>
+					Developed a software application used to automate the cleaning and processing of data.
+				</item>
+				<bulletedlist>
+					<item>
+						The software uses specialized data processing techniques and algorithms to automatically separate the data into drilling versus non-drilling time (up time versus down time).
+					</item>
+				</bulletedlist>					
+				<item>
+					Developed generalized plotting software which can be configured for any type of input data.
+				</item>
+				<bulletedlist>
+					<item>
+						The input data came from a wide variety of sources that each had their own data format (syntax, organization, content, units of measurements).  Software architecture
+						was used to generalize the process and handle all the data sources in an organized way.
+					</item>
+					<item>
+						The software is capable of handling corrupt data and conversion of units.
+					</item>
+				</bulletedlist>
+			</bulletedlist>
+		</description>
+	</job>
+	
+	<job>
+        <title>Researcher in Drilling Mechanics and Dynamics</title>
+        <company id="hcc"/>
+        <daterange>
+            <from>
+                <date month="January" monthnumber="1" year="2006"/>
+            </from>
+            <to>
+				<date month="November" monthnumber="11" year="2013"/>
+            </to>
+        </daterange>
+		<description>
+			<p>
+				Conducted research in the areas of drilling mechanics and dynamics.  Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.
+			</p>
+			<bulletedlist>
+				<item>
+					Developed a proprietary computer model used to predict the dynamic behavior of drill bits.
+					<bulletedlist>
+						<item>
+							Responsibilities included the physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
+						</item>
+						<item>
+							The software models the physics of a drill bit removing rock material.
+						</item>
+						<item>
+							The software is multi-threaded.  I created a technique to automatically avoid race conditions and deadlocks without requiring extensive use of mutexes.
+						</item>
+						<item>
+							The physics model is calibrated to laboratory data by solving the inverse problem.  I developed a technique to reduce the cost of solving by an order of magnitude.
+						</item>
+						<item>Led a Russia based software development team.</item>
+					</bulletedlist>
+				</item>
+				<item>My research led to an improved theoretical understanding of lateral drill bit vibrations.  I used this understanding to create new techniques for designing drill bits.  <italic>These techniques let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution.</italic>  This saved time and money.</item>
+				<item>Developed a technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.</item>
+				<!--<item>Designed and oversaw experiments in a laboratory setting and on a full-scale drill rig.</item>-->
+			</bulletedlist>
+		</description>
+    </job>
+	
+</experience>

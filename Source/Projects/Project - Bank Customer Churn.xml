@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<project>
+	<title>Bank Customer Churn Prediction</title>
+	<description>
+		Identify the customers that are more likely to churn by building an Artificial Neural Network.
+		<!--Help the operations team identify the customers that are more likely to churn by building an artificial Neural Network from scratch.-->
+	</description>
+	<skills>
+		<skill>artificial neural network</skill>
+		<skill>Tensorflow</skill>
+		<skill>Keras</skill>
+		<skill>Google Colab</skill>
+		<skill>Python</skill>
+	</skills>
+</project>
