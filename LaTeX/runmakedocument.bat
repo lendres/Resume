@@ -14,10 +14,10 @@ rem		2 - Processing for the "glossaries" package.
 title Make Resume
 taskkill /IM FoxitPhantomPDF.exe
 
-call makedocument %1 0
+call make_document %1 0
 bibtex "publications"
 bibtex "patents"
-call makedocument %1 0
+call make_document %1 0
 
 echo %1.pdf
 start "" %1.pdf

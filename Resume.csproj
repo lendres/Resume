@@ -61,7 +61,7 @@
     <Content Include="Source\Projects\Project - Plant Seedlings.xml" />
     <Content Include="Source\Projects\Projects - Data Science.xml" />
     <Content Include="Source\Projects\Projects - Artificial Intelligence.xml" />
-    <Content Include="Source\Resume - Oil and Gas Plus Machine Learning.xml" />
+    <Content Include="Source\Resumes\Resume - Oil and Gas Plus Machine Learning.xml" />
     <Content Include="Source\XSLT\common.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -89,9 +89,9 @@
     <Content Include="Source\Common\Publications.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\Resume - Data Science.xml" />
-    <Content Include="Source\Resume - Software.xml" />
-    <Content Include="Source\Resume - Oil and Gas.xml" />
+    <Content Include="Source\Resumes\Resume - Data Science.xml" />
+    <Content Include="Source\Resumes\Resume - Software.xml" />
+    <Content Include="Source\Resumes\Resume - Oil and Gas.xml" />
     <Content Include="Source\Skills\Skills Set Group - Other.xml" />
     <Content Include="Source\Skills\Skills Set Group - Research and Engineering.xml" />
     <Content Include="Source\Skills\Skills Set Group - Software.xml" />
@@ -110,7 +110,6 @@
     <Content Include="Source\XSLT\XSLT Input Arguments.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="LaTeX\manualmakedocument.bat" />
     <None Include="LaTeX\runmakedocument.bat" />
   </ItemGroup>
