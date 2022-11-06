@@ -52,8 +52,11 @@
             </to>
         </daterange>
 		<description>
-			<p>
+			<!--<p>
 				Conducted research in the areas of drilling mechanics and dynamics.  Work included developing theoretical understandings of drilling behavior, designing laboratory experiments, and developing computer models to predict drilling behavior.
+			</p>-->
+			<p>
+				Conducted research in drilling mechanics, drilling dynamics, and developing computer models.
 			</p>
 			<bulletedlist>
 				<item>
@@ -72,9 +75,8 @@
 					</bulletedlist>
 				</item>
 				<item>
-					My research led to an improved theoretical understanding of lateral drill bit vibrations.
-					I used this understanding to create new techniques for designing drill bits.
-					<italic>This let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution.</italic>
+					My research led to an improved theoretical understanding of lateral drill bit vibrations.  I used this understanding to create new techniques for
+					designing drill bits. <italic>This let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution.</italic>
 				</item>
 				<item>Developed a technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.</item>
 				<!--<item>Designed and oversaw experiments in a laboratory setting and on a full-scale drill rig.</item>-->

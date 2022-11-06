@@ -97,12 +97,12 @@
     \catagory{Publications}
     <xsl:apply-templates select="/resume/publications/publication"/>
 	\bibliographystylepublications{leplain}
-	\bibliographypublications{le}
+	\bibliographypublications{strings, le}
 	
 	\catagory{Patents}
 	<xsl:apply-templates select="/resume/patents/patent"/>
 	\bibliographystylepatents{leplain}
-	\bibliographypatents{le}
+	\bibliographypatents{strings, le}
 
     \catagory{Skill Set}
     \begin{bulletedlist}
