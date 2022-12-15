@@ -56,6 +56,7 @@
     <Content Include="Source\Common\Certifications.xml" />
     <Content Include="Source\Common\Head.xml" />
     <Content Include="Source\Experience\Experience - Oil and Gas - Short.xml" />
+    <Content Include="Source\Experience\Job - CNPC USA.xml" />
     <Content Include="Source\Keywords\Keywords - Oil and Gas Plus Machine Learning.xml" />
     <Content Include="Source\Projects\Project - Bank Customer Churn.xml" />
     <Content Include="Source\Projects\Project - Plant Seedlings.xml" />

@@ -7,7 +7,8 @@
 	<xi:include href="..\Keywords\Keywords - Software.xml"/>
 	<xi:include href="..\Common\Institutions.xml"/>
 	<xi:include href="..\Education\Education - Generic.xml"/>
-	<xi:include href="..\Projects\Projects - Data Science.xml"/>
+	<!--<xi:include href="..\Projects\Projects - Data Science.xml"/>-->
+	<xi:include href="..\Projects\Projects - Artificial Intelligence.xml"/>
 	<xi:include href="..\Experience\Experience - Software.xml"/>
 
 	<xi:include href="..\Skills\Skills.xml"/>

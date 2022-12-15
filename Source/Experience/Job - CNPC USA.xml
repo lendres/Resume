@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job>
+	<title>Senior Research Engineer</title>
+	<company id="cnpcusa"/>
+	<daterange>
+		<from>
+			<date month="September" monthnumber="9" year="2022"/>
+		</from>
+		<to>Current</to>
+	</daterange>
+	<description>
+		<p>Project leader for drilling dynamics software.</p>
+		<bulletedlist>
+			<item>
+				Manage a joint project with an third party to develop software.
+			</item>
+			<item>
+				Manage and in-house project to develop software to predict drill string and drill bit dynamics.
+			</item>
+		</bulletedlist>
+	</description>
+</job>

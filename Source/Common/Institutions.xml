@@ -26,6 +26,17 @@
 	<institution id="chiepsilon" name="Chi Epsilon">
 		<description>National Civil Engineering Honor Society</description>
 	</institution>
+
+	<institution id="cnpcusa" name="CNPC USA" type="business">
+		<address type="business">
+			<street>2901 Wilcrest Dr</street>
+			<city>Houston</city>
+			<state>TX</state>
+			<zip>77042</zip>
+			<country>USA</country>
+		</address>
+		<url>http://www.cnpcusa.com</url>
+	</institution>
 	
     <institution id="hcc" name="Baker Hughes" type="business">
         <address type="business">
@@ -35,12 +46,12 @@
             <zip>77019</zip>
             <country>USA</country>
         </address>
-        <url>http://www.hccbits.com</url>
+        <url>http://www.bakerhughes.com</url>
     </institution>
 
     <institution id="burkettwong" name="Burkett &amp; Wong Engineers" type="business">
         <address type="business">
-            <street>3434 Fourth Ave </street>
+            <street>3434 Fourth Ave</street>
             <city>San Diego</city>
             <state>CA</state>
             <zip>92103</zip>
