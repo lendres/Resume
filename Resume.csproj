@@ -58,11 +58,13 @@
     <Content Include="Source\Experience\Experience - Oil and Gas - Short.xml" />
     <Content Include="Source\Experience\Job - CNPC USA.xml" />
     <Content Include="Source\Keywords\Keywords - Oil and Gas Plus Machine Learning.xml" />
+    <Content Include="Source\Keywords\Keywords - Construction.xml" />
     <Content Include="Source\Projects\Project - Bank Customer Churn.xml" />
     <Content Include="Source\Projects\Project - Plant Seedlings.xml" />
     <Content Include="Source\Projects\Projects - Data Science.xml" />
     <Content Include="Source\Projects\Projects - Artificial Intelligence.xml" />
     <Content Include="Source\Resumes\Resume - Oil and Gas Plus Machine Learning.xml" />
+    <Content Include="Source\Resumes\Resume - Construction.xml" />
     <Content Include="Source\XSLT\common.xslt">
       <SubType>Designer</SubType>
     </Content>
