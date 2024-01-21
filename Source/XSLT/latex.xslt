@@ -234,7 +234,6 @@
     </xsl:template>
 
 
-
 	<!-- Projects. -->
 	<xsl:template match="projects">
 		\catagory{Additional Projects}
@@ -256,7 +255,6 @@
 	</xsl:template>
 	
 	
-
 	
 	<!-- Experience. -->
 	<xsl:template match="experience">

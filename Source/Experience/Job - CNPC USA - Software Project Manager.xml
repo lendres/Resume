@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <job>
-	<title>Senior Research Engineer</title>
+	<title>Software Project Manager</title>
 	<company id="cnpcusa"/>
 	<daterange>
 		<from>
@@ -10,10 +10,13 @@
 		<to>Current</to>
 	</daterange>
 	<description>
-		<p>Project leader for drilling dynamics software.</p>
+		<p>Project leader for developing physics and data based prediction software.</p>
 		<bulletedlist>
 			<item>
 				Manage software projects utilizing in-house and third party resources.
+			</item>
+			<item>
+				Mentor and guide developers and researchers.
 			</item>
 		</bulletedlist>
 	</description>

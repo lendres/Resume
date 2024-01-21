@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<group heading="Machine Learing, Artificial Intelligence, and Data Science">
+<group heading="Machine Learning, Artificial Intelligence, and Data Science">
 	<skill catagory="modeling" experiene="8">ANNs</skill>
 	<skill catagory="modeling" experiene="8">CNNs</skill>
 	<skill catagory="modeling" experiene="8">NLP</skill>

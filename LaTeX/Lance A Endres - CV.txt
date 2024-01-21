@@ -1,0 +1,119 @@
+Lance A. Endres, Ph.D.
+
+Summary:
+An experienced software developer with over 25 years of experience working in all aspects of software from ideation to delivery. An expert project manager, team leader, and researcher who is well versed in working on internationally based teams. Creative thinker with a track record of solving difficult problems. Areas of expertise include:
+
+Areas of Expertise:
+Software Development, Software Architecture, Algorithm Development, Project Management, Team Leading, Modeling, Simulation, Machine Learning, Artificial Intelligence, Computational Physics, Data Science, Research
+
+Experience:
+September 2022 to Current
+Software Project Manager
+CNPC USA
+Houston, TX  77042
+Project leader for developing physics and data based prediction software.
+- Manage software projects utilizing in-house and third party resources.
+- Mentor and guide developers and researchers.
+
+
+March 2021 to September 2022
+Founder and President
+Ikosy Technologies
+Spring, TX  77386
+Founded Ikosy Technologies to create easy-to-use desktop pick-and-place technology.
+- Identified the business opportunity and formulated the business plan.
+- Designed a desktop-sized pick-and-place machine that uses G-code to assembly electronics.
+- Recruited and led a team of founders.
+
+
+January 2014 to June 2020
+Principal Engineer
+APS Technology
+Houston, TX  77032
+Areas of work included developing engineering software, data analysis, and drilling dynamics.\nolinebreak[4]
+- Developed an FEA based software used for structural analysis of drill strings.
+
+
+January 2006 to November 2013
+Researcher in Drilling Mechanics and Dynamics
+Baker Hughes
+The Woodlands, TX  77380
+Developed software used for data processing, data analysis, and drilling dynamics predictions.
+- Developed a proprietary computer model used to predict the dynamic behavior of drill bits. The software models the physics of a drill bit removing rock material. The software uses a custom computational geometry engine written to ensure performance and accuracy. It uses a discrete boundary surface and calculates swept volumes and surface intersections. It must continuously update an evolving surface while mainting the quality of the mesh. Model uses a hybrid physics and data driven (grey box) approach to predict behavior. Responsibilities included the physics, software design and architecture, algorithms, project schedule, deliverables, and budget. Led an overseas based software development team that furthered my development work. Technologies used: C++, C, C#, .Net Framework, XML, XSLT, QT, multithreading, distributed computing, HPC, Matlab, HTML, Javascript
+
+
+
+
+Education:
+July 2022
+Post Graduate Program in Artificial Intelligence and Machine Learning
+University of Texas
+Austin, TX  78712
+
+December 2007
+Ph.D. in Engineering
+University of California, San Diego
+La Jolla, CA  92093
+
+December 2004
+M.S. in Engineering
+University of California, San Diego
+La Jolla, CA  92093
+
+May 1999
+B.S. in Engineering
+Lawrence Technological University
+Southfield, MI  48075
+
+
+
+Projects:
+
+Additional Projects:
+	Twitter Sentiment Analysis for Airline Services
+		Identify the sentiment from a tweet to understand an airlines' customer satisfaction.
+	NLP, count vectorizer, TF-IDF vectorizer, TensoFlow, word embedding, LSTM, VADERPlants Seedling Image Classification
+		Classify plant species based on images of the seedlings using a Convolutional Neural Network.
+	convolutional neural network, Tensorflow, Keras, Google Colab, PythonBank Customer Churn Prediction
+		Identify the customers that are more likely to churn by building an Artificial Neural Network.
+		artificial neural network, Tensorflow, Keras, Google Colab, Python
+
+Publications:
+[1] L. Endres and P. Krysl.  Refinement of Finite Element Approximations on Tetrahedral Meshes Using Charms.  In Seventh U.S. National Congress on Computational Mechanics, Albuquerque, NM, July 2003.
+
+[2] L. Endres and P. Krysl.  Octasection-based refinement of finite element approximations on tetrahedral meshes that guarantees shape quality.  Int J for Numer Meth in Eng, 59 (1) , 2004.
+
+[3] P. Krysl and L. Endres.  Explicit Newmark/Verlet Algorithm for Time Integration of the Rotational Dynamics of Rigid Bodies.  Int J for Numer Meth in Eng, 62 (15) , 2005.
+
+[4] L. Endres and P. Krysl.  Second-Order Explicit Integrator Via Composition for Coupled Rotating Rigid Bodies Applied to Roller Cone Drill Bits.  Commun Numer Meth in Eng, 24 (12) , 2007.
+
+[6] T. Schwefe and L. Ledgerwood and J. Jain and D. Fuselier and L. Endres and H. Oueslati.  Development and Testing of Stick/Slip-Resistant PDC Bits.  In SPE Drilling Conference and Exhibition, Fort Worth, TX,  2014.
+
+[7] L. Endres.  Signal Segmentation Algorithm of Radhakrishnan, et al. Ported to C and C#.  Code Project, online article, June, 2015.
+
+
+
+Patents:
+
+Patents:
+[1] Drill bit with distributed force profile.  Lance A. Endres and Gregory C. Prevost and Tyler R. Reynolds.  U.S. Patent 20130008724, filed June 14, 2012.
+
+[2] METHODS OF DESIGNING EARTH-BORING TOOLS USING A PLURALITY OF WEAR STATE VALUES AND RELATED METHODS OF FORMING EARTH-BORING TOOLS.  Lance A. Endres and Tyler R. Reynolds and Gregory C. Prevost.  U.S. Patent 201300835902, filed August 5, 2011.
+
+[3] METHODS OF DESIGNING EARTH-BORING TOOLS USING A PLURALITY OF DEPTH OF CUT VALUES AND RELATED METHODS OF FORMING EARTH-BORING TOOLS.  Gregory C. Prevost and Lance A. Endres and Tyler R. Reynolds.  U.S. Patent 20130035903, filed August 5, 2011.
+
+[4] Method to mitigate bit induced vibrations by intentionally modifying mode shapes of drill strings by mass or stiffness changes.  Andreas Hohl and Mathias Tergeist and Hatem Oueslati and Christian Herbig and Jayesh J. Jain and Hanno Reckmann and Lance A. Endres.  U.S. Patent 20150122547, filed November 1, 2013.
+
+
+
+Skills:
+Machine Learning, Artificial Intelligence, and Data Science: ANNs, CNNs, NLP, TensorFlow, data analysis, data cleaning, algorithm design, scikit-learn, pandas, numpy, Matplotlib, Seaborn, XGBoost, hypothesis testing, confidence interval, Decision Trees, Random Forest, k-nearest neighbors, k-means clustering, linear regression, logistic regression, time series data, supervised learning, unsupervised learning, clustering, PIL, and OpenCV.
+                        
+Software Development: software architecture, quality control, unit testing, system checks, documentation, customer interaction, C, C++, C#, Python, SQL (basic), .NET Framework, Visual Basic, Fortran, AutoLISP, multithreading, XML, XPath, XSLT, HTML, XHTML, CSS, QT, UML, XML Schemas, OpenGL, JavaScript, profiling, and optimization.
+                        
+Software: Visual Studio, Matlab, Spyder, Jupyter Notebooks, Google Colab, AutoCAD, GitHub, iSIGHT, LaTeX, Fusion 360, Solidworks, KiCad, Photoshop, SVN, CVS, Ansys, and Project.
+                        
+Research and Engineering: design of laboratory experiments, stability analysis, signal processing, FEA, CFD (basic), plasticity, and structural engineering.
+                        
+Other: 3D modeling, 3D printing, computer trouble shooting and repair (hardware and software), basic electronics & circuits, PCB design, microprocessor basics, Arduino and Raspberry Pi, embedded programming (Arduino), soldering, and surface mount devices and reflowing.
+                        

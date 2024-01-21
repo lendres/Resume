@@ -2,22 +2,24 @@
 
 <group heading="Software Development">
 	<skill catagory="programming" experience="5">software architecture</skill>
-	<skill catagory="programming" experience="5">quality assurance</skill>
+	<skill catagory="programming" experience="5">quality control</skill>
 	<skill catagory="programming" experience="5">unit testing</skill>
-	<skill catagory="programming" experience="5">sanity checks</skill>
-	<skill catagory="programming" experience="5">continuous integration/delivery</skill>
+	<skill catagory="programming" experience="5">system checks</skill>
+	<!--<skill catagory="programming" experience="5">continuous integration/delivery</skill>-->
 	<skill catagory="programming" experience="5">documentation</skill>
 	<skill catagory="programming" experience="5">customer interaction</skill>
 	<skill catagory="programming" experience="10">C</skill>
 	<skill catagory="programming" experience="10">C++</skill>
 	<skill catagory="programming" experience="10">C#</skill>
 	<skill catagory="programming" experience="10">Python</skill>
-	<skill catagory="programming" experience="10">SQL</skill>
+	<skill catagory="programming" experience="10">SQL (basic)</skill>
 	<skill catagory="programming" experience="10">.NET Framework</skill>
-	<skill catagory="programming" experience="10">Visual Basic (.NET/VBA)</skill>
+	<!--<skill catagory="programming" experience="10">Visual Basic (.NET/VBA)</skill>-->
+	<skill catagory="programming" experience="10">Visual Basic</skill>
 	<skill catagory="programming" experience="10">Fortran</skill>
 	<skill catagory="programming" experience="10">AutoLISP</skill>
-	<skill catagory="programming" experience="8">threading (POSIX and .NET)</skill>
+	<!--<skill catagory="programming" experience="8">threading (POSIX and .NET)</skill>-->
+	<skill catagory="programming" experience="8">multithreading</skill>
 	<skill catagory="programming" experience="10">XML</skill>
 	<skill catagory="programming" experience="8">XPath</skill>
 	<skill catagory="programming" experience="8">XSLT</skill>
@@ -25,13 +27,15 @@
 	<skill catagory="programming" experience="9">XHTML</skill>
 	<skill catagory="programming" experience="9">CSS</skill>
 	<skill catagory="programming" experience="9">QT</skill>
-	<skill catagory="programming" experience="5">Windows Installer XML</skill>
+	<!--<skill catagory="programming" experience="5">Windows Installer XML</skill>-->
 	<!--<skill catagory="programming" experience="5">INT's WellLog graphing library</skill>-->
 	<skill catagory="programming" experience="2">UML</skill>
-	<skill catagory="programming" experience="4">XML Schema Definitions</skill>
+	<skill catagory="programming" experience="4">XML Schemas</skill>
 	<skill catagory="programming" experience="4">OpenGL</skill>
 	<!--<skill catagory="programming" experience="2">PHP</skill>-->
 	<skill catagory="programming" experience="5">JavaScript</skill>
 	<skill catagory="programming" experience="5">profiling</skill>
 	<skill catagory="programming" experience="5">optimization</skill>
+	<skill catagory="programming" experience="5">code review</skill>
+	
 </group>

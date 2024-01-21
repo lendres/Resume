@@ -3,6 +3,7 @@
 <experience xmlns:xi="http://www.w3.org/2001/XInclude">
 	<xi:include href="Job - CNPC USA.xml"/>
 	<xi:include href="Job - Ikosy.xml"/>
-	<xi:include href="Job - APS - Long.xml"/>
-	<xi:include href="Job - Baker Hughes - Long.xml"/>
+	<xi:include href="Job - APS - Medium.xml"/>
+	<xi:include href="Job - Baker Hughes - Medium.xml"/>
+	
 </experience>

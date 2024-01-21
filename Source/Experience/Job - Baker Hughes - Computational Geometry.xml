@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job>
+	<title>Researcher in Drilling Mechanics and Dynamics</title>
+	<company id="hcc"/>
+	<daterange>
+		<from>
+			<date month="January" monthnumber="1" year="2006"/>
+		</from>
+		<to>
+			<date month="November" monthnumber="11" year="2013"/>
+		</to>
+	</daterange>
+	<description>
+		<p>
+			Developed software used for data processing, data analysis, and drilling dynamics predictions.
+		</p>
+		<bulletedlist>
+			<item>
+				Developed a proprietary computer model used to predict the dynamic behavior of drill bits.  The software models the physics of a drill bit removing rock material.
+				<bulletedlist>
+					<item>
+						The software uses a custom computational geometry engine written to ensure performance and accuracy.  It uses a discrete boundary surface and
+						calculates swept volumes and surface intersections.  It continuously updates an evolving surface while mainting the mesh quality.
+					</item>
+					<item>
+						Model uses a hybrid physics and data driven (grey box) approach to predict behavior.
+					</item>
+					<item>
+						Responsibilities included the physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
+					</item>
+					<item>Led an overseas based software development team that furthered my development work.</item>
+					<item>
+						Technologies used: C++, C, C#, .Net Framework, XML, XSLT, QT, multithreading, distributed computing, HPC, Matlab, HTML, Javascript
+					</item>
+				</bulletedlist>
+			</item>
+		</bulletedlist>
+	</description>
+</job>

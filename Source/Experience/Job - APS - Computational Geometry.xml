@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job>
+	<title>Principal Engineer</title>
+	<company id="aps-houston"/>
+	<daterange>
+		<from>
+			<date month="January" monthnumber="1" year="2014"/>
+		</from>
+		<to>
+			<date month="June" monthnumber="6" year="2020"/>
+		</to>
+	</daterange>
+	<description>
+		<p>Areas of work included developing engineering software, data analysis, and drilling dynamics.\nolinebreak[4]</p>
+		<bulletedlist>
+			<item>
+				Developed an FEA based software used for structural analysis of drill strings.
+			</item>
+			<bulletedlist>
+				<item>
+					The software calculates deflections, stresses, natural frequencies, and mode shapes.  It is used to assess the bending capabilities, stress limits,
+					and consequences of design changes.
+				</item>
+				<item>
+					I developed a custom comutational geometry library that accelerated development while mainting computational efficiencies.
+				</item>
+			</bulletedlist>
+		</bulletedlist>
+	</description>
+</job>

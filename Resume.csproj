@@ -55,16 +55,32 @@
     <Content Include="Source\Common\Bibliography.xml" />
     <Content Include="Source\Common\Certifications.xml" />
     <Content Include="Source\Common\Head.xml" />
-    <Content Include="Source\Experience\Experience - Oil and Gas - Short.xml" />
+    <Content Include="Source\Experience\Experience - Computational Geometry.xml" />
+    <Content Include="Source\Experience\Experience - Oil and Gas - Medium.xml" />
+    <Content Include="Source\Experience\Experience - Software.xml" />
+    <Content Include="Source\Experience\Job - APS - Computational Geometry.xml" />
+    <Content Include="Source\Experience\Job - APS - Medium.xml" />
+    <Content Include="Source\Experience\Job - APS - Long.xml" />
+    <Content Include="Source\Experience\Job - APS - Data.xml" />
+    <Content Include="Source\Experience\Job - Baker Hughes - Long.xml" />
+    <Content Include="Source\Experience\Job - Baker Hughes - Medium.xml" />
+    <Content Include="Source\Experience\Job - Baker Hughes - Computational Geometry.xml" />
+    <Content Include="Source\Experience\Job - Baker Hughes - Short.xml" />
+    <Content Include="Source\Experience\Job - CNPC USA - Software Project Manager.xml" />
     <Content Include="Source\Experience\Job - CNPC USA.xml" />
+    <Content Include="Source\Experience\Job - Ikosy.xml" />
     <Content Include="Source\Keywords\Keywords - Oil and Gas Plus Machine Learning.xml" />
     <Content Include="Source\Keywords\Keywords - Construction.xml" />
+    <Content Include="Source\Keywords\Keywords - Computational Geometry.xml" />
     <Content Include="Source\Projects\Project - Bank Customer Churn.xml" />
     <Content Include="Source\Projects\Project - Plant Seedlings.xml" />
     <Content Include="Source\Projects\Projects - Data Science.xml" />
     <Content Include="Source\Projects\Projects - Artificial Intelligence.xml" />
     <Content Include="Source\Resumes\Resume - Oil and Gas Plus Machine Learning.xml" />
     <Content Include="Source\Resumes\Resume - Construction.xml" />
+    <Content Include="Source\Resumes\Resume - Computational Geometry.xml" />
+    <Content Include="Source\Skills\Skills - Software.xml" />
+    <Content Include="Source\Summary\Summary - Computational Geometry.xml" />
     <Content Include="Source\XSLT\common.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -72,10 +88,8 @@
     <Content Include="Source\Education\Education.xml" />
     <Content Include="Source\Experience\Experience - Oil and Gas.xml" />
     <Content Include="Source\Experience\Experience - Data Science.xml" />
-    <Content Include="Source\Experience\Experience - Software.xml" />
     <Content Include="Source\Keywords\Keywords - Data Science.xml" />
     <Content Include="Source\Projects\Project - Twitter Sentiment.xml" />
-    <Content Include="Source\Experience\Job - Ikosy.xml" />
     <Content Include="Source\XSLT\html.xslt">
       <SubType>Designer</SubType>
     </Content>

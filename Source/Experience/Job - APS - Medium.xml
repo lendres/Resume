@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job>
+	<title>Principal Engineer</title>
+	<company id="aps-houston"/>
+	<daterange>
+		<from>
+			<date month="January" monthnumber="1" year="2014"/>
+		</from>
+		<to>
+			<date month="June" monthnumber="6" year="2020"/>
+		</to>
+	</daterange>
+	<description>
+		<p>Areas of work included developing engineering software, data analysis, and drilling dynamics.\nolinebreak[4]</p>
+		<bulletedlist>
+			<item>
+				Developed an FEA based software used for structural analysis of drill strings.
+			</item>
+			<bulletedlist>
+				<item>
+					The software calculates deflections, stresses, natural frequencies, and mode shapes.
+				</item>
+				<item>
+					The software is used to assess the bending capabilities and stress limits of drill strings and assess the consequences of design changes.
+				</item>
+			</bulletedlist>
+			<item>
+				Developed a software application used to automate the cleaning and processing of data.
+			</item>
+			<bulletedlist>
+				<item>
+					The software uses specialized data processing techniques and algorithms to automatically separate the data into drilling versus non-drilling time (up time versus down time).
+				</item>
+			</bulletedlist>
+		</bulletedlist>
+	</description>
+</job>

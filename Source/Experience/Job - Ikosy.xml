@@ -7,7 +7,9 @@
 		<from>
 			<date month="March" monthnumber="3" year="2021"/>
 		</from>
-		<to>Current</to>
+		<to>
+			<date month="September" monthnumber="9" year="2022"/>
+		</to>
 	</daterange>
 	<description>
 		<p>Founded Ikosy Technologies to create easy-to-use desktop pick-and-place technology.</p>
@@ -16,10 +18,10 @@
 				Identified the business opportunity and formulated the business plan.
 			</item>
 			<item>
-				Designed a desktop-sized pick-and-place machine.
+				Designed a desktop-sized pick-and-place machine that uses G-code to assembly electronics.
 			</item>
 			<item>
-				Recruited and lead a team of founders.
+				Recruited and led a team of founders.
 			</item>
 		</bulletedlist>
 	</description>

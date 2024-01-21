@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <education>
+	<degree level="Certificate">
+		<date month="December" monthnumber="12" year="2023"/>
+		<institution id="uhouston"/>
+		<major>Project Management</major>
+	</degree>
 	<degree level="Post Graduate Program">
 		<date month="July" monthnumber="6" year="2022"/>
 		<institution id="utexas"/>
