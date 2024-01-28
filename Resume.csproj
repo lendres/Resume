@@ -81,7 +81,7 @@
     <Content Include="Source\Resumes\Resume - Computational Geometry.xml" />
     <Content Include="Source\Skills\Skills - Software.xml" />
     <Content Include="Source\Summary\Summary - Computational Geometry.xml" />
-    <Content Include="Source\XSLT\common.xslt">
+    <Content Include="XSLT\common.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Education\Education - Generic.xml" />
@@ -90,14 +90,14 @@
     <Content Include="Source\Experience\Experience - Data Science.xml" />
     <Content Include="Source\Keywords\Keywords - Data Science.xml" />
     <Content Include="Source\Projects\Project - Twitter Sentiment.xml" />
-    <Content Include="Source\XSLT\html.xslt">
+    <Content Include="XSLT\html.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Common\Institutions.xml" />
     <Content Include="Source\Common\Journals.xml" />
     <Content Include="Source\Keywords\Keywords - Software.xml" />
     <Content Include="Source\Keywords\Keywords - Oil and Gas.xml" />
-    <Content Include="Source\XSLT\latex.xslt">
+    <Content Include="XSLT\latex.xslt">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Source\Common\Memberships.xml" />
@@ -118,13 +118,13 @@
     <Content Include="Source\Summary\Summary - Software.xml" />
     <Content Include="Source\Summary\Summary - Data Science.xml" />
     <Content Include="Source\Summary\Summary - Oil and Gas.xml" />
-    <Content Include="Source\XSLT\text.xslt">
+    <Content Include="XSLT\text.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\XSLT\xsl-template-functions.xsl">
+    <Content Include="XSLT\xsl-template-functions.xsl">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Source\XSLT\XSLT Input Arguments.txt" />
+    <Content Include="XSLT\XSLT Input Arguments.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="LaTeX\manualmakedocument.bat" />

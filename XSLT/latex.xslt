@@ -47,7 +47,7 @@
 	% WILL NOT BE PROCESSED CORRECTLY.
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\name{<xsl:apply-templates select="/resume/head/name"/>}
+	\titlename{<xsl:apply-templates select="/resume/head/name"/>}
 	\addresslinea{\myaddresslineoneshort}
 	\addresslineb{\myaddresslinetwo}
 
