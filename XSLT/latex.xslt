@@ -111,6 +111,8 @@
 
 	\catagory{Education}
 	<xsl:apply-templates select="/resume/education"/>
+		
+	\catagory{Training}
 	
 	<!--
 	<xsl:apply-templates select="/resume/certifications"/>
