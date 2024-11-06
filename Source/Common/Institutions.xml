@@ -23,21 +23,6 @@
 		<url>http://www.aps-tech.com</url>
 	</institution>
 
-	<institution id="chiepsilon" name="Chi Epsilon">
-		<description>National Civil Engineering Honor Society</description>
-	</institution>
-
-	<institution id="cnpcusa" name="CNPC USA" type="business">
-		<address type="business">
-			<street>2901 Wilcrest Dr</street>
-			<city>Houston</city>
-			<state>TX</state>
-			<zip>77042</zip>
-			<country>USA</country>
-		</address>
-		<url>http://www.cnpcusa.com</url>
-	</institution>
-	
     <institution id="bakerhughes" name="Baker Hughes" type="business">
         <address type="business">
             <street>2929 Allen Parkway</street>
@@ -49,17 +34,6 @@
         <url>http://www.bakerhughes.com</url>
     </institution>
 
-	<institution id="hcc" name="Baker Hughes" type="business">
-		<address type="business">
-			<street>9110 Grogans Mill Rd</street>
-			<city>The Woodlands</city>
-			<state>TX</state>
-			<zip>77380</zip>
-			<country>USA</country>
-		</address>
-		<url>http://www.bakerhughes.com</url>
-	</institution>
-
     <institution id="burkettwong" name="Burkett &amp; Wong Engineers" type="business">
         <address type="business">
             <street>3434 Fourth Ave</street>
@@ -70,6 +44,32 @@
         </address>
         <url>http://www.burkett-wong.com</url>
     </institution>
+
+	<institution id="chiepsilon" name="Chi Epsilon">
+		<description>National Civil Engineering Honor Society</description>
+	</institution>
+	
+	<institution id="cnpcusa" name="CNPC USA" type="business">
+		<address type="business">
+			<street>2901 Wilcrest Dr</street>
+			<city>Houston</city>
+			<state>TX</state>
+			<zip>77042</zip>
+			<country>USA</country>
+		</address>
+		<url>http://www.cnpcusa.com</url>
+	</institution>
+
+	<institution id="hcc" name="Baker Hughes" type="business">
+		<address type="business">
+			<street>9110 Grogans Mill Rd</street>
+			<city>The Woodlands</city>
+			<state>TX</state>
+			<zip>77380</zip>
+			<country>USA</country>
+		</address>
+		<url>http://www.bakerhughes.com</url>
+	</institution>
 
 	<institution id="ikosy" name="Ikosy Technologies" type="business">
 		<address type="business">
