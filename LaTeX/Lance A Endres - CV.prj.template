@@ -5,7 +5,7 @@
 1
 Lance A Endres - CV.tex
 19
-4
+5
 2
 
 :\Storage\Resume\Cover Letters\Cover Letter.tex
@@ -16,7 +16,10 @@ TeX:STY
 1060850 0 41 19 45 1 182 182 1228 616 1 0 71 208 -1 -1 0 0 16 0 0 16 1 0 1 45  0 0 0
 Lance A Endres - CV.tex
 TeX
-403714043 0 -1 2194 -1 800 0 0 1348 583 0 1 107 464 -1 0 0 0 0 -1 -1 0 1 0 800 -1  0 -1 0
+403714043 0 -1 2194 -1 800 0 0 1348 583 0 1 107 -1216 -1 0 0 0 0 -1 -1 0 1 0 800 -1  0 -1 0
+C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
+TeX:DTX
+5255098 0 26 1 26 1 26 26 1348 661 0 1 37 416 -1 0 0 25 0 0 21 1 1 0 1 26  0 0 0
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leresume.cls
 DATA
 5244850 0 136 14 149 29 208 208 1556 791 1 1 303 608 -1 0 0 16 0 0 16 1 1 0 29 149  0 0 0
@@ -50,9 +53,6 @@ TeX:DTX
 C:\Custom Program Files\LaTeX\TeX\LaTeX\leheadersandfooters.sty
 TeX:DTX
 5255099 0 -1 3899 -1 2918 52 52 1374 687 0 78 513 -1 -1 0 0 98 -1 -1 98 1 0  2918 -1 0
-C:\Custom Program Files\LaTeX\TeX\LaTeX\leaddress.sty
-TeX:DTX
-5255098 5 3 31 3 32 26 26 1348 661 0 270 57 -1 -1 0 0 25 0 0 25 1 0  32 3 0
 C:\Program Files (x86)\WinEdt Team\WinEdt\Exec\Acrobat CloseDoc.edt
 ASCII:EDT
 269494138 7 35 1592 35 1 160 160 1513 759 1 70 665 -1 -1 0 0 21 0 0 21 1 0  1 35 0
