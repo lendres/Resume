@@ -5,6 +5,7 @@ obj/
 
 TestResults/
 Archived/
+packages/
 
 # Latex ouput files.
 Resume-XSLT.tex

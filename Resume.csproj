@@ -55,6 +55,9 @@
     <Content Include="Source\Common\Bibliography.xml" />
     <Content Include="Source\Common\Certifications.xml" />
     <Content Include="Source\Common\Head.xml" />
+    <Content Include="Source\Experience\Job - CNPC USA - DAI Team Manager.xml" />
+    <Content Include="Source\Experience\Job - CNPC USA - Senior Engineer.xml" />
+    <Content Include="Source\Training\Training.xml" />
     <Content Include="Source\Experience\Experience - Computational Geometry.xml" />
     <Content Include="Source\Experience\Experience - Oil and Gas - Medium.xml" />
     <Content Include="Source\Experience\Experience - Software.xml" />
@@ -67,7 +70,6 @@
     <Content Include="Source\Experience\Job - Baker Hughes - Computational Geometry.xml" />
     <Content Include="Source\Experience\Job - Baker Hughes - Short.xml" />
     <Content Include="Source\Experience\Job - CNPC USA - Software Project Manager.xml" />
-    <Content Include="Source\Experience\Job - CNPC USA.xml" />
     <Content Include="Source\Experience\Job - Ikosy.xml" />
     <Content Include="Source\Keywords\Keywords - Oil and Gas Plus Machine Learning.xml" />
     <Content Include="Source\Keywords\Keywords - Construction.xml" />

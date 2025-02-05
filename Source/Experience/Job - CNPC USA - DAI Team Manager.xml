@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job>
+	<title>Senior Research Engineer</title>
+	<company id="cnpcusa"/>
+	<daterange>
+		<from>
+			<date month="Janury" monthnumber="1" year="2025"/>
+		</from>
+		<to>Current</to>
+	</daterange>
+	<description>
+		<p>Team Manageer for Digial, Automation, and Interpretation</p>
+		<bulletedlist>
+			<item>
+				Manage software projects utilizing in-house and third party resources.
+			</item>
+		</bulletedlist>
+	</description>
+</job>

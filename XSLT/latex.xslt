@@ -113,15 +113,15 @@
 	<xsl:apply-templates select="/resume/education"/>
 		
 	\catagory{Training}
-	
+	<xsl:apply-templates select="/resume/training"/>	
+
 	<!--
 	<xsl:apply-templates select="/resume/certifications"/>
-
 	<xsl:apply-templates select="/resume/memberships"/>
-	
-    \vspace*{1pt}
+	\vspace*{1pt}
     \catagory{References}
-    \catentryshort{}{\normalfont Available upon request}-->
+    \catentryshort{}{\normalfont Available upon request}
+	-->
 
     \end{document}
     </xsl:template>
@@ -302,9 +302,8 @@
 	</xsl:template>
 
 
-	<xsl:variable name="skill">
-
-	</xsl:variable>
+	<!--<xsl:variable name="skill">
+	</xsl:variable>-->
 	
 	
 	<xsl:template match="bulletedlist">
@@ -386,6 +385,16 @@
     </xsl:template>
 
 	<xsl:template match="education">
+		<xsl:for-each select="degree">
+            <xsl:variable name="id" select="institution/@id"/>
+            <xsl:variable name="institution" select="/resume/institutions/institution[@id=$id]"/>
+            \catentryeducation{<xsl:value-of select="date/@year"/>}
+                {<xsl:value-of select="@level"/><xsl:text> in </xsl:text><xsl:value-of select="major"/>}
+                {<xsl:value-of select="$institution/@name"/>}
+		</xsl:for-each>
+	</xsl:template>
+
+	<xsl:template match="training">
 		<xsl:for-each select="degree">
             <xsl:variable name="id" select="institution/@id"/>
             <xsl:variable name="institution" select="/resume/institutions/institution[@id=$id]"/>

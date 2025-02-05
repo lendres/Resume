@@ -82,6 +82,10 @@
 		<url>http://www.ikosy.tech</url>
 	</institution>
 
+	<institution id="greatlearning" name="Great Learning" type="business">
+		<url>https://www.mygreatlearning.com/</url>
+	</institution>
+
 	<institution id="lambdaiotatau" name="Lambda Iota Tau">
 		<description>Lawrence Technological University Honor Society</description>
 	</institution>

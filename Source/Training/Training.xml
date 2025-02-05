@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<training>
+	<degree level="Post Graduate Program">
+		<date month="December" monthnumber="12" year="2024"/>
+		<institution id="greatlearning"/>
+		<major>Generative AI for Business with Microsoft Azure</major>
+		<description>Machine learning, computer vision, natural language, and generative AI workloads on Azure.</description>
+	</degree>
+
+	<degree level="Certificate">
+		<date month="December" monthnumber="12" year="2023"/>
+		<institution id="uhouston"/>
+		<major>Project Management</major>
+	</degree>
+
+</training>

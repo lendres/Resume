@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSLT Processor", "..\XSLT-Processor\XSLT Processor\XSLT Processor.csproj", "{E1943B42-14DE-4950-9AF1-E1DA596600E1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume", "Resume.csproj", "{D9E4A8F9-1637-474D-AE11-DA748CF4E44F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digital Production", "..\C-Sharp-Library\Library\Digital Production.csproj", "{078EA7C0-7EE8-4D51-9421-8EEDC779ACBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1943B42-14DE-4950-9AF1-E1DA596600E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1943B42-14DE-4950-9AF1-E1DA596600E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1943B42-14DE-4950-9AF1-E1DA596600E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1943B42-14DE-4950-9AF1-E1DA596600E1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D9E4A8F9-1637-474D-AE11-DA748CF4E44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D9E4A8F9-1637-474D-AE11-DA748CF4E44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E4A8F9-1637-474D-AE11-DA748CF4E44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E4A8F9-1637-474D-AE11-DA748CF4E44F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{078EA7C0-7EE8-4D51-9421-8EEDC779ACBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{078EA7C0-7EE8-4D51-9421-8EEDC779ACBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{078EA7C0-7EE8-4D51-9421-8EEDC779ACBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{078EA7C0-7EE8-4D51-9421-8EEDC779ACBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
