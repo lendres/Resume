@@ -14,4 +14,10 @@
 		<major>Project Management</major>
 	</degree>
 
+	<degree level="Post Graduate Program">
+		<date month="July" monthnumber="6" year="2022"/>
+		<institution id="utexas"/>
+		<major>Artificial Intelligence and Machine Learning</major>
+	</degree>
+
 </training>
