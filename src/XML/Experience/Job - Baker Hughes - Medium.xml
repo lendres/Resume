@@ -20,7 +20,7 @@
 				Developed a proprietary computer model used to predict the dynamic behavior of drill bits.
 				<bulletedlist>
 					<item>
-						Model uses a hybrid physics and data driven (grey box) approach to predict behavior.
+						Model uses a hybrid physics and data driven approach to predict behavior.  In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques.
 					</item>
 					<item>
 						Responsibilities included the physics, software design and architecture, algorithms, project schedule, deliverables, and budget.
@@ -32,8 +32,8 @@
 				</bulletedlist>
 			</item>
 			<item>
-				My research led to an improved theoretical understanding of lateral drill bit vibrations.  I used this understanding to create new techniques for
-				designing drill bits. <italic>This let engineers design bits directly rather than requiring hundreds of computer simulations that randomly searched for a solution.</italic>
+				Conducted research that led to an improved theoretical understanding of lateral drill bit vibrations and I used this to create new techniques for
+				designing drill bits. <italic>This let engineers design bits directly rather than randomly searching for a solution.</italic>
 			</item>
 			<item>Developed a technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.</item>
 		</bulletedlist>
