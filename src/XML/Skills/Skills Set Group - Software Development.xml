@@ -13,7 +13,8 @@
 	<skill catagory="programming" experience="10">C#</skill>
 	<skill catagory="programming" experience="10">Python</skill>
 	<skill catagory="programming" experience="10">SQL (basic)</skill>
-	<skill catagory="programming" experience="10">.NET Framework</skill>
+	<skill catagory="programming" experience="10">.NET</skill>
+	<skill catagory="programming" experience="10">MAUI</skill>
 	<!--<skill catagory="programming" experience="10">Visual Basic (.NET/VBA)</skill>-->
 	<skill catagory="programming" experience="10">Visual Basic</skill>
 	<skill catagory="programming" experience="10">Fortran</skill>

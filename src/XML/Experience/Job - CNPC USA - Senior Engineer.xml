@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job>
+	<title>Senior Research Engineer</title>
+	<company id="cnpcusa"/>
+	<daterange>
+		<from>
+			<date month="September" monthnumber="9" year="2022"/>
+		</from>
+		<to>
+			<date month="December" monthnumber="12" year="2024"/>
+		</to>
+	</daterange>
+	<description>
+		<p>Project leader for developing physics and data based prediction software.</p>
+		<bulletedlist>
+			<item>
+				Leveraged industry contacts to secure software licenses and access open-source solutions, resulting in accelerating the modeling program by 5 years and a cost savings of \$1MM.
+			</item>
+			<item>
+				Designed LLM prompts to summarize large documents and extract structured content from document collections.  Reduced data summarization and report writing time by 95\%.
+			</item>
+			<item>
+				Managed software projects utilizing in-house and third party resources.
+			</item>
+			<item>
+				Mentored and guided developers and researchers.
+			</item>
+		</bulletedlist>
+	</description>
+</job>

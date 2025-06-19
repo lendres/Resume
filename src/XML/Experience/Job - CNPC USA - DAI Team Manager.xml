@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job>
+	<title>Manager for Digital, Automation, and Interpretation</title>
+	<company id="cnpcusa"/>
+	<daterange>
+		<from>
+			<date month="December" monthnumber="12" year="2024"/>
+		</from>
+		<to>Current</to>
+	</daterange>
+	<description>
+		<p>Team Manager for Digital, Automation, and Interpretation</p>
+		<bulletedlist>
+			<item>
+				Conducted regular performance reviews and coaching sessions.
+			</item>
+			<item>
+				Facilitated conflict resolution and team-building activities to foster a collaborative work culture.
+			</item>
+			<item>
+				Collaborated with senior leadership to align team objectives with strategic business goals.
+			</item>
+			<item>
+				Managed resource planning, project delegation, and training initiatives.
+			</item>
+			<item>
+				Reported on key metrics, project status, and risks to stakeholders in monthly progress meetings.
+			</item>
+		</bulletedlist>
+	</description>
+</job>
