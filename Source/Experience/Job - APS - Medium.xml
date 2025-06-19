@@ -12,7 +12,7 @@
 		</to>
 	</daterange>
 	<description>
-		<p>Areas of work included developing engineering software, data analysis, and drilling dynamics.\nolinebreak[4]</p>
+		<p>Developed engineering software, performed data and drilling dynamics analysis.\nolinebreak[4]</p>
 		<bulletedlist>
 			<item>
 				Developed an FEA based software used for structural analysis of drill strings.
@@ -26,13 +26,9 @@
 				</item>
 			</bulletedlist>
 			<item>
-				Developed a software application used to automate the cleaning and processing of data.
+				Developed a software application used to automate the cleaning and processing of data.  The software uses specialized data processing techniques 
+				and algorithms to automatically separate the data into drilling versus non-drilling time.  It reduced the data processing time by 97\%.
 			</item>
-			<bulletedlist>
-				<item>
-					The software uses specialized data processing techniques and algorithms to automatically separate the data into drilling versus non-drilling time (up time versus down time).
-				</item>
-			</bulletedlist>
 		</bulletedlist>
 	</description>
 </job>
