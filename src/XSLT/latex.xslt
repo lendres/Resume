@@ -82,7 +82,6 @@
 		\end{multicols}
 
 	<xsl:choose>
-		<!-- Last skill so format it a little different. -->
 		<xsl:when test="$projectlocation='afterexperience'">
 			<xsl:apply-templates select="/resume/experience"/>
 			<xsl:apply-templates select="/resume/projects"/>
@@ -109,12 +108,12 @@
 		<xsl:apply-templates select="/resume/skills/group"/>
 	\end{bulletedlist}
 
+	\catagory{Continuing Education}
+	<xsl:apply-templates select="/resume/training"/>
+
 	\catagory{Education}
 	<xsl:apply-templates select="/resume/education"/>
-		
-	\catagory{Training}
-	<xsl:apply-templates select="/resume/training"/>	
-
+	
 	<!--
 	<xsl:apply-templates select="/resume/certifications"/>
 	<xsl:apply-templates select="/resume/memberships"/>

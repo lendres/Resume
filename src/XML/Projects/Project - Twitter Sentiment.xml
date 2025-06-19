@@ -10,7 +10,7 @@
 		<skill>NLP</skill>
 		<skill>count vectorizer</skill>
 		<skill>TF-IDF vectorizer</skill>
-		<skill>TensoFlow</skill>
+		<skill>TensorFlow</skill>
 		<skill>word embedding</skill>
 		<skill>LSTM</skill>
 		<!--<skill>long short term memory</skill>-->

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<project>
+	<title>Leveraging Generative AI for Business Applications Product Review Sentiment Analysis</title>
+	<description>
+		Use generative AI (LLM) to take unstructured customer reviews as input and return structured responses that can be used to take action to optimize customer experiences.
+	</description>
+	<skills>
+		<skill>LLM</skill>
+		<skill>OpenAI</skill>
+		<skill>Azure</skill>
+		<skill>Prompt Engineering</skill>
+	</skills>
+</project>

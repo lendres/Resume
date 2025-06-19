@@ -6,7 +6,7 @@
 	<xi:include href="..\Summary\Summary - Oil and Gas.xml"/>
 	<xi:include href="..\Keywords\Keywords - Oil and Gas Plus Machine Learning.xml"/>
 	<xi:include href="..\Common\Institutions.xml"/>
-	<xi:include href="..\Education\Education - Generic.xml"/>
+	<xi:include href="..\Education\Education.xml"/>
 	<xi:include href="..\Training\Training.xml"/>
 	<xi:include href="..\Experience\Experience - Oil and Gas - Medium.xml"/>
 	
