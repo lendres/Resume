@@ -12,7 +12,6 @@
 	<skill catagory="programming" experience="10">C++</skill>
 	<skill catagory="programming" experience="10">C#</skill>
 	<skill catagory="programming" experience="10">Python</skill>
-	<skill catagory="programming" experience="10">SQL (basic)</skill>
 	<skill catagory="programming" experience="10">.NET</skill>
 	<skill catagory="programming" experience="10">MAUI</skill>
 	<!--<skill catagory="programming" experience="10">Visual Basic (.NET/VBA)</skill>-->
@@ -35,6 +34,7 @@
 	<skill catagory="programming" experience="4">OpenGL</skill>
 	<!--<skill catagory="programming" experience="2">PHP</skill>-->
 	<skill catagory="programming" experience="5">JavaScript</skill>
+	<!--<skill catagory="programming" experience="10">SQL (basic)</skill>-->
 	<skill catagory="programming" experience="5">profiling</skill>
 	<skill catagory="programming" experience="5">optimization</skill>
 	<skill catagory="programming" experience="5">code review</skill>

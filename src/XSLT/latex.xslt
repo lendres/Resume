@@ -237,7 +237,7 @@
 
 	<!-- Projects. -->
 	<xsl:template match="projects">
-		\catagory{Additional Projects}
+		\catagory{Projects}
 		<xsl:for-each select="project">
 		\project{<xsl:value-of select="./title"/>}{<xsl:value-of select="./description"/>}{
 			<xsl:for-each select="./skills/skill">
@@ -259,7 +259,7 @@
 	
 	<!-- Experience. -->
 	<xsl:template match="experience">
-		\catagory{Experience}
+		\catagory{Work Experience}
 		<xsl:variable name="njobs" select="count(job)"/>
         <xsl:for-each select="job">
             \catentry{<xsl:apply-templates select="./daterange/from"/> - <xsl:apply-templates select="./daterange/to"/>}

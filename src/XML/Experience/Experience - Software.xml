@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <experience xmlns:xi="http://www.w3.org/2001/XInclude">
-	<xi:include href="Job - CNPC USA - Software Project Manager.xml"/>
+	<xi:include href="Job - CNPC USA - DAI Team Manager.xml"/>
+	<xi:include href="Job - CNPC USA - Senior Engineer.xml"/>
 	<xi:include href="Job - Ikosy.xml"/>
 	<xi:include href="Job - APS - Data.xml"/>
 	<xi:include href="Job - Baker Hughes - Short.xml"/>

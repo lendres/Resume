@@ -3,7 +3,7 @@
 <project>
 	<title>Twitter Sentiment Analysis for Airline Services</title>
 	<description>
-		Identify the sentiment from a tweet to understand an airlines' customer satisfaction.
+		Identify the sentiments of tweets to understand the customer satisfaction for an airline.
 	</description>
 	<skills>
 		<!--<skill>natural language processing</skill>-->

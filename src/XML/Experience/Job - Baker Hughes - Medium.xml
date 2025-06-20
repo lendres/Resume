@@ -17,10 +17,10 @@
 		</p>
 		<bulletedlist>
 			<item>
-				Developed a proprietary computer model used to predict the dynamic behavior of drill bits.
+				Developed a computer model used to predict the dynamic behavior of drill bits.
 				<bulletedlist>
 					<item>
-						Model uses a hybrid physics and data driven approach to predict behavior.  In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques.
+						Written in C++, the model uses a hybrid physics and data driven approach to predict behavior.  In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques.
 					</item>
 					<item>
 						Oversaw the physics models, software design and architecture, and project management, ensuring software accuracy, timely deliverables, and adherence to budget, resulting in efficient project execution.
@@ -28,11 +28,11 @@
 					<item>
 						Developed a technique to reduce the cost of model fitting by an order of magnitude.
 					</item>
-					<item>Led an overseas based software development team.</item>
+					<item>Transferred development to an overseas-based software team and managed them.</item>
 				</bulletedlist>
 			</item>
 			<item>
-				Conducted research that led to an improved theoretical understanding of lateral drill bit vibrations and I used this to create new techniques for
+				Conducted research that led to an improved theoretical understanding of lateral drill bit vibrations and which I used to develop novel techniques for
 				designing drill bits. <italic>This let engineers design bits directly rather than randomly searching for a solution.</italic>
 			</item>
 			<item>Developed a technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.</item>

@@ -8,7 +8,7 @@
 	<skill catagory="software" experience="10">Google Colab</skill>
 	<skill catagory="software" experience="10">AutoCAD</skill>
 	<skill catagory="software" experience="8">GitHub</skill>
-	<skill catagory="software" experience="4">iSIGHT</skill>
+	<!--<skill catagory="software" experience="4">iSIGHT</skill>-->
 	<skill catagory="software" experience="10">LaTeX</skill>
 	<skill catagory="software" experience="10">Fusion 360</skill>
 	<skill catagory="software" experience="10">Solidworks</skill>
@@ -21,6 +21,6 @@
 	<!--<skill catagory="software" experience="10">Word</skill>
 	<skill catagory="software" experience="10">Excel</skill>
 	<skill catagory="software" experience="10">PowerPoint</skill>-->
-	<skill catagory="software" experience="5">Project</skill>
+	<skill catagory="software" experience="5">MS Project</skill>
 	<!--<skill catagory="software" experience="10">Outlook</skill>-->
 </group>
