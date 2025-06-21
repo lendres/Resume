@@ -6,10 +6,10 @@
 	<xi:include href="..\Summary\Summary - Software.xml"/>
 	<xi:include href="..\Keywords\Keywords - Software.xml"/>
 	<xi:include href="..\Common\Institutions.xml"/>
-	<xi:include href="..\Education\Education - Generic.xml"/>
-	<!--<xi:include href="..\Projects\Projects - Data Science.xml"/>-->
+	<xi:include href="..\Education\Education.xml"/>
+	<xi:include href="..\Training\Training.xml"/>
+	<xi:include href="..\Experience\Experience - Oil and Gas - Medium.xml"/>
 	<xi:include href="..\Projects\Projects - Artificial Intelligence.xml"/>
-	<xi:include href="..\Experience\Experience - Software.xml"/>
 
 	<xi:include href="..\Skills\Skills.xml"/>
 
