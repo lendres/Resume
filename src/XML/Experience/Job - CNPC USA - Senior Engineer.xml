@@ -15,10 +15,11 @@
 		<p>Project leader for developing physics and data based prediction software.</p>
 		<bulletedlist>
 			<item>
-				Leveraged industry contacts to secure software licenses and access open-source solutions, accelerating the modeling program by five years and a cost savings of \$1MM.
+				Leveraged industry contacts to secure software licenses and access open-source solutions, accelerating the modeling program by five years
+				and achieving a cost savings of \$1MM.
 			</item>
 			<item>
-				Designed and developed a generalized Python library to analyze and plot high frequency time-series data.  The library includes signal processing algorithms, 
+				Designed and developed a generalized Python library to analyze and plot high-frequency time-series data.  The library includes signal processing algorithms, 
 				finite precision arithmetic mathematics, and automatic units handling. By design, the data plotting is separated from plot formatting.  Saves 70-95\% of code writing when analyzing and plotting data.
 			</item>
 			<item>

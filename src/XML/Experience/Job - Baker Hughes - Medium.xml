@@ -10,7 +10,7 @@
 		<to>
 			<date month="November" monthnumber="11" year="2013"/>
 		</to>
-	</daterange>
+╨	</daterange>
 	<description>
 		<p>
 			Conducted research in drilling mechanics and dynamics.
@@ -20,7 +20,7 @@
 				Developed a computer model used to predict the dynamic behavior of drill bits.
 				<bulletedlist>
 					<item>
-						Written in C++, the model uses a hybrid physics and data driven approach to predict behavior.  In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques.
+						Written in C++, the model uses a hybrid physics and data-driven approach to predict behavior.  In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques.
 					</item>
 					<item>
 						Oversaw the physics models, software design and architecture, and project management, ensuring software accuracy, timely deliverables, and adherence to budget, resulting in efficient project execution.
