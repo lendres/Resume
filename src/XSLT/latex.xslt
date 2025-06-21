@@ -23,7 +23,7 @@
 	\usepackage{lelists}
 	\setlength{\listtopsep}{0pt}
 	\setlength{\leftlistindent}{0pt}
-	\setlength{\listlevelleftindent}{12pt}
+	\setlength{\listlevelleftindent}{0pt}
 	\setlength{\rightlistindent}{0pt}
 
 
