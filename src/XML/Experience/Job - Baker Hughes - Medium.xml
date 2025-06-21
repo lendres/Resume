@@ -12,22 +12,24 @@
 		</to>
 ╨	</daterange>
 	<description>
-		<p>
-			Conducted research in drilling mechanics and dynamics.
-		</p>
+		<p>Conducted research in drilling mechanics and dynamics.</p>
 		<bulletedlist>
 			<item>
-				Developed a computer model used to predict the dynamic behavior of drill bits.
+				Developed a computer model used to predict the transient dynamic behavior of drill bits.
 				<bulletedlist>
 					<item>
-						Written in C++, the model uses a hybrid physics and data-driven approach to predict behavior.  In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques.
+						Written in C++, the model uses a hybrid physics and data-driven approach to predict behavior.
+						<!-- In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques. -->
 					</item>
 					<item>
-						Oversaw the physics models, software design and architecture, and project management, ensuring software accuracy, timely deliverables, and adherence to budget, resulting in efficient project execution.
+						To lower simulation costs, the code was highly optimize, multithreading was used, and high performance
+						computing practices were used to perform multiple simulation model fitting.
 					</item>
 					<item>
-						Developed a technique to reduce the cost of model fitting by an order of magnitude.
+						Oversaw the physics models, software design and architecture, and project management, ensuring software accuracy, timely deliverables,
+						and adherence to budget, resulting in efficient project execution.
 					</item>
+					<item>Developed a technique to reduce the cost of model fitting by an order of magnitude.</item>
 					<item>Transferred development to an overseas-based software team and managed them.</item>
 				</bulletedlist>
 			</item>

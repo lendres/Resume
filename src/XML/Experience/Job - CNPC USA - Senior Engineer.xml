@@ -19,8 +19,11 @@
 				and achieving a cost savings of \$1MM.
 			</item>
 			<item>
-				Designed and developed a generalized Python library to analyze and plot high-frequency time-series data.  The library includes signal processing algorithms, 
-				finite precision arithmetic mathematics, and automatic units handling. By design, the data plotting is separated from plot formatting.  Saves 70-95\% of code writing when analyzing and plotting data.
+				Principal investigator on research developing methods to compare open-source drill string models.
+			</item>
+			<item>
+				Developed a generalized Python library to analyze and plot high-frequency time-series data.  The library includes signal processing algorithms, 
+				finite precision arithmetic mathematics, automatic units handling, and a separation of interests design.  Saves 70-95\% of code writing.
 			</item>
 			<item>
 				Designed LLM prompts to summarize large documents and extract structured content from document collections.  Achieved a 95\% reduction in data summarization and report writing time.
