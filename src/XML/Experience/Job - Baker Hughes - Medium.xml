@@ -18,12 +18,16 @@
 				Developed a computer model used to predict the transient dynamic behavior of drill bits.
 				<bulletedlist>
 					<item>
-						Written in C++, the model uses a hybrid physics and data-driven approach to predict behavior.
+						Over 70k lines of C++ with a Qt UI and a custom physics and computational geometry engine.
 						<!-- In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques. -->
 					</item>
 					<item>
-						To lower simulation costs, the code was highly optimize, multithreading was used, and high performance
-						computing practices were used to perform multiple simulation model fitting.
+						The model uses a hybrid physics and data-driven approach to predict behavior.
+						<!-- In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques. -->
+					</item>
+					<item>
+						<!-- HPC -->
+						The code was optimized using multithreading and high-performance computing techniques.
 					</item>
 					<item>
 						Oversaw the physics models, software design and architecture, and project management, ensuring software accuracy, timely deliverables,
@@ -34,8 +38,8 @@
 				</bulletedlist>
 			</item>
 			<item>
-				Conducted research that led to an improved theoretical understanding of lateral drill bit vibrations and which I used to develop novel techniques for
-				designing drill bits. <italic>This let engineers design bits directly rather than randomly searching for a solution.</italic>
+				Conducted research that led to an improved theoretical understanding of lateral drill bit vibrations, which I used to develop novel techniques for
+				designing drill bits.  This enabled direct bit design, reducing reliance on trial-and-error methods.
 			</item>
 			<item>Developed a technique used to interpret laboratory data.  The technique is a physics-based approach that replaced the previous assumption-based method.</item>
 		</bulletedlist>

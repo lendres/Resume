@@ -19,6 +19,7 @@
 	<skill catagory="programming" experience="10">Fortran</skill>
 	<skill catagory="programming" experience="10">AutoLISP</skill>
 	<!--<skill catagory="programming" experience="8">threading (POSIX and .NET)</skill>-->
+	<skill catagory="programming" experience="8">MVVM</skill>
 	<skill catagory="programming" experience="8">multithreading</skill>
 	<skill catagory="programming" experience="10">XML</skill>
 	<skill catagory="programming" experience="8">XPath</skill>

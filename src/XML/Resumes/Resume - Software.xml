@@ -9,9 +9,9 @@
 	<xi:include href="..\Education\Education.xml"/>
 	<xi:include href="..\Training\Training.xml"/>
 	<xi:include href="..\Experience\Experience - Oil and Gas - Medium.xml"/>
-	<xi:include href="..\Projects\Projects - Artificial Intelligence.xml"/>
+	<xi:include href="..\Projects\Projects - Software.xml"/>
 
-	<xi:include href="..\Skills\Skills.xml"/>
+	<xi:include href="..\Skills\Skills - Software.xml"/>
 
 	<!-- Publications is a list of LaTeX BibTeX references.  Specifies which references are in the output. -->
 	<xi:include href="..\Common\Publications.xml"/>

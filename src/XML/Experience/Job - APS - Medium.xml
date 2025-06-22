@@ -15,10 +15,11 @@
 		<p>Developed engineering software, performed data and drilling dynamics analysis.\nolinebreak[4]</p>
 		<bulletedlist>
 			<item>
-				Developed FEA-based software for structural analysis of drill strings, calculating deflections, stresses, natural frequencies, and mode shapes to assess bending capabilities and stress limits.
+				Developed FEA-based software with a C# UI to analyze drill string deflections, stresses, frequencies, and mode shapes to assess bending and stress limits.
 			</item>
 			<!-- 
 			<item>
+				Developed FEA-based software with a C# UI for structural analysis of drill strings, calculating deflections, stresses, natural frequencies, and mode shapes to assess bending capabilities and stress limits.
 				Developed an FEA based software used for structural analysis of drill strings.
 			</item>
 			<bulletedlist>
@@ -31,8 +32,8 @@
 			</bulletedlist>
 			-->
 			<item>
-				Developed a software application used to automate the cleaning and processing of data.  The software uses specialized data processing techniques 
-				and algorithms to automatically separate the data into drilling versus non-drilling time.  It reduced the data processing time by 97\%.
+				Developed a C# software application that automated data cleaning and processing.  The application uses specialized algorithms to automatically separate
+				drilling and non-drilling time, reducing analysis time by 97\%.
 			</item>
 		</bulletedlist>
 	</description>

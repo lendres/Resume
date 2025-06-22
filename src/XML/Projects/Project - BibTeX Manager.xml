@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<project>
+	<title>BibTeX Manager</title>
+	<description>
+		LaTeX bibliography manager with automated data entry and cleaning.
+	</description>
+	<skills>
+		<skill>C\#</skill>
+		<skill>.NET MAUI</skill>
+		<skill>MVVM</skill>
+	</skills>
+</project>

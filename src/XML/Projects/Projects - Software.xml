@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<projects xmlns:xi="http://www.w3.org/2001/XInclude">
+
+	<xi:include href="Project - Generative AI Final.xml"/>
+	<xi:include href="Project - Generative AI Midterm.xml"/>
+	<xi:include href="Project - Twitter Sentiment.xml"/>
+	<xi:include href="Project - Plant Seedlings.xml"/>
+	<xi:include href="Project - XSLT Processor.xml"/>
+	<xi:include href="Project - BibTex Manager.xml"/>
+
+</projects>

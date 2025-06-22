@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <keywords>
-	<keyword>C++</keyword>
-	<keyword>Python</keyword>
-	<keyword>C\#</keyword>
+	<keyword>C++, Python, C\#</keyword>
 	<keyword>Software Development</keyword>
 	<keyword>Software Architecture</keyword>
 	<keyword>Algorithm Development</keyword>
-	<keyword>Project Management</keyword>
+	<!-- <keyword>Project Management</keyword> -->
 	<keyword>Team Leading</keyword>
 	<keyword>Computational Geometry</keyword>
 	<keyword>Machine Learning</keyword>

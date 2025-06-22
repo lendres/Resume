@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<project>
+	<title>XSLT Processor</title>
+	<description>
+		A user interface in C\# and .NET MAUI to run XSLT transformations.
+	</description>
+	<skills>
+		<skill>C\#</skill>
+		<skill>.NET MAUI</skill>
+		<skill>MVVM</skill>
+	</skills>
+</project>

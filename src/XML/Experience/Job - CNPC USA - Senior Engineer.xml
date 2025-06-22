@@ -12,7 +12,7 @@
 		</to>
 	</daterange>
 	<description>
-		<p>Project leader for developing physics and data based prediction software.</p>
+		<p>Project leader and developer for physics- and data-based prediction software.</p>
 		<bulletedlist>
 			<item>
 				Leveraged industry contacts to secure software licenses and access open-source solutions, accelerating the modeling program by five years
@@ -23,17 +23,14 @@
 			</item>
 			<item>
 				Developed a generalized Python library to analyze and plot high-frequency time-series data.  The library includes signal processing algorithms, 
-				finite precision arithmetic mathematics, automatic units handling, and a separation of interests design.  Saves 70-95\% of code writing.
+				finite-precision arithmetic mathematics, automatic units handling, and a separation of interests design.  Reduced code-writing effort by 70-95\%.
 			</item>
+			<item>Developed a C# and .NET MAUI application for converting data formats and units.</item>
 			<item>
 				Reduced data summarization and report writing time by 95\% by designing LLM prompts to automate document summarization and content extraction.
 			</item>
-			<item>
-				Managed software projects utilizing in-house and third party resources.
-			</item>
-			<item>
-				Mentored and guided software developers and researchers.
-			</item>
+			<item>Managed projects using internal and external teams.</item>
+			<item>Mentored and guided software developers and researchers.</item>
 		</bulletedlist>
 	</description>
 </job>
