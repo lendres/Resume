@@ -35,7 +35,7 @@
 					<h2 id="education" class="catagory">Education</h2>
 					<xsl:apply-templates select="/resume/education"/>
 					
-					<h2 id="publicatioins" class="catagory">Publications</h2>
+					<h2 id="publications" class="catagory">Publications</h2>
 					<xsl:apply-templates select="/resume/publications/publication"/>
                     
 					<h2 id="certifications" class="catagory">Certifications</h2>
