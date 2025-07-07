@@ -65,7 +65,7 @@
 	% BEGIN DOCUMENT.
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\pagestyle{lehorizontallinewpagenumber}
+	\pagestyle{lenamewithpagenumber}
 	\begin{document}
 	\thispagestyle{leempty}
 	\makeresumeheaderC{}
