@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <job>
-	<title>Manager for Digital, Automation, and Interpretation</title>
+	<title>Team Manager for Digital, Automation, and Interpretation</title>
 	<company id="cnpcusa"/>
 	<daterange>
 		<from>
@@ -10,22 +10,30 @@
 		<to>Current</to>
 	</daterange>
 	<description>
-		<p>Team Manager for Digital, Automation, and Interpretation</p>
+		<p>Group manager and researcher.</p>
 		<bulletedlist>
 			<item>
-				Conducted regular performance reviews and coaching sessions.
+				Perform regular performance reviews and coaching sessions.
 			</item>
+			<item>
+				Conduct interviews and provide hiring recommendations.
+			</item>
+			<!--
 			<item>
 				Facilitated conflict resolution and team-building activities to foster a collaborative work culture.
 			</item>
+			-->
 			<item>
-				Collaborated with senior leadership to align team objectives with strategic business goals.
+				Collaborate with senior leadership to align team goals with strategic business objectives.
 			</item>
 			<item>
-				Managed resource planning, project delegation, and training initiatives.
+				Manage resource planning, project delegation, and training initiatives.
 			</item>
 			<item>
-				Reported on key metrics, project status, and risks to stakeholders in monthly progress meetings.
+				Report on key metrics, project status, and risks to stakeholders in monthly progress meetings.
+			</item>
+			<item>
+				Maintain all research and development work and project management responsibilities from the Senior Research Engineer role.
 			</item>
 		</bulletedlist>
 	</description>

@@ -15,15 +15,15 @@
 		<p>Project leader and developer for physics- and data-based prediction software.</p>
 		<bulletedlist>
 			<item>
-				Leveraged industry contacts to secure software licenses and access open-source solutions, accelerating the modeling program by five years
-				and achieving a cost savings of \$1MM.
+				Leveraged industry contacts to secure software licenses and access open-source solutions, accelerating the modeling program timeline by five
+				years and saving \$1MM in development costs.
 			</item>
 			<item>
 				Principal investigator on research developing methods to compare open-source drill string models.
 			</item>
 			<item>
 				Developed a generalized Python library to analyze and plot high-frequency time-series data.  The library includes signal processing algorithms, 
-				finite-precision arithmetic mathematics, automatic units handling, and a separation of interests design.  Reduced code-writing effort by 70-95\%.
+				finite-precision arithmetic mathematics, automatic units handling, and a separation-of-concerns design.  Reduced code-writing effort by 70-95\%.
 			</item>
 			<item>Developed a C# and .NET MAUI application for converting data formats and units.</item>
 			<item>
