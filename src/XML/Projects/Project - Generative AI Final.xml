@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <project>
-	<title>Designing Generative AI Solutions with Azure Open AI Sentiment Analysis</title>
+	<title>Designing Generative AI Solutions with Azure OpenAI Sentiment Analysis</title>
 	<description>
 		Train an LLM to analyze user-generated reviews to identify customer demands and opportunities.
 	</description>

@@ -4,8 +4,10 @@
 
 	<xi:include href="Project - Generative AI Final.xml"/>
 	<xi:include href="Project - Generative AI Midterm.xml"/>
-	<xi:include href="Project - Twitter Sentiment.xml"/>
+	<!-- <xi:include href="Project - Twitter Sentiment.xml"/> -->
 	<xi:include href="Project - Plant Seedlings.xml"/>
 	<xi:include href="Project - Bank Customer Churn.xml"/>
+	<xi:include href="Project - XSLT Processor.xml"/>
+	<xi:include href="Project - BibTex Manager.xml"/>
 
 </projects>

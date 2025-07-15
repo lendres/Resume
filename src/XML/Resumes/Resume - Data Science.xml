@@ -3,12 +3,13 @@
 <resume xmlns:xi="http://www.w3.org/2001/XInclude">
 	<xi:include href="..\Common\Head.xml"/>
 
-	<xi:include href="..\Summary\Summary - Data Science.xml"/>
+	<xi:include href="..\Summary\Summary - Software.xml"/>
 	<xi:include href="..\Keywords\Keywords - Data Science.xml"/>
-	<xi:include href="..\Projects\Projects - Artificial Intelligence.xml"/>
 	<xi:include href="..\Common\Institutions.xml"/>
-	<xi:include href="..\Education\Education - Generic.xml"/>
-	<xi:include href="..\Experience\Experience - Data Science.xml"/>
+	<xi:include href="..\Education\Education.xml"/>
+	<xi:include href="..\Training\Training.xml"/>
+	<xi:include href="..\Experience\Experience - General.xml"/>
+	<xi:include href="..\Projects\Projects - Artificial Intelligence.xml"/>
 	
 	<xi:include href="..\Skills\Skills - Software.xml"/>
 

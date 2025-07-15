@@ -8,7 +8,7 @@
 	<xi:include href="..\Common\Institutions.xml"/>
 	<xi:include href="..\Education\Education.xml"/>
 	<xi:include href="..\Training\Training.xml"/>
-	<xi:include href="..\Experience\Experience - Oil and Gas - Medium.xml"/>
+	<xi:include href="..\Experience\Experience - General.xml"/>
 	<xi:include href="..\Projects\Projects - Software.xml"/>
 
 	<xi:include href="..\Skills\Skills - Software.xml"/>
