@@ -4,6 +4,7 @@
 	<skill catagory="engineering" experiene="8">design of laboratory experiments</skill>
 	<skill catagory="engineering" experiene="8">stability analysis</skill>
 	<skill catagory="engineering" experiene="8">signal processing</skill>
+	<!-- Kalman filtering in segment signal library. -->
 	<skill catagory="engineering" experiene="8">FEA</skill>
 	<skill catagory="engineering" experiene="8">CFD (basic)</skill>
 	<skill catagory="engineering" experiene="8">plasticity</skill>

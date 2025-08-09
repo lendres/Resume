@@ -180,7 +180,10 @@
 	</xsl:template>-->
 	<xsl:template match="keywords">
 		<xsl:for-each select="keyword">
-			\item <xsl:value-of select="text()"/>
+			\item 
+			<xsl:call-template name="make-string-latex-compatible">
+            	<xsl:with-param name="text" select="text()"/>
+        	</xsl:call-template>
 		</xsl:for-each>
 	</xsl:template>
 
