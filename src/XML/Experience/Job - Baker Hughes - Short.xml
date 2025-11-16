@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job>
+	<title>Researcher in Drilling Mechanics and Dynamics</title>
+	<company id="hcc"/>
+	<daterange>
+		<from>
+			<date month="January" monthnumber="1" year="2006"/>
+		</from>
+		<to>
+			<date month="November" monthnumber="11" year="2013"/>
+		</to>
+╨	</daterange>
+	<description>
+		<p>Conducted research in drilling mechanics and dynamics.</p>
+		<bulletedlist>
+			<item>
+				Developed a computer model used to predict the transient dynamic behavior of drill bits.
+				<bulletedlist>
+					<item>
+						Over 70k lines of C++ with a Qt UI and a custom physics and computational geometry engine.
+						<!-- In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques. -->
+					</item>
+					<item>
+						The model uses a hybrid physics and data-driven approach to predict behavior.
+						<!-- In this approach, the known physics are captured by physical models.  The unknown physics are modeled using machine learning techniques. -->
+					</item>
+					<item>
+						<!-- HPC -->
+						The code was optimized using multithreading and high-performance computing techniques.
+					</item>
+					<item>
+						Oversaw the physics models, software design and architecture, and project management, ensuring software accuracy, timely deliverables,
+						and adherence to budget, resulting in efficient project execution.
+					</item>
+					<item>Developed a technique to reduce the cost of model fitting by an order of magnitude.</item>
+					<item>Transferred development to an overseas-based software team and managed them.</item>
+				</bulletedlist>
+			</item>
+			<item>
+				Conducted research that led to an improved theoretical understanding of lateral drill bit vibrations, which I used to develop novel techniques for
+				designing drill bits.  This enabled direct bit design, reducing reliance on trial-and-error methods.
+			</item>
+		</bulletedlist>
+	</description>
+</job>

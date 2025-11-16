@@ -71,15 +71,14 @@
 	\makeresumeheaderC{}
 
 	\catagory{Summary}
-	<xsl:apply-templates select="/resume/summary"/>
-
+	<xsl:apply-templates select="/resume/summary"/>\vspace{-6pt}
+	
 	<!--\catagory{Areas of Expertise}-->
-	\vspace{-6pt}
 	\begin{multicols}{3}
 		\begin{bulletedlist}
 			<xsl:apply-templates select="/resume/keywords"/>
 		\end{bulletedlist}
-		\end{multicols}
+	\end{multicols}
 
 	<xsl:choose>
 		<xsl:when test="$projectlocation='afterexperience'">
